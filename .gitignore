@@ -1,0 +1,36 @@
+# macOS / Windows
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Ren'Py generated scripts, caches, saves and logs
+*.rpyc
+*.rpymc
+/game/cache/
+/game/saves/
+/log.txt
+/errors.txt
+/traceback.txt
+
+# Build outputs
+/build/
+/dist/
+/*-dists/
+
+# Local secrets
+.env
+.env.*
+!.env.example
