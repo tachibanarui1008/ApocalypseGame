@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="2090" viewBox="0 0 1400 2090"><rect width="1400" height="2090" fill="#f4f1e9"/><g fill="#514e46" font-family="Arial Unicode MS, PingFang SC, sans-serif"><text x="55" y="55" font-size="30">安全屋户型与院落草图 · V0.1</text><text x="55" y="90" font-size="18">三层中式住宅＋地下储藏室｜北向上｜地上每层建筑预算约110㎡</text>
+<g transform="translate(25,115)">
+<text x="55" y="40" font-size="23">地下室 · 约90㎡</text>
+<text x="602" y="76" font-size="15">北 ↑</text>
+<g transform="translate(90,87)">
+<rect x="135" y="0" width="90" height="368.99999999999994" fill="#e8e4da" stroke="#6f6a60" stroke-width="2"/>
+<text x="180.0" y="149.49999999999997" text-anchor="middle" font-size="18">通</text>
+<text x="180.0" y="172.49999999999997" text-anchor="middle" font-size="18">道</text>
+<rect x="0" y="0" width="135" height="180" fill="#e8e4da" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="96.0" text-anchor="middle" font-size="19">楼梯</text>
+<rect x="0" y="180" width="135" height="189.0" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="280.5" text-anchor="middle" font-size="19">工具 / 维护</text>
+<path d="M135 206 L135 244" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M135 244 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="225" y="0" width="270" height="184.49999999999997" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="360.0" y="98.24999999999999" text-anchor="middle" font-size="19">食品储藏</text>
+<path d="M225 26 L225 64" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M225 64 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="225" y="184.49999999999997" width="270" height="184.49999999999997" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="360.0" y="282.75" text-anchor="middle" font-size="19">瓶装水 / 用品</text>
+<path d="M225 210.49999999999997 L225 248.49999999999997" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M225 248.49999999999997 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<path d="M135 104 L135 147" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M15 15 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 28 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 41 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 54 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 67 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 80 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 93 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M0 -16 H495 M0 -22 V-10 M495 -22 V-10" stroke="#6f6a60" fill="none"/>
+<text x="247" y="-24" text-anchor="middle" font-size="15">11 m</text>
+<text x="514" y="184.49999999999997" font-size="15">8.2 m</text>
+</g>
+<text x="55" y="620" font-size="15">货架固定、防潮；不作为默认地震避难室</text>
+</g>
+<g transform="translate(715,115)">
+<text x="55" y="40" font-size="23">一层 · 日常起居</text>
+<text x="602" y="76" font-size="15">北 ↑</text>
+<g transform="translate(90,87)">
+<rect x="135" y="0" width="90" height="450" fill="#e8e4da" stroke="#6f6a60" stroke-width="2"/>
+<text x="180.0" y="190.0" text-anchor="middle" font-size="18">通</text>
+<text x="180.0" y="213.0" text-anchor="middle" font-size="18">道</text>
+<text x="180.0" y="265.0" text-anchor="middle" font-size="18">玄</text>
+<text x="180.0" y="288.0" text-anchor="middle" font-size="18">关</text>
+<rect x="0" y="0" width="135" height="180" fill="#e8e4da" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="96.0" text-anchor="middle" font-size="19">楼梯</text>
+<rect x="0" y="180" width="135" height="90" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="231.0" text-anchor="middle" font-size="19">卫浴</text>
+<path d="M135 206 L135 244" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M135 244 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="0" y="270" width="135" height="180" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="366.0" text-anchor="middle" font-size="19">临时客房</text>
+<path d="M135 296 L135 334" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M135 334 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="225" y="0" width="270" height="180" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="360.0" y="96.0" text-anchor="middle" font-size="19">厨房</text>
+<path d="M225 26 L225 64" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M225 64 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="225" y="180" width="270" height="135" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="360.0" y="253.5" text-anchor="middle" font-size="19">餐厅</text>
+<path d="M225 206 L225 244" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M225 244 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="225" y="315" width="270" height="135" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="360.0" y="388.5" text-anchor="middle" font-size="19">客厅</text>
+<path d="M225 341 L225 379" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M225 379 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<path d="M135 104 L135 147" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M15 15 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 28 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 41 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 54 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 67 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 80 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 93 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M0 -16 H495 M0 -22 V-10 M495 -22 V-10" stroke="#6f6a60" fill="none"/>
+<text x="247" y="-24" text-anchor="middle" font-size="15">11 m</text>
+<text x="514" y="225.0" font-size="15">10 m</text>
+<path d="M155 450 H204" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M180 486 V465 M172 475 L180 465 L188 475" stroke="#6f6a60" fill="none" stroke-width="2"/>
+<text x="180" y="510" text-anchor="middle" font-size="16">主入口</text>
+<path d="M495 70 V112" stroke="#f4f1e9" stroke-width="7"/>
+<text x="514" y="106" font-size="14">侧门</text>
+</g>
+<text x="55" y="620" font-size="15">南侧主入口；玄关向客厅开口</text>
+</g>
+<g transform="translate(25,765)">
+<text x="55" y="40" font-size="23">二层 · 家庭与通信</text>
+<text x="602" y="76" font-size="15">北 ↑</text>
+<g transform="translate(90,87)">
+<rect x="135" y="0" width="90" height="450" fill="#e8e4da" stroke="#6f6a60" stroke-width="2"/>
+<text x="180.0" y="190.0" text-anchor="middle" font-size="18">通</text>
+<text x="180.0" y="213.0" text-anchor="middle" font-size="18">道</text>
+<rect x="0" y="0" width="135" height="180" fill="#e8e4da" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="96.0" text-anchor="middle" font-size="19">楼梯</text>
+<rect x="0" y="180" width="135" height="90" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="231.0" text-anchor="middle" font-size="19">卫浴</text>
+<path d="M135 206 L135 244" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M135 244 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="0" y="270" width="135" height="180" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="366.0" text-anchor="middle" font-size="19">洗衣 / 储物</text>
+<path d="M135 296 L135 334" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M135 334 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="225" y="0" width="270" height="157.5" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="360.0" y="84.75" text-anchor="middle" font-size="19">父母卧室</text>
+<path d="M225 26 L225 64" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M225 64 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="225" y="157.5" width="270" height="157.5" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="360.0" y="242.25" text-anchor="middle" font-size="19">情侣卧室</text>
+<path d="M225 183.5 L225 221.5" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M225 221.5 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="225" y="315" width="270" height="135" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="360.0" y="388.5" text-anchor="middle" font-size="19">书房 / 通信桌</text>
+<path d="M225 341 L225 379" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M225 379 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<path d="M135 104 L135 147" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M15 15 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 28 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 41 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 54 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 67 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 80 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 93 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M0 -16 H495 M0 -22 V-10 M495 -22 V-10" stroke="#6f6a60" fill="none"/>
+<text x="247" y="-24" text-anchor="middle" font-size="15">11 m</text>
+<text x="514" y="225.0" font-size="15">10 m</text>
+<rect x="408" y="410" width="69" height="30" fill="#dbe3dc" stroke="#738678"/>
+<text x="442" y="430" text-anchor="middle" font-size="13">固定台</text>
+<path d="M488 410 V70" stroke="#738678" stroke-dasharray="5 5" fill="none"/>
+<text x="477" y="333" text-anchor="end" font-size="14">馈线上行 ↑</text>
+</g>
+<text x="55" y="620" font-size="15">书房：Mac mini、固定电台、供电与日志</text>
+</g>
+<g transform="translate(715,765)">
+<text x="55" y="40" font-size="23">三层 · 客房与备用空间</text>
+<text x="602" y="76" font-size="15">北 ↑</text>
+<g transform="translate(90,87)">
+<rect x="135" y="0" width="90" height="450" fill="#e8e4da" stroke="#6f6a60" stroke-width="2"/>
+<text x="180.0" y="190.0" text-anchor="middle" font-size="18">通</text>
+<text x="180.0" y="213.0" text-anchor="middle" font-size="18">道</text>
+<rect x="0" y="0" width="135" height="180" fill="#e8e4da" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="96.0" text-anchor="middle" font-size="19">楼梯</text>
+<rect x="0" y="180" width="135" height="90" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="231.0" text-anchor="middle" font-size="19">卫浴</text>
+<path d="M135 206 L135 244" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M135 244 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="0" y="270" width="135" height="180" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="366.0" text-anchor="middle" font-size="19">杂物间</text>
+<path d="M135 296 L135 334" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M135 334 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="225" y="0" width="270" height="180" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="360.0" y="96.0" text-anchor="middle" font-size="19">客房</text>
+<path d="M225 26 L225 64" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M225 64 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="225" y="180" width="270" height="270" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="360.0" y="321.0" text-anchor="middle" font-size="19">多功能房</text>
+<path d="M225 206 L225 244" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M225 244 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<path d="M135 104 L135 147" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M15 15 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 28 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 41 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 54 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 67 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 80 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 93 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M0 -16 H495 M0 -22 V-10 M495 -22 V-10" stroke="#6f6a60" fill="none"/>
+<text x="247" y="-24" text-anchor="middle" font-size="15">11 m</text>
+<text x="514" y="225.0" font-size="15">10 m</text>
+</g>
+<text x="55" y="620" font-size="15">楼梯与卫浴上下对齐；屋顶出口沿楼梯</text>
+</g>
+<g transform="translate(25,1415)">
+<text x="55" y="40" font-size="23">屋顶 · 光伏与天线</text>
+<text x="602" y="76" font-size="15">北 ↑</text>
+<g transform="translate(90,87)">
+<rect x="135" y="0" width="90" height="450" fill="#e8e4da" stroke="#6f6a60" stroke-width="2"/>
+<text x="180.0" y="190.0" text-anchor="middle" font-size="18">维</text>
+<text x="180.0" y="213.0" text-anchor="middle" font-size="18">护</text>
+<text x="180.0" y="236.0" text-anchor="middle" font-size="18">通</text>
+<text x="180.0" y="259.0" text-anchor="middle" font-size="18">道</text>
+<rect x="0" y="0" width="135" height="180" fill="#e8e4da" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="96.0" text-anchor="middle" font-size="19">楼梯出口</text>
+<rect x="0" y="180" width="135" height="270" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="67.5" y="321.0" text-anchor="middle" font-size="19">屋面 / 维护</text>
+<path d="M135 206 L135 244" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M135 244 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="225" y="0" width="270" height="135" fill="#f7f5ef" stroke="#6f6a60" stroke-width="2"/>
+<text x="360.0" y="73.5" text-anchor="middle" font-size="19">北侧服务平台</text>
+<path d="M225 26 L225 64" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M225 64 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<rect x="225" y="135" width="270" height="315" fill="#e1e6e3" stroke="#6f6a60" stroke-width="2"/>
+<text x="360.0" y="298.5" text-anchor="middle" font-size="19">南向光伏坡面</text>
+<path d="M225 161 L225 199" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M225 199 l24 -24" stroke="#6f6a60" stroke-width="1.5"/>
+<path d="M135 104 L135 147" stroke="#f4f1e9" stroke-width="7"/>
+<path d="M15 15 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 28 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 41 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 54 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 67 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 80 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M15 93 H103" stroke="#6f6a60" stroke-width="1"/>
+<path d="M0 -16 H495 M0 -22 V-10 M495 -22 V-10" stroke="#6f6a60" fill="none"/>
+<text x="247" y="-24" text-anchor="middle" font-size="15">11 m</text>
+<text x="514" y="225.0" font-size="15">10 m</text>
+<circle cx="450" cy="58" r="16" fill="#dae4dc" stroke="#738678" stroke-width="2"/>
+<path d="M450 20 V90 M436 74 H464" stroke="#738678" stroke-width="2"/>
+<text x="423" y="110" text-anchor="end" font-size="15">X50N屋顶天线</text>
+<path d="M450 90 H488 V450" stroke="#738678" stroke-dasharray="5 5" fill="none"/>
+<rect x="250" y="153" width="62" height="57" fill="none" stroke="#8b9990" stroke-width="1"/>
+<rect x="320" y="153" width="62" height="57" fill="none" stroke="#8b9990" stroke-width="1"/>
+<rect x="390" y="153" width="62" height="57" fill="none" stroke="#8b9990" stroke-width="1"/>
+<rect x="250" y="219" width="62" height="57" fill="none" stroke="#8b9990" stroke-width="1"/>
+<rect x="320" y="219" width="62" height="57" fill="none" stroke="#8b9990" stroke-width="1"/>
+<rect x="390" y="219" width="62" height="57" fill="none" stroke="#8b9990" stroke-width="1"/>
+<rect x="250" y="285" width="62" height="57" fill="none" stroke="#8b9990" stroke-width="1"/>
+<rect x="320" y="285" width="62" height="57" fill="none" stroke="#8b9990" stroke-width="1"/>
+<rect x="390" y="285" width="62" height="57" fill="none" stroke="#8b9990" stroke-width="1"/>
+<rect x="250" y="351" width="62" height="57" fill="none" stroke="#8b9990" stroke-width="1"/>
+<rect x="320" y="351" width="62" height="57" fill="none" stroke="#8b9990" stroke-width="1"/>
+<rect x="390" y="351" width="62" height="57" fill="none" stroke="#8b9990" stroke-width="1"/>
+</g>
+<text x="55" y="620" font-size="15">天线置东北侧；光伏面积与阴影另行核算</text>
+</g>
+<g transform="translate(715,1415)">
+<text x="55" y="40" font-size="23">院落 · 两车与出入（示意）</text>
+<text x="602" y="76" font-size="15">北 ↑</text>
+<g transform="translate(90,87)">
+<rect x="0" y="0" width="495" height="450" fill="none" stroke="#6f6a60" stroke-width="3"/>
+<rect x="70" y="0" width="360" height="190" fill="#e8e4da" stroke="#6f6a60" stroke-width="2"/>
+<text x="250" y="85" text-anchor="middle">住宅南立面</text>
+<text x="250" y="116" text-anchor="middle" font-size="16">正门 ↓</text>
+<rect x="75" y="235" width="125" height="150" rx="12" fill="#dedbd3" fill-opacity="0.3" stroke="#6f6a60" stroke-width="2"/>
+<text x="137" y="305" text-anchor="middle" font-size="17">白色路虎</text>
+<rect x="235" y="235" width="125" height="150" rx="12" fill="#8a7b93" fill-opacity="0.3" stroke="#6f6a60" stroke-width="2"/>
+<text x="297" y="305" text-anchor="middle" font-size="17">紫色SU7</text>
+<text x="412" y="285" text-anchor="middle" font-size="16">步行</text>
+<text x="412" y="310" text-anchor="middle" font-size="16">通道</text>
+<rect x="225" y="440" width="150" height="20" fill="#f4f1e9"/>
+<path d="M225 450 L225 418 M375 450 L375 418" stroke="#6f6a60" stroke-width="2"/>
+<text x="300" y="483" text-anchor="middle" font-size="16">南侧院门 / 乡村道路</text>
+<rect x="10" y="20" width="43" height="105" fill="none" stroke="#6f6a60" stroke-width="2"/>
+<text x="31" y="53" text-anchor="middle" font-size="15">设</text>
+<text x="31" y="77" text-anchor="middle" font-size="15">备</text>
+<text x="31" y="101" text-anchor="middle" font-size="15">位</text>
+</g>
+<text x="55" y="620" font-size="15">院落另计约100～150㎡；本栏不与楼层同比例</text>
+</g><text x="55" y="2070" font-size="16">空间关系草案：门洞、墙厚、净面积、结构和安装位置需后续细化；绿色虚线为天线馈线路径。</text></g></svg>
