@@ -1,0 +1,162 @@
+{
+  "version": "0.6",
+  "status": "授权扩容的设定目标与满载上限草案，不等于初始库存或结构安装证明",
+  "battery": {
+    "module": "Deye SE-G5.1 Pro-B",
+    "module_kwh": 5.12,
+    "module_mass_kg": 45,
+    "cabinets": 12,
+    "modules_per_cabinet": 5,
+    "cabinet_mass_budget_kg": 30,
+    "cabinet_envelope_m": [
+      0.6,
+      0.8,
+      1.2
+    ],
+    "rated_inverter_output_kw": 12,
+    "usable_fraction_assumption": 0.9,
+    "conversion_fraction_assumption": 0.92,
+    "modules": 60,
+    "nominal_kwh": 307.2,
+    "ac_energy_scenario_kwh": 254.3616,
+    "battery_mass_kg": 2700,
+    "battery_cabinet_mass_budget_kg": 3060,
+    "no_generation_days_scenarios": {
+      "6": 42.39,
+      "10": 25.44,
+      "16": 15.9
+    },
+    "not_verified": [
+      "三层结构集中荷载",
+      "超过32块后的厂商外部配置",
+      "并联分组与固件兼容",
+      "住宅三相接入",
+      "安装间距与通风分隔"
+    ]
+  },
+  "pv": {
+    "module_reference": "LONGi LR5-54HTH-455M",
+    "module_w": 455,
+    "module_size_m": [
+      1.722,
+      1.134
+    ],
+    "pitch_deg_draft": 30,
+    "roof_rows": 6,
+    "roof_columns": 3,
+    "gap_m": 0.02,
+    "extension_count": 9,
+    "system_factor_assumption": 0.8,
+    "roof_count": 18,
+    "roof_kwp": 8.19,
+    "extension_kwp": 4.095,
+    "total_target_kwp": 12.285,
+    "roof_projected_array_m": [
+      5.206,
+      5.99243684734932
+    ],
+    "roof_generation_kwh_scenarios": {
+      "1.5": 9.828,
+      "3": 19.656,
+      "5": 32.76
+    },
+    "recharge_90pct_days_ideal_no_charging_loss_at_3sunhours_daily6kwh": 20.25
+  },
+  "food": {
+    "basement_racks": 16,
+    "rack_m": [
+      0.85,
+      0.55,
+      1.9
+    ],
+    "shelves_per_rack": 4,
+    "effective_storage_height_m_assumption": 1.6,
+    "packing_fraction_assumption": 0.7,
+    "basement_mass_cap_draft_kg": 2000,
+    "upper_house_light_food_cap_draft_kg": 100,
+    "rack_footprint_m2": 7.48,
+    "shelf_surface_m2": 29.92,
+    "packaged_volume_cap_m3": 8.3776,
+    "whole_house_mass_cap_draft_kg": 2100
+  },
+  "water": {
+    "drinking_cooking_barrels": 6,
+    "nonpotable_living_barrels": 6,
+    "barrel_l": 220,
+    "drinking_jerrycans": 24,
+    "jerrycan_l": 20,
+    "bottled_cases": 20,
+    "case_l": 12,
+    "upper_floor_bottled_l": 120,
+    "potable_container_cap_l": 2160,
+    "living_container_cap_l": 1320,
+    "all_container_cap_l": 3480,
+    "scenario_persons": 4,
+    "days_at_4potable_8living": {
+      "potable": 135.0,
+      "living": 41.25,
+      "both": 41.25
+    }
+  },
+  "upper_storage": {
+    "upper_nominal_box_l": 840,
+    "packing_fraction_assumption": 0.75,
+    "upper_management_volume_cap_l": 600,
+    "light_food_allocation_l": 300,
+    "medical_consumables_allocation_l": 160,
+    "hygiene_and_misc_allocation_l": 140,
+    "medical_not_medicine_days": true,
+    "box_usable_l": 630.0
+  },
+  "food_example": {
+    "items": [
+      {
+        "name": "米面",
+        "kg": 150,
+        "kcal_per_kg_assumption": 3600
+      },
+      {
+        "name": "豆类",
+        "kg": 20,
+        "kcal_per_kg_assumption": 3300
+      },
+      {
+        "name": "油",
+        "kg": 10,
+        "kcal_per_kg_assumption": 8800
+      },
+      {
+        "name": "混合罐头",
+        "kg": 80,
+        "kcal_per_kg_assumption": 1000
+      },
+      {
+        "name": "饼干",
+        "kg": 20,
+        "kcal_per_kg_assumption": 4500
+      },
+      {
+        "name": "奶粉",
+        "kg": 10,
+        "kcal_per_kg_assumption": 5000
+      },
+      {
+        "name": "坚果",
+        "kg": 10,
+        "kcal_per_kg_assumption": 5800
+      },
+      {
+        "name": "糖",
+        "kg": 5,
+        "kcal_per_kg_assumption": 4000
+      }
+    ],
+    "total_mass_kg": 305,
+    "raw_kcal": 992000,
+    "loss_fraction_assumption": 0.1,
+    "people": 4,
+    "kcal_person_day_assumption": 2000,
+    "usable_kcal": 892800.0,
+    "caloric_equivalent_days": 111.6
+  }
+}

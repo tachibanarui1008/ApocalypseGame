@@ -1,5 +1,5 @@
 {
-  "version": "0.5",
+  "version": "0.6",
   "units": "m",
   "north": "up",
   "ground_footprint": [
@@ -311,8 +311,9 @@
     "bathroom_door_width_m": 0.8
   },
   "equipment_locations": {
-    "server": "三层西南服务器房：Mac mini、外接存储、网络设备与维护桌",
-    "power": "三层东南电力储存设备间：30kWh储能、逆变器、配电及维护空间",
+    "server": "三层西南服务器房：办公桌、阅读角、书架与Mac mini家用机架",
+    "power": "三层储电配电密排目标：12柜60模块307.2kWh、12kW逆变器；结构与组配仍待核",
     "radio": "二层书房：FTM-6000R固定台；RF线路独立布置"
-  }
+  },
+  "capacity_reference": "SAFEHOUSE_CAPACITY.json"
 }

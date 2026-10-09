@@ -135,4 +135,8 @@ if __name__=='__main__':
  floorplan();townmap()
  from furnished_house import main as render_furnished
  render_furnished()
+ from capacity_model import main as render_capacity
+ render_capacity()
+ from pv_layout import main as render_pv
+ render_pv()
  print('Rendered safehouse V0.4 and town V0.3.')
