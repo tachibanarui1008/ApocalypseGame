@@ -35,12 +35,12 @@ def floorplan():
    f['rooms']=[[0,0,3,4,'楼梯'],[0,4,1.5,2,'淋浴'],[1.5,4,1.5,2,'厕所'],[0,6,3,1.5,'外置洗手台'],[0,7.5,3,2.5,'洗衣 / 储物'],[3,0,2,10,'通道'],[5,0,6,3.5,'父母卧室'],[5,3.5,6,3.5,'情侣卧室'],[5,7,6,3,'书房 / 通信桌']]
    f['note']='二层干湿分开：独立厕所、淋浴与外置洗手台'
   if f['id']=='F3':
-   f['rooms']=[[0,0,3,4,'楼梯'],[0,4,3,2,'卫浴'],[0,6,3,4,'服务器设备间'],[3,0,2,10,'通道'],[5,0,6,4,'客房'],[5,4,6,6,'电力储存设备间']]
+   f['rooms']=[[0,0,3,4,'楼梯'],[0,4,3,2,'卫浴'],[0,6,3,4,'服务器房'],[3,0,2,10,'通道'],[5,0,6,4,'客房'],[5,4,6,6,'电力储存设备间']]
    f['title']='三层 · 服务器与电力设备'
    f['note']='服务器与电力分室；30kWh储能、逆变与配电位置初稿'
   if f['id']=='SITE':f['note']='院落预算约145㎡；两车仍在西南角，无车位划线'
  data['circulation']['ground_open_space']='玄关、餐厅、客厅共用开放空间，无三处分隔墙'
- data['equipment_locations']={'server':'三层西南服务器设备间：Mac mini与存储、家庭网络','power':'三层东南电力储存设备间：30kWh储能、逆变器、配电及维护空间','radio':'二层书房：FTM-6000R固定台；RF线路独立布置'}
+ data['equipment_locations']={'server':'三层西南服务器房：Mac mini与存储、家庭网络','power':'三层东南电力储存设备间：30kWh储能、逆变器、配电及维护空间','radio':'二层书房：FTM-6000R固定台；RF线路独立布置'}
  data['circulation']['second_bathroom']='西侧淋浴及独立厕所，共用外置洗手台；入口来自公共通道'
  data['circulation']['yard_cars']='西南角集中停放，不画车位或停车分区'
  (OUT/'SAFEHOUSE_LAYOUT.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
@@ -113,7 +113,7 @@ def floorplan():
     # 两个湿区各自开门至外置洗手区；洗手区面向通道开放
     p+=path('M135 280 V327',PAPER,7)
    if f['id']=='F3':
-    p+=rect(18,285,35,70,'#dbe1e5','#87959d',1)+txt(35,305,'服务',11,'middle')+txt(35,324,'器架',11,'middle')+txt(78,407,'服务器设备间',15,'middle')
+    p+=rect(18,285,35,70,'#dbe1e5','#87959d',1)+txt(35,305,'服务',11,'middle')+txt(35,324,'器架',11,'middle')+txt(78,407,'服务器房',15,'middle')
     p+=rect(260,208,85,55,'#e5e9df','#9ca98f',1)+txt(302,240,'30kWh储能',13,'middle')
     p+=rect(375,208,65,55,'#e1e6ea','#94a0a7',1)+txt(407,240,'逆变/配电',12,'middle')
     p+=txt(360,389,'独立检修与通风空间',14,'middle')
@@ -123,7 +123,7 @@ def floorplan():
      for c in range(3):p+=rect(250+c*70,153+r*66,62,57,'none','#8b9990',1)
   p+='</g>'+txt(55,620,f['note'],15)
   panels.append(f'<g transform="translate({x},{y})">{p}</g>')
- body=txt(55,55,'安全屋户型与院落细化 · V0.4',30)+txt(55,90,'三层服务器设备间 / 电力储存设备间｜二层保留日常书房与通信桌',18)+''.join(panels)+txt(55,2070,'北向上；地上约110㎡/层；院落15×17m用地预算，图示比例与楼层不同。绿线为设备/出入路径。',16)
+ body=txt(55,55,'安全屋户型与院落细化 · V0.4',30)+txt(55,90,'三层服务器房 / 电力储存设备间｜二层保留日常书房与通信桌',18)+''.join(panels)+txt(55,2070,'北向上；地上约110㎡/层；院落15×17m用地预算，图示比例与楼层不同。绿线为设备/出入路径。',16)
  render('SAFEHOUSE_PLAN',wrap(1400,2090,body))
  render('SAFEHOUSE_THIRD_FLOOR',wrap(690,650,panels[3].replace('translate(715,765)','translate(0,0)',1)))
 def townmap():
@@ -133,4 +133,6 @@ def townmap():
 if __name__=='__main__':
  OUT.mkdir(parents=True,exist_ok=True)
  floorplan();townmap()
+ from furnished_house import main as render_furnished
+ render_furnished()
  print('Rendered safehouse V0.4 and town V0.3.')

@@ -1,5 +1,5 @@
 {
-  "version": "0.4",
+  "version": "0.5",
   "units": "m",
   "north": "up",
   "ground_footprint": [
@@ -196,7 +196,7 @@
           6,
           3,
           4,
-          "服务器设备间"
+          "服务器房"
         ],
         [
           3,
@@ -311,7 +311,7 @@
     "bathroom_door_width_m": 0.8
   },
   "equipment_locations": {
-    "server": "三层西南服务器设备间：Mac mini与存储、家庭网络",
+    "server": "三层西南服务器房：Mac mini、外接存储、网络设备与维护桌",
     "power": "三层东南电力储存设备间：30kWh储能、逆变器、配电及维护空间",
     "radio": "二层书房：FTM-6000R固定台；RF线路独立布置"
   }
