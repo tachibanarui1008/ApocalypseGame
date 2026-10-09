@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "north": "up",
   "scale": "方位示意，不按比例",
   "center": "地铁终点站与站前广场",
@@ -16,5 +16,214 @@
     "road": "中心道路、社区环路及东侧物流道路",
     "canal": "东侧南北向运河；码头位于西岸",
     "crossing": "港口道路下穿货运铁路（初稿）"
+  },
+  "facilities_draft": [
+    "站前步行与公交骑行区域",
+    "便民商店",
+    "卫生服务点",
+    "维修作坊",
+    "西侧农田"
+  ],
+  "routes_budget": {
+    "status": "虚构道路设计预算，尚未定稿；不包括等待、进出站及事件消耗",
+    "walking_speed_m_min": 80,
+    "laden_speed_m_min": 60,
+    "nodes": {
+      "home": [
+        270,
+        930
+      ],
+      "lane": [
+        270,
+        825
+      ],
+      "southwest": [
+        350,
+        825
+      ],
+      "west": [
+        350,
+        525
+      ],
+      "station_west": [
+        590,
+        525
+      ],
+      "station": [
+        705,
+        525
+      ],
+      "southeast": [
+        1050,
+        825
+      ],
+      "east": [
+        1050,
+        525
+      ],
+      "logistics_north": [
+        1130,
+        525
+      ],
+      "logistics_south": [
+        1130,
+        825
+      ],
+      "freight_junction": [
+        1130,
+        760
+      ],
+      "freight_gate": [
+        1145,
+        760
+      ],
+      "underpass_west": [
+        1130,
+        1030
+      ],
+      "port_gate": [
+        1304,
+        1030
+      ]
+    },
+    "edges": [
+      {
+        "from": "home",
+        "to": "lane",
+        "length_m": 210,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "lane",
+        "to": "southwest",
+        "length_m": 160,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "southwest",
+        "to": "west",
+        "length_m": 600,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "west",
+        "to": "station_west",
+        "length_m": 480,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "station_west",
+        "to": "station",
+        "length_m": 230,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "southwest",
+        "to": "southeast",
+        "length_m": 1400,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "southeast",
+        "to": "east",
+        "length_m": 600,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "east",
+        "to": "station",
+        "length_m": 690,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "east",
+        "to": "logistics_north",
+        "length_m": 160,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "southeast",
+        "to": "logistics_south",
+        "length_m": 160,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "logistics_north",
+        "to": "freight_junction",
+        "length_m": 470,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "freight_junction",
+        "to": "logistics_south",
+        "length_m": 130,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "freight_junction",
+        "to": "freight_gate",
+        "length_m": 30,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "logistics_south",
+        "to": "underpass_west",
+        "length_m": 410,
+        "state": "正常开放假设"
+      },
+      {
+        "from": "underpass_west",
+        "to": "port_gate",
+        "length_m": 348,
+        "state": "正常开放假设"
+      }
+    ],
+    "normal_routes": [
+      {
+        "route": "安全屋→地铁站",
+        "length_m": 1680,
+        "nodes": [
+          "home",
+          "lane",
+          "southwest",
+          "west",
+          "station_west",
+          "station"
+        ],
+        "walk_minutes_at_80m_min": 21.0,
+        "laden_minutes_at_60m_min": 28.0
+      },
+      {
+        "route": "安全屋→货运站入口",
+        "length_m": 2090,
+        "nodes": [
+          "home",
+          "lane",
+          "southwest",
+          "southeast",
+          "logistics_south",
+          "freight_junction",
+          "freight_gate"
+        ],
+        "walk_minutes_at_80m_min": 26.1,
+        "laden_minutes_at_60m_min": 34.8
+      },
+      {
+        "route": "安全屋→港口入口",
+        "length_m": 2688,
+        "nodes": [
+          "home",
+          "lane",
+          "southwest",
+          "southeast",
+          "logistics_south",
+          "underpass_west",
+          "port_gate"
+        ],
+        "walk_minutes_at_80m_min": 33.6,
+        "laden_minutes_at_60m_min": 44.8
+      }
+    ],
+    "truck_route": "优先走东侧环路与物流道路，避免站前广场；下穿是独立可变状态节点"
   }
 }

@@ -1,12 +1,12 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "units": "m",
   "north": "up",
   "ground_footprint": [
     11,
     10
   ],
-  "status": "空间布局草案，面积含墙体与交通预算，不是净面积或施工图",
+  "status": "空间及尺寸预算：面积非净面积，家具与门窗为布置初稿",
   "floors": [
     {
       "id": "B1",
@@ -270,7 +270,7 @@
       "title": "院落 · 两车与出入（示意）",
       "h": 10,
       "rooms": [],
-      "note": "两车集中西南一角；无车位划线，保留开敞院落"
+      "note": "院落预算约145㎡；两车仍在西南角，无车位划线"
     }
   ],
   "circulation": {
@@ -283,5 +283,31 @@
     "ground_open_space": "玄关、餐厅、客厅共用开放空间，无三处分隔墙",
     "second_bathroom": "西侧淋浴及独立厕所，共用外置洗手台；入口来自公共通道",
     "yard_cars": "西南角集中停放，不画车位或停车分区"
+  },
+  "design_budget": {
+    "floor_height_m": 3.2,
+    "stair": "U形双跑示意，约19～20级；尺寸待结构核算",
+    "exterior_wall_m": 0.24,
+    "partition_m": 0.12,
+    "yard_plot_m": [
+      15,
+      17
+    ],
+    "house_on_plot_m": [
+      2,
+      1,
+      11,
+      10
+    ],
+    "yard_gross_excluding_house_m2": 145,
+    "courtyard_gate_width_m": 4.5,
+    "vehicle_envelope_budget_m": [
+      5.0,
+      2.1
+    ],
+    "vehicle_parking_orientation": "西南角沿院墙东西向停放；可倒车调整，不预设原地掉头",
+    "main_door_width_m": 1.1,
+    "bedroom_door_width_m": 0.9,
+    "bathroom_door_width_m": 0.8
   }
 }
