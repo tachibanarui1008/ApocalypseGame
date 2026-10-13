@@ -1,8 +1,7 @@
 """Detailed, editable furniture plans for ApocalypseGame; draft dimensions only."""
 from pathlib import Path
-import json, html, math
-import cairosvg
-from PIL import Image
+import json, html, math, re
+from capacity_model import audit_capacity, calculate_capacity
 OUT=Path(__file__).resolve().parents[1]/'docs/chapters/ch01/assets'
 U=88; C={'paper':'#f7f6f2','wall':'#606865','ink':'#35403c','wood':'#e6dcc9','fabric':'#d3dfdd','metal':'#cfd9df','battery':'#dbe3d3','line':'#9ba7a2'}
 def text(x,y,t,n=16,color=None,anchor='start'):
@@ -77,32 +76,114 @@ def obj(kind,x,y,w,h,style=None,orientation='N',units=None,front=None):
  return a
 
 def O(kind,x,y,w,h,name,**props):return {'kind':kind,'rect':[x,y,w,h],'name':name,**props}
-OBJECTS={
-'B1':[O('shelf',5.3,.3,5.4,.5,'食品货架：罐头与轮换清单'),O('shelf',10.2,1.3,.5,2.35,'东侧食品架'),O('shelf',7.35,1.9,.65,1.5,'低层中央储物架'),O('shelf',5.3,4.45,3,.6,'瓶装水储架'),O('cabinet',9,4.45,1.45,.6,'卫生用品封闭柜'),O('cabinet',6.1,6.5,.8,.65,'水箱/周转箱外观草案'),O('cabinet',7.5,6.5,.8,.65,'备用物资周转箱'),O('table',.3,4.3,2.35,.65,'工具检修台'),O('shelf',.3,6.55,.5,1.3,'工具与零件架')],
-'F1':[O('counter',5.3,.28,5.4,.65,'北侧厨房操作台'),O('double_sink',6.5,.37,1.15,.45,'双槽水盆（操作台内）'),O('hob',9.5,.37,.6,.48,'灶具（操作台内）'),O('counter',10.05,.95,.65,1.55,'东侧备餐台'),O('cabinet',5.35,2.65,.7,.75,'冰箱'),O('table',7.2,4.95,2,.95,'六人餐桌'),O('chair',6.62,5.15,.45,.45,'餐椅左'),O('chair',9.33,5.15,.45,.45,'餐椅右'),O('chair',7.48,4.38,.45,.45,'餐椅北一'),O('chair',8.38,4.38,.45,.45,'餐椅北二'),O('chair',7.48,6.04,.45,.45,'餐椅南一'),O('chair',8.38,6.04,.45,.45,'餐椅南二'),O('sofa',6.05,7.35,.9,2.5,'三人沙发，面向东侧电视'),O('table',7.5,8.05,1.15,.65,'客厅茶几'),O('console',10.45,7.5,.3,1.4,'电视与低柜'),O('console',10.35,4.7,.4,1.35,'餐边柜'),O('cabinet',5.15,9.1,.4,.75,'玄关鞋柜'),O('bed',.4,6.55,1.4,2,'临时客房床'),O('wardrobe',.35,9.3,1.5,.5,'临时客房衣柜'),O('wc',.4,4.25,.55,.65,'一层坐便器'),O('sink',1.3,4.25,.8,.45,'一层洗手盆')],
-'F2':[O('bed',6.15,.55,1.8,2.05,'父母双人床'),O('cabinet',5.62,.65,.38,.38,'父母床头柜'),O('wardrobe',8.2,2.85,2.4,.55,'父母衣柜'),O('bed',6.15,4.05,1.8,2.05,'情侣双人床'),O('cabinet',5.62,4.15,.38,.38,'情侣床头柜'),O('wardrobe',8.2,6.35,2.4,.55,'情侣衣柜'),O('shower',.25,4.22,1.0,1.3,'独立淋浴区'),O('wc',1.92,4.3,.55,.7,'独立厕所'),O('double_sink',.3,6.1,2.4,.48,'公共外置双人洗手台'),O('washer',.35,7.85,.65,.65,'洗衣机'),O('sink',1.15,7.85,.8,.6,'洗衣水盆'),O('shelf',.35,9.5,2.2,.35,'洗衣用品与布草架'),O('desk',6.2,9.2,2,.6,'日常工作桌（非服务器）'),O('chair',6.92,8.56,.5,.5,'工作椅'),O('table',9.05,7.3,1.35,.7,'无线电通信桌'),O('radio',9.35,7.37,.45,.27,'FTM-6000R（通信桌内）'),O('chair',9.45,8.25,.5,.5,'通信桌座椅'),O('shelf',5.3,9.1,.35,.7,'书籍资料架')],
-'F3':[O('bed',6.05,.6,1.8,2.05,'客房双人床'),O('wardrobe',8.3,3.25,2.3,.55,'客房衣柜'),O('desk',8.85,.6,1.3,.65,'客房小书桌'),O('chair',9.25,1.48,.5,.5,'客房座椅'),O('rack',.25,7.3,.65,.8,'家用服务器机架'),O('vdesk',2.2,6.3,.55,1.35,'服务器维护桌'),O('chair',1.45,6.65,.5,.5,'维护椅'),O('shelf',.3,9.35,1.55,.4,'线缆与备件柜'),O('battery',6.15,4.3,.85,.75,'储能柜A（与B合计30kWh）'),O('battery',7.6,4.3,.85,.75,'储能柜B（模组形态草案）'),O('dc',5.7,4.12,.32,.2,'直流隔离/保护盒（壁挂）'),O('inverter',9.1,4.12,.55,.25,'储能逆变器（壁挂）'),O('ac',9.85,4.12,.35,.2,'备用负载配电箱（壁挂）'),O('ac',10.4,4.12,.4,.2,'交流配电/保护箱（壁挂）'),O('table',6.2,9.2,1.65,.55,'金属检修台'),O('cabinet',10.0,7.6,.65,1.3,'专用工具金属柜'),O('wc',.4,4.25,.55,.65,'三层坐便器'),O('sink',1.3,4.25,.8,.45,'三层洗手盆')]
+# Current V0.6 furniture only; old V0.5/30kWh objects remain in Git history.
+OBJECTS = {
+ 'B1': [
+  O('shelf', 5.3, 0.3, 5.1, 0.55, '北排食品架：6组四层架', units=6, style='storage'),
+  O('shelf', 6.4, 1.8, 3.4, 0.55, '中央食品架：4组四层架', units=4, style='storage'),
+  O('shelf', 5.3, 3.3, 5.1, 0.55, '南排食品架：6组四层架', units=6, style='storage'),
+  O('shelf', 5.3, 4.3, 5.1, 0.55, '饮水罐/瓶水低架：6组', units=6, style='storage'),
+  O('table', 0.3, 4.3, 2.35, 0.65, '工具检修台'),
+  O('shelf', 0.3, 6.55, 0.5, 1.3, '工具零件架', style='storage'),
+  O('dehumidifier', 2.25, 7.6, 0.45, 0.4, '移动除湿机备位，控湿效果待核'),
+  O('waterbarrel', 6.05, 5.75, 0.6, 0.6, '饮烹水桶1：220L'),
+  O('waterbarrel', 6.83, 5.75, 0.6, 0.6, '饮烹水桶2：220L'),
+  O('waterbarrel', 7.61, 5.75, 0.6, 0.6, '饮烹水桶3：220L'),
+  O('waterbarrel', 8.39, 5.75, 0.6, 0.6, '饮烹水桶4：220L'),
+  O('waterbarrel', 9.17, 5.75, 0.6, 0.6, '饮烹水桶5：220L'),
+  O('waterbarrel', 9.95, 5.75, 0.6, 0.6, '饮烹水桶6：220L'),
+  O('waterbarrel', 6.05, 7.15, 0.6, 0.6, '生活水桶1：220L'),
+  O('waterbarrel', 6.83, 7.15, 0.6, 0.6, '生活水桶2：220L'),
+  O('waterbarrel', 7.61, 7.15, 0.6, 0.6, '生活水桶3：220L'),
+  O('waterbarrel', 8.39, 7.15, 0.6, 0.6, '生活水桶4：220L'),
+  O('waterbarrel', 9.17, 7.15, 0.6, 0.6, '生活水桶5：220L'),
+  O('waterbarrel', 9.95, 7.15, 0.6, 0.6, '生活水桶6：220L'),
+ ],
+ 'F1': [
+  O('counter', 5.3, 0.28, 5.4, 0.65, '北侧厨房操作台'),
+  O('double_sink', 6.5, 0.37, 1.15, 0.45, '双槽水盆（操作台内）'),
+  O('hob', 9.5, 0.37, 0.6, 0.48, '灶具（操作台内）'),
+  O('counter', 10.05, 0.95, 0.65, 1.55, '东侧备餐台'),
+  O('cabinet', 5.35, 2.65, 0.7, 0.75, '冰箱'),
+  O('table', 7.2, 4.95, 2, 0.95, '六人餐桌'),
+  O('chair', 6.62, 5.15, 0.45, 0.45, '餐椅左'),
+  O('chair', 9.33, 5.15, 0.45, 0.45, '餐椅右'),
+  O('chair', 7.48, 4.38, 0.45, 0.45, '餐椅北一'),
+  O('chair', 8.38, 4.38, 0.45, 0.45, '餐椅北二'),
+  O('chair', 7.48, 6.04, 0.45, 0.45, '餐椅南一'),
+  O('chair', 8.38, 6.04, 0.45, 0.45, '餐椅南二'),
+  O('sofa', 6.05, 7.35, 0.9, 2.5, '三人沙发，面向东侧电视'),
+  O('table', 7.5, 8.05, 1.15, 0.65, '客厅茶几'),
+  O('console', 10.45, 7.5, 0.3, 1.4, '电视与低柜'),
+  O('console', 10.35, 4.7, 0.4, 1.35, '餐边柜'),
+  O('cabinet', 5.15, 9.1, 0.4, 0.75, '玄关鞋柜'),
+  O('bed', 0.4, 6.55, 1.4, 2, '临时客房床'),
+  O('wardrobe', 0.35, 9.3, 1.5, 0.5, '临时客房衣柜'),
+  O('wc', 0.4, 4.25, 0.55, 0.65, '一层坐便器'),
+  O('sink', 1.3, 4.25, 0.8, 0.45, '一层洗手盆'),
+  O('boxbank', 10.35, 6.2, 0.4, 0.95, '客厅应急箱：6×60L，双列三层'),
+  O('boxbank', 2.05, 8.85, 0.6, 0.9, '客房轻箱：4×60L，双列两层'),
+  O('cabinet', 0.35, 6.2, 1.25, 0.25, '干燥医疗耗材柜：100L额度'),
+ ],
+ 'F2': [
+  O('bed', 7.4, 0.45, 1.8, 2.05, '父母北向双人床', style='parents'),
+  O('cabinet', 6.85, 0.58, 0.42, 0.42, '父母左床头柜'),
+  O('cabinet', 9.33, 0.58, 0.42, 0.42, '父母右床头柜'),
+  O('wardrobe', 5.3, 2.8, 1.85, 0.55, '父母低调衣柜', style='parents', emergency_box_capacity_l=80),
+  O('armchair', 10.0, 1.65, 0.6, 0.75, '父母窗边阅读椅', style='parents', orientation='W'),
+  O('cabinet', 9.55, 2.85, 1.1, 0.4, '父母家庭药箱/日常低柜'),
+  O('bed', 8.35, 4.4, 1.7, 2.05, '情侣南向双人床', style='couple', orientation='S'),
+  O('cabinet', 7.8, 5.95, 0.4, 0.4, '情侣左床头柜'),
+  O('cabinet', 10.2, 5.95, 0.4, 0.4, '情侣右床头柜'),
+  O('wardrobe', 5.3, 3.8, 2.3, 0.55, '情侣浅木衣柜', style='couple', emergency_box_capacity_l=80),
+  O('vanity', 6.05, 6.2, 1.5, 0.5, '梳妆兼阅读桌', style='couple'),
+  O('chair', 6.55, 5.55, 0.5, 0.5, '梳妆阅读椅', style='couple'),
+  O('shower', 0.25, 4.22, 1.0, 1.3, '独立淋浴区'),
+  O('wc', 1.92, 4.3, 0.55, 0.7, '独立厕所'),
+  O('double_sink', 0.3, 6.1, 2.4, 0.48, '公共外置双人洗手台'),
+  O('washer', 0.35, 7.85, 0.65, 0.65, '洗衣机'),
+  O('sink', 1.15, 7.85, 0.8, 0.6, '洗衣水盆'),
+  O('shelf', 0.35, 9.5, 2.2, 0.35, '洗衣用品与布草架'),
+  O('desk', 6.2, 9.2, 2, 0.6, '日常工作桌（非服务器）'),
+  O('chair', 6.92, 8.56, 0.5, 0.5, '工作椅'),
+  O('table', 9.05, 7.3, 1.35, 0.7, '无线电通信桌'),
+  O('radio', 9.35, 7.37, 0.45, 0.27, 'FTM-6000R（通信桌内）'),
+  O('chair', 9.45, 8.25, 0.5, 0.5, '通信桌座椅'),
+  O('shelf', 5.3, 9.1, 0.35, 0.7, '书籍资料架'),
+ ],
+ 'F3': [
+  O('bed', 8.45, 2.3, 2.05, 1.35, '抽屉日床：东西向', style='guest', orientation='E', emergency_box_capacity_l=80),
+  O('desk', 9.15, 0.4, 1.45, 0.6, '客房小书桌', style='guest'),
+  O('chair', 9.65, 1.2, 0.5, 0.5, '客房座椅', style='guest'),
+  O('wardrobe', 5.3, 3.15, 1.7, 0.5, '客房行李/衣柜', style='guest'),
+  O('armchair', 6.55, 0.55, 0.65, 0.75, '客房阅读椅', style='guest'),
+  O('table', 7.35, 0.8, 0.4, 0.4, '客房边几', style='guest'),
+  O('desk', 0.35, 6.3, 1.85, 0.7, '服务器房正式办公桌', style='office'),
+  O('chair', 0.95, 7.25, 0.55, 0.55, '办公椅', style='office'),
+  O('rack', 0.28, 7.95, 0.65, 0.8, '家用机架：Mac mini/网络/UPS'),
+  O('shelf', 2.42, 7.05, 0.32, 1.0, '办公室书架与备件'),
+  O('armchair', 0.28, 9.02, 0.7, 0.55, '服务器房阅读椅', style='office', orientation='E'),
+  O('table', 1.15, 9.08, 0.4, 0.4, '阅读边几', style='office'),
+  O('wc', 0.4, 4.25, 0.55, 0.65, '三层坐便器'),
+  O('sink', 1.3, 4.25, 0.8, 0.45, '三层洗手盆'),
+  O('battery', 6.05, 4.55, 0.6, 0.8, '储能柜1：5×5.12kWh', front='S'),
+  O('battery', 7.2, 4.55, 0.6, 0.8, '储能柜2：5×5.12kWh', front='S'),
+  O('battery', 8.35, 4.55, 0.6, 0.8, '储能柜3：5×5.12kWh', front='S'),
+  O('battery', 9.5, 4.55, 0.6, 0.8, '储能柜4：5×5.12kWh', front='S'),
+  O('battery', 6.05, 6.75, 0.6, 0.8, '储能柜5：5×5.12kWh', front='N'),
+  O('battery', 7.2, 6.75, 0.6, 0.8, '储能柜6：5×5.12kWh', front='N'),
+  O('battery', 8.35, 6.75, 0.6, 0.8, '储能柜7：5×5.12kWh', front='N'),
+  O('battery', 9.5, 6.75, 0.6, 0.8, '储能柜8：5×5.12kWh', front='N'),
+  O('battery', 6.05, 8.95, 0.6, 0.8, '储能柜9：5×5.12kWh', front='N'),
+  O('battery', 7.2, 8.95, 0.6, 0.8, '储能柜10：5×5.12kWh', front='N'),
+  O('battery', 8.35, 8.95, 0.6, 0.8, '储能柜11：5×5.12kWh', front='N'),
+  O('battery', 9.5, 8.95, 0.6, 0.8, '储能柜12：5×5.12kWh', front='N'),
+  O('dc', 5.7, 4.12, 0.32, 0.2, '直流隔离/保护盒（壁挂）'),
+  O('inverter', 9.1, 4.12, 0.422, 0.254, '12kW三相储能逆变器'),
+  O('ac', 9.85, 4.12, 0.35, 0.2, '备用负载配电箱（壁挂）'),
+  O('ac', 10.4, 4.12, 0.4, 0.2, '交流配电/保护箱（壁挂）'),
+ ],
 }
-# V0.6本轮授权扩容与差异化室内方案。容量不代表开局已装满。
-OBJECTS['B1']=[O('shelf',5.3,.3,5.1,.55,'北排食品架：6组四层架',units=6),O('shelf',6.4,1.8,3.4,.55,'中央食品架：4组四层架',units=4),O('shelf',5.3,3.3,5.1,.55,'南排食品架：6组四层架',units=6),O('shelf',5.3,4.3,5.1,.55,'饮水罐/瓶水低架：6组',units=6),O('table',.3,4.3,2.35,.65,'工具检修台'),O('shelf',.3,6.55,.5,1.3,'工具零件架'),O('dehumidifier',2.25,7.6,.45,.4,'移动除湿机备位，控湿效果待核')]
-for row,yy in enumerate([5.75,7.15]):
- for col,xx in enumerate([6.05,6.83,7.61,8.39,9.17,9.95]):OBJECTS['B1'].append(O('waterbarrel',xx,yy,.60,.60,('饮烹水'if row==0 else '生活水')+f'桶{col+1}：220L'))
-# upper rooms: reusable storage within existing circulation
-OBJECTS['F1'] += [O('boxbank',10.35,6.2,.4,.95,'客厅应急箱：6×60L，双列三层'),O('boxbank',2.05,8.85,.6,.9,'客房轻箱：4×60L，双列两层'),O('cabinet',.35,6.2,1.25,.25,'干燥医疗耗材柜：100L额度')]
-old=OBJECTS['F2'];OBJECTS['F2']=[o for o in old if not any(t in o['name']for t in ['父母','情侣'])]
-OBJECTS['F2'][:0]=[O('bed',7.4,.45,1.8,2.05,'父母北向双人床',style='parents'),O('cabinet',6.85,.58,.42,.42,'父母左床头柜'),O('cabinet',9.33,.58,.42,.42,'父母右床头柜'),O('wardrobe',5.3,2.8,1.85,.55,'父母低调衣柜',style='parents'),O('armchair',10.0,1.65,.60,.75,'父母窗边阅读椅',style='parents',orientation='W'),O('cabinet',9.55,2.85,1.10,.40,'父母家庭药箱/日常低柜'),O('bed',8.35,4.4,1.7,2.05,'情侣南向双人床',style='couple',orientation='S'),O('cabinet',7.8,5.95,.4,.4,'情侣左床头柜'),O('cabinet',10.2,5.95,.4,.4,'情侣右床头柜'),O('wardrobe',5.3,3.8,2.3,.55,'情侣浅木衣柜',style='couple'),O('vanity',6.05,6.2,1.5,.5,'梳妆兼阅读桌',style='couple'),O('chair',6.55,5.55,.5,.5,'梳妆阅读椅',style='couple')]
-# floor3 retains plumbing fixtures only; entirely replans the three rooms
-plumbing=[o for o in OBJECTS['F3']if '坐便器'in o['name']or'洗手盆'in o['name']]
-OBJECTS['F3']=[O('bed',8.45,2.3,2.05,1.35,'抽屉日床：东西向',style='guest',orientation='E'),O('desk',9.15,.4,1.45,.6,'客房小书桌',style='guest'),O('chair',9.65,1.2,.5,.5,'客房座椅',style='guest'),O('wardrobe',5.3,3.15,1.7,.5,'客房行李/衣柜',style='guest'),O('armchair',6.55,.55,.65,.75,'客房阅读椅',style='guest'),O('table',7.35,.8,.4,.4,'客房边几',style='guest'),O('desk',.35,6.3,1.85,.70,'服务器房正式办公桌',style='office'),O('chair',.95,7.25,.55,.55,'办公椅',style='office'),O('rack',.28,7.95,.65,.80,'家用机架：Mac mini/网络/UPS'),O('shelf',2.42,7.05,.32,1.0,'办公室书架与备件'),O('armchair',.28,9.02,.70,.55,'服务器房阅读椅',style='office',orientation='E'),O('table',1.15,9.08,.4,.4,'阅读边几',style='office')]+plumbing
-for row,yy in enumerate([4.55,6.75,8.95]):
- for col,xx in enumerate([6.05,7.2,8.35,9.5]):OBJECTS['F3'].append(O('battery',xx,yy,.6,.8,f'储能柜{row*4+col+1}：5×5.12kWh',front='S'if row==0 else 'N'))
-OBJECTS['F3'] += [O('dc',5.7,4.12,.32,.2,'直流隔离/保护盒（壁挂）'),O('inverter',9.1,4.12,.422,.254,'12kW三相储能逆变器'),O('ac',9.85,4.12,.35,.2,'备用负载配电箱（壁挂）'),O('ac',10.4,4.12,.4,.2,'交流配电/保护箱（壁挂）')]
-for _o in OBJECTS['B1']:
- if _o['kind']=='shelf':_o['style']='storage'
-for _o in OBJECTS['F2']:
- if _o['name']in ['父母低调衣柜','情侣浅木衣柜']:_o['emergency_box_capacity_l']=80
-for _o in OBJECTS['F3']:
- if _o['name']=='抽屉日床：东西向':_o['emergency_box_capacity_l']=80
 NESTED={'双槽水盆（操作台内）','灶具（操作台内）','FTM-6000R（通信桌内）'}
 CAPTIONS={'B1':[(1.5,3.8,'楼梯'),(1.5,7.98,'工具区'),(8.7,3.77,'食品储藏'),(8.8,7.98,'饮水 / 用品')],'F1':[(1.5,3.8,'楼梯'),(1.5,5.8,'卫浴'),(1.5,9.03,'临时客房'),(8.2,3.1,'厨房'),(6.4,6.85,'餐厅'),(9.3,9.7,'客厅'),(4.0,7.5,'玄关')],'F2':[(1.5,3.8,'楼梯'),(9.3,2.25,'父母卧室'),(9.3,5.75,'情侣卧室'),(.75,5.75,'淋浴'),(2.25,5.75,'厕所'),(1.5,6.95,'洗手区'),(1.5,9.05,'洗衣 / 储物'),(8.0,8.55,'书房 / 通信')],'F3':[(1.5,3.8,'楼梯'),(9.3,2.6,'客房'),(1.5,5.8,'卫浴'),(1.5,8.8,'服务器房'),(8.3,7.6,'电力储存设备间')]}
 DOORS={'B1':[(3,2.7,'E',.9),(3,6.3,'W',.9),(5,1.3,'E',.9),(5,6.1,'E',.9)],'F1':[(3,2.7,'E',.9),(3,5.2,'W',.9),(3,7.4,'W',.9),(4,10,'N',1.1),(11,3.15,'W',.9)],'F2':[(3,2.7,'E',.9),(3,8.8,'W',.9),(5,1.7,'E',.9),(5,5.2,'E',.9),(5,8.1,'E',.9),(.75,6,'SLIDE',.8),(2.25,6,'N',.8)],'F3':[(3,2.7,'E',.9),(3,5.2,'W',.9),(3,8.55,'W',.9),(5,1.7,'E',.9),(5,5.2,'E',.9)]}
@@ -112,6 +193,7 @@ CAPTIONS['B1']=[(1.5,3.8,'楼梯'),(1.5,7.98,'工具与除湿'),(8.7,2.93,'食�
 CAPTIONS['F2']=[(1.5,3.8,'楼梯'),(8.15,3.0,'父母卧室'),(8.8,3.73,'情侣卧室'),(.75,5.75,'淋浴'),(2.25,5.75,'厕所'),(1.5,6.95,'洗手区'),(1.5,9.05,'洗衣 / 储物'),(8.0,8.55,'书房 / 通信')]
 CAPTIONS['F3']=[(1.5,3.8,'楼梯'),(8.1,1.95,'客房 · 日床'),(1.5,5.8,'卫浴'),(1.5,9.88,'服务器房 · 办公/阅读'),(5.56,9.75,'储电配电')]
 def render(name,body,w=1530,h=1260):
+ import cairosvg
  svg=f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}"><rect width="100%" height="100%" fill="{C["paper"]}"/>{body}</svg>'
  (OUT/f'{name}.svg').write_text(svg);cairosvg.svg2png(bytestring=svg.encode(),write_to=str(OUT/f'{name}.png'))
 def merge_walls(rooms):
@@ -244,17 +326,67 @@ def audit_objects(data):
   results.append({'floor':fid,'objects':len(obs),'status':'边界、房间归属、实体家具重叠、门扇包络检查通过'})
  return results
 
-def main():
- data=json.loads((OUT/'SAFEHOUSE_LAYOUT.json').read_text());data['version']='0.6'
+def sync_layout_notes(data,capacity):
+ """Update descriptions only; never reconstruct saved room coordinates."""
+ battery=capacity['battery']
  f3=next(f for f in data['floors']if f['id']=='F3')
  for r in f3['rooms']:
   if '服务器'in r[4]:r[4]='服务器房'
+ f3['note']=f"服务器与电力分室；{battery['cabinets']}柜{battery['modules']}模块、{battery['nominal_kwh']:g}kWh储能目标与{battery['rated_inverter_output_kw']:g}kW逆变输出，结构及组配待核"
  data['equipment_locations']['server']='三层西南服务器房：办公桌、阅读角、书架与Mac mini家用机架'
- data['equipment_locations']['power']='三层储电配电密排目标：12柜60模块307.2kWh、12kW逆变器；结构与组配仍待核'
+ data['equipment_locations']['power']=f"三层储电配电密排目标：{battery['cabinets']}柜{battery['modules']}模块{battery['nominal_kwh']:g}kWh、{battery['rated_inverter_output_kw']:g}kW逆变器；结构与组配仍待核"
  data['capacity_reference']='SAFEHOUSE_CAPACITY.json'
+
+def capacity_inventory_check(capacity):
+ """Check drawn quantities against the scenario, not only numeric totals."""
+ audit_capacity(capacity)
+ battery,water,food=(capacity[k]for k in ['battery','water','food'])
+ total=sum(len(objects)for objects in OBJECTS.values())
+ cabinets=[o for o in OBJECTS['F3']if o['kind']=='battery']
+ barrels=[o for o in OBJECTS['B1']if o['kind']=='waterbarrel']
+ racks=sum(o.get('units',1)for o in OBJECTS['B1']if '食品架'in o['name'])
+ assert len(cabinets)==battery['cabinets'],('储能柜数量与容量数据不一致',len(cabinets),battery['cabinets'])
+ for o in cabinets:
+  assert o['rect'][2:]==battery['cabinet_envelope_m'][:2],('储能柜包络不一致',o)
+  assert f"{battery['modules_per_cabinet']}×{battery['module_kwh']:g}kWh"in o['name'],('储能模块标注不一致',o)
+ assert racks==food['basement_racks'],('食品架数量不一致',racks,food['basement_racks'])
+ assert len(barrels)==water['drinking_cooking_barrels']+water['nonpotable_living_barrels']
+ assert sum('饮烹水'in o['name']for o in barrels)==water['drinking_cooking_barrels']
+ assert sum('生活水'in o['name']for o in barrels)==water['nonpotable_living_barrels']
+ assert all(f"{water['barrel_l']}L"in o['name']for o in barrels)
+ boxed_l=sum(int(a)*int(b)for o in OBJECTS['F1']for a,b in re.findall(r'(\d+)×(\d+)L',o['name']))
+ furniture_l=sum(o.get('emergency_box_capacity_l',0)for objects in OBJECTS.values()for o in objects)
+ assert boxed_l+furniture_l==capacity['upper_storage']['upper_nominal_box_l']
+ return {'version':capacity['version'],'status':f'{total}项陈列；{racks}食品架、{len(barrels)}水桶、{len(cabinets)}储能柜与数据对应；容量/质量/光伏投影/分类储水/热量复算通过','structural_approval':False,'initial_inventory_fixed':False}
+
+def check_current_assets():
+ """Read-only preflight: a newer saved scenario must not be silently reset."""
+ data=json.loads((OUT/'SAFEHOUSE_LAYOUT.json').read_text())
+ capacity=json.loads((OUT/'SAFEHOUSE_CAPACITY.json').read_text())
+ expected=calculate_capacity()
+ for key,value in expected.items():
+  assert capacity.get(key)==value,('容量脚本与保存数据不一致；先同步配置再生成',key)
+ previous=json.loads((OUT/'SAFEHOUSE_FURNITURE.json').read_text())
+ assert previous['furniture']==OBJECTS,'当前家具数据与生成脚本不一致；先同步配置再生成'
+ assert previous['doors']==json.loads(json.dumps(DOORS)),'当前门位与生成脚本不一致'
+ assert previous['windows']==json.loads(json.dumps(WINDOWS)),'当前窗位与生成脚本不一致'
+ return {'floors':audit_objects(data),'capacity':capacity_inventory_check(capacity)}
+
+def build_inventory(data,capacity,previous=None):
+ # Retain additional review notes, while recalculating every generated QA field.
+ inventory=dict(previous or {})
+ inventory.update({'version':data['version'],'status':'用户授权先画细节，外观与尺寸待审看','equipment_total_storage_kwh':capacity['battery']['nominal_kwh'],'furniture':OBJECTS,'doors':DOORS,'windows':WINDOWS,'qa_pass_1':audit_objects(data),'qa_capacity':capacity_inventory_check(capacity)})
+ return inventory
+
+def main():
+ check_current_assets()
+ data=json.loads((OUT/'SAFEHOUSE_LAYOUT.json').read_text())
+ capacity=json.loads((OUT/'SAFEHOUSE_CAPACITY.json').read_text())
+ previous=json.loads((OUT/'SAFEHOUSE_FURNITURE.json').read_text())
+ sync_layout_notes(data,capacity)
  checks=audit_objects(data)
  (OUT/'SAFEHOUSE_LAYOUT.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
- inventory={'version':'0.6','status':'用户授权先画细节，外观与尺寸待审看','equipment_total_storage_kwh':307.2,'furniture':OBJECTS,'doors':DOORS,'windows':WINDOWS,'qa_pass_1':checks}
+ inventory=build_inventory(data,capacity,previous)
  (OUT/'SAFEHOUSE_FURNITURE.json').write_text(json.dumps(inventory,ensure_ascii=False,indent=2))
  for f in data['floors']:
   if f['id']in OBJECTS:floor_sheet(f)

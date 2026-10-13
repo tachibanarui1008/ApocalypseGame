@@ -25,7 +25,7 @@
     "西侧农田"
   ],
   "routes_budget": {
-    "status": "上一轮游戏尺度预算继续作为参考；新排版未按像素重新测距，地图几何和数值下一轮统一",
+    "status": "历史V0.2预算，不再供游戏使用；现行路网、入口与模式矩阵见gameplay_routes。",
     "walking_speed_m_min": 80,
     "laden_speed_m_min": 60,
     "nodes": {
@@ -1200,5 +1200,12 @@
     }
   ],
   "station_representation": "地面站体轮廓、地铁POI、线路终点、A/B出入口、站前广场；公交骑行区另置",
-  "plot_status": "方位保持，画面重新排版；先前游戏路线预算不因画面像素变化自动换算"
+  "plot_status": "方位保持，画面重新排版；先前游戏路线预算不因画面像素变化自动换算",
+  "gameplay_routes": {
+    "version": "0.4",
+    "source": "../../ch02/TOWN_ROUTES_V0.4.json",
+    "unit": "m",
+    "place_count": 14,
+    "status": "原图道路已按路口拆分；步行与车辆入口独立；距离为虚构游戏预算。"
+  }
 }

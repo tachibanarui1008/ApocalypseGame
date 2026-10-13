@@ -1,0 +1,1605 @@
+{
+  "version": "0.3.0",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 185,
+      "sha256": "3ca4fe08ff8c0474cc6cfe7ddf1abe8a1bd18370aef70206534b425ea0ffbd2a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 605,
+      "sha256": "0e2235c54c93435def13adb1a5b0a3a255e9fdeba5b2f44662ac3bf11a46aaaa"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1426,
+      "sha256": "b28bf1967b35a5276a760f2f23d6e701b3693668671eb0e98e81199efd17fee3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2142,
+      "sha256": "062673ca3e6b392295085d12c0ebb69403e565d7edfb2f555be5d1ec5ba6e0c5"
+    },
+    {
+      "path": "docs/BACKGROUND_STYLE.md",
+      "bytes": 4085,
+      "sha256": "3487dc8dd026bfc76713f886e96ea58ce6fdee34686bcd041e068245589121cd"
+    },
+    {
+      "path": "docs/CANON.md",
+      "bytes": 11477,
+      "sha256": "872ef939012e331306af10f163440b5fdad6abeadabe054b0954b77a169cf69d"
+    },
+    {
+      "path": "docs/HANDOFF_WINDOWS.md",
+      "bytes": 8796,
+      "sha256": "a5d8ee4f985a4078a3ca164b11648903cb1e0072036bd1e775fa3f5597f51920"
+    },
+    {
+      "path": "docs/UNIFIED_RELEASE_V0.3.md",
+      "bytes": 1754,
+      "sha256": "62ff450b096cae363c7982a7fe0624222f9b3c31b890ba937f9983324e11ad1a"
+    },
+    {
+      "path": "docs/WORLD_BIBLE.md",
+      "bytes": 40770,
+      "sha256": "c49780dfd182d667e8145566b344f3d2b9875e63da3e74c673d291bccae8ee99"
+    },
+    {
+      "path": "docs/chapters/ch01/ACHIEVEMENTS.md",
+      "bytes": 1097,
+      "sha256": "ac255efeee82db031c1a50009bbf2be9810edc9b3faaa0e1c30953506e5d4b15"
+    },
+    {
+      "path": "docs/chapters/ch01/ART_PROMPTS.md",
+      "bytes": 18579,
+      "sha256": "23ac16c731e7e90b9e84ca0fae9451d57d55a91aeb3a789d7223bf489409ac54"
+    },
+    {
+      "path": "docs/chapters/ch01/CHANGELOG.md",
+      "bytes": 10770,
+      "sha256": "4cb8f944ea83127f75e00a7057e756255538509e365db34be5304ef6aeb513b0"
+    },
+    {
+      "path": "docs/chapters/ch01/INDEX.md",
+      "bytes": 7165,
+      "sha256": "fabe91f88b7363b9db8a48b24d76b56573ca08340a962d39e6b2fb91487981d7"
+    },
+    {
+      "path": "docs/chapters/ch01/INTEGRATED_ASSETS.json",
+      "bytes": 7446,
+      "sha256": "6c3992ff8feb91d9dd5b694e4ddabd20e0757103351ba3da9840a5edf182e36c"
+    },
+    {
+      "path": "docs/chapters/ch01/OPEN_QUESTIONS.md",
+      "bytes": 5709,
+      "sha256": "a2237be52665a7a677e8e4fdfbd03b3d9028d10980a31e9f5369dc404b827664"
+    },
+    {
+      "path": "docs/chapters/ch01/RADIO_PLAN.md",
+      "bytes": 8350,
+      "sha256": "1fc45319962e96e7bac2acda1c1d4cd19b5d52719bedd9f83dd064d35c132f6c"
+    },
+    {
+      "path": "docs/chapters/ch01/README.md",
+      "bytes": 3921,
+      "sha256": "c12daf7bbc764249b45280344450abda4325cfbc44c00c99b539ff6230a852c6"
+    },
+    {
+      "path": "docs/chapters/ch01/REVISIONS.md",
+      "bytes": 1148,
+      "sha256": "84fd61d2b799d93e2ba3a292dd9e3fa415a2cb865e4b62a2b945a0c6e56ad33f"
+    },
+    {
+      "path": "docs/chapters/ch01/SAFEHOUSE_CAPACITY.md",
+      "bytes": 10248,
+      "sha256": "ec52106dd592a575c7474c6cc29f42cf39c4f192f7d514e0be094bd325bbe421"
+    },
+    {
+      "path": "docs/chapters/ch01/SAFEHOUSE_LAYOUT.md",
+      "bytes": 5525,
+      "sha256": "c3723c57747a41055dc74aba665e05cc7379b3ea6a878b37aa20ace0922fa860"
+    },
+    {
+      "path": "docs/chapters/ch01/SAFEHOUSE_ROOM_DESIGN.md",
+      "bytes": 4112,
+      "sha256": "3fdbd9c2df44214dfbe6257a1e4a69f5aed3b5df85ca05a020338cb9e568266b"
+    },
+    {
+      "path": "docs/chapters/ch01/SCRIPT.md",
+      "bytes": 90383,
+      "sha256": "e53219f00f6097e0565de0dc3f9b40b1eae78ef4c674b660b992dde9cfc1df72"
+    },
+    {
+      "path": "docs/chapters/ch01/TOWN_LAYOUT.md",
+      "bytes": 4498,
+      "sha256": "efbccaf2c7c468ab92d21812b1a16799baa4693d285a7708dcb16fba271f5d28"
+    },
+    {
+      "path": "docs/chapters/ch01/VALIDATION.md",
+      "bytes": 11207,
+      "sha256": "28d8a6271ede5c46f2b1f85721bf4b04b60071ca358f217c133afb8211e62c8d"
+    },
+    {
+      "path": "docs/chapters/ch01/VISUAL_BIBLE.md",
+      "bytes": 12643,
+      "sha256": "557dc423b3fcabd57071220f8f73be889c950760130013c305b0257164aa4f21"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_B1_DETAIL.png",
+      "bytes": 222931,
+      "sha256": "c09fe6986ace906cbb09e3717b6b5987f29b4d453f0ca607cfb41a5d9d885ce6"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_B1_DETAIL.svg",
+      "bytes": 30342,
+      "sha256": "a347763f8b7a56159cc0f4f9b88c5c810b7bb237d1c5ef66d5cacd3ddd1daea7"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_CAPACITY.json",
+      "bytes": 3934,
+      "sha256": "63c18169a4e6ae4e0f90cdd89794c0e72612fdfefa4b6ab816cfb2ad70fd0e94"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_COURTYARD_DETAIL.png",
+      "bytes": 38066,
+      "sha256": "4671a008cd85de36b6c22fb39dcac16c049e98b4275afa953db4be38dfcb42d4"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_COURTYARD_DETAIL.svg",
+      "bytes": 3394,
+      "sha256": "876cfb711e6cb5bc252ab1d2a20ba7851873001c6106e69ef949a381999feb08"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_EQUIPMENT_ELEVATIONS.png",
+      "bytes": 122652,
+      "sha256": "481a6d8f1bc1ff0d7199c88695af40f8cbc1c2d00a2f9f7a488c133c1f4857aa"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_EQUIPMENT_ELEVATIONS.svg",
+      "bytes": 29346,
+      "sha256": "c46369a6086802a5bb556680043926a11ae216e32bb28d3aa7184b9a2a86f2d7"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_F1_DETAIL.png",
+      "bytes": 244359,
+      "sha256": "3b942bdab27451f42c599e16b5337ca8b362109348816957922410cc7edeaa54"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_F1_DETAIL.svg",
+      "bytes": 40854,
+      "sha256": "5190cf6beb798b977ff6acf7626b8e6a1903151c30c292e697a98a33a9005746"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_F2_DETAIL.png",
+      "bytes": 257388,
+      "sha256": "4f47b106d2d3a6b37b73f7af825dc140b3db610aa42108e8d6ebd3b916a337b3"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_F2_DETAIL.svg",
+      "bytes": 44595,
+      "sha256": "30ca49bc6e563c8f64096fb1df5166e65abc6127d72651cbc81872e2128894d3"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_F3_DETAIL.png",
+      "bytes": 317387,
+      "sha256": "29eaa367903ed0d3fc58a4859bb92e8335c267009c7bc21646583d8895b1f692"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_F3_DETAIL.svg",
+      "bytes": 56666,
+      "sha256": "96f588bc7e079b7de9567f8feeb6d30107d480d9f28188f687556b2693e6e256"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_FURNITURE.json",
+      "bytes": 21763,
+      "sha256": "b646f85bac3b0df822bfc0af38ccdffe21a2c9f0a91e12ed93711fd5c7e495df"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_LAYOUT.json",
+      "bytes": 6012,
+      "sha256": "eeeaee8d9c1a5a0aa767dbd30a51a215cda4e7bca654657e7fd8cd3b942abafd"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_PLAN.png",
+      "bytes": 315767,
+      "sha256": "3a98447c7cc8f653532ca2a76324a05a170f31ae9001ed127f99337ee68bb462"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_PLAN.svg",
+      "bytes": 172683,
+      "sha256": "af5ffc2a8641cf92392419f2910ea6770b72c952d8008926caf0a3894ef800d3"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_ROOF_DETAIL.png",
+      "bytes": 169947,
+      "sha256": "8afc6ee59aec71a83711220e901eca037e349cf2b37709afb401409c8c37dbbd"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_ROOF_DETAIL.svg",
+      "bytes": 34805,
+      "sha256": "625d753d632273ee6518caac3d92550a3a8dbbc94b6ce56f73187dfc4f82721b"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_THIRD_FLOOR.png",
+      "bytes": 317387,
+      "sha256": "29eaa367903ed0d3fc58a4859bb92e8335c267009c7bc21646583d8895b1f692"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/SAFEHOUSE_THIRD_FLOOR.svg",
+      "bytes": 56666,
+      "sha256": "96f588bc7e079b7de9567f8feeb6d30107d480d9f28188f687556b2693e6e256"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/TOWN_LAYOUT.json",
+      "bytes": 17763,
+      "sha256": "386bc8ec7eb2e17f3d84048c13923777fdd1922071d96048ad757e0be8531723"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/TOWN_MAP.png",
+      "bytes": 133864,
+      "sha256": "de1a6fdc4a388c2604299c3095f4aa9fb65809f1bf3a99365836a58d4592a3e7"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/TOWN_MAP.svg",
+      "bytes": 40023,
+      "sha256": "7c34633adaeb9e6c32b5a2da7e9203fbcdafc99090c739ad9ee0ba1e587b22e2"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/README.md",
+      "bytes": 692,
+      "sha256": "33efa7b1b0a5dcee551b24f9316b5c047bfdd76ef9abaff7d9cc80aa4c963274"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-01.png",
+      "bytes": 2069771,
+      "sha256": "4f1fa0e82bb84abfc70ecd8606448587da7198caa0e192d0643d26ec5f349423"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-02.png",
+      "bytes": 2285867,
+      "sha256": "20634ba17690810a524b86a36193f93ff68a7acd07fd53264a388cb9b7a0e17b"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-03.png",
+      "bytes": 2928542,
+      "sha256": "9d92f7c60d112322a1d04caadc297dd6b2f7f8a166579650b718c8067b5908fc"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-04.png",
+      "bytes": 2410527,
+      "sha256": "36538b675acdfdb162854040f01fda6ec313be32d193d27d6dff795c710617cb"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-05.png",
+      "bytes": 2304931,
+      "sha256": "1347f22f48ece9ad07ee97ce55dbf6b976949f2b601d7614cf2e036ea343c6e5"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-06.png",
+      "bytes": 2487355,
+      "sha256": "ea4886234c66e17158018ce343ea7c15ae4ec8be2b589012146c215a06d51411"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-07.png",
+      "bytes": 2343663,
+      "sha256": "7a065d8282e7ccd3eba97f9720dd894651c56247f276753e69ea0ad90523aeb9"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-08.png",
+      "bytes": 2638860,
+      "sha256": "d18bff40080799ac80231e3241bc6086e37d38416842ec30563fe255024c70c0"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-09.png",
+      "bytes": 2747818,
+      "sha256": "f43d829af5b0a121f93ad70f00657020cd52e23bfe7244d5bdaf2e7a8f8326fe"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-10.png",
+      "bytes": 2358084,
+      "sha256": "b05818b3f38686d4f77fc50ddbe50ccac6d45e4a697aad9d6c15509848bed0ed"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-11.png",
+      "bytes": 2719658,
+      "sha256": "e906c9d51d952bc22c51134853e3163f0e1ad3811488ec0b5995168c482e755b"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-12.png",
+      "bytes": 2654382,
+      "sha256": "36352d227482a4d17ddf12729ca0d679eb8f74692e79a5df4d7a97fbaddf55a9"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-13.png",
+      "bytes": 2522290,
+      "sha256": "e427e5c7ad813a8850283b993801c9fc4de73f2bce48c1943910632928b0e9fd"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-14.png",
+      "bytes": 2493429,
+      "sha256": "1669fbde28b21b91cccd77cf09e17e7ebeb3e65f7fa860cd03f7f4c72c93c1f0"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-15.png",
+      "bytes": 2469285,
+      "sha256": "ea1adb8f63d745297a94f4d4031237092af40bae3c699916eed9f512209b6a0c"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-16.png",
+      "bytes": 2171661,
+      "sha256": "3c6c767ce6317e5d6381c5446bdb52925688559cc56dd43bfea18b52f6dfed8a"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-17.png",
+      "bytes": 2797180,
+      "sha256": "a99ebe75ded211dd13ab878a4bf4a5811ff62c547697477a47313f04ec13a3b0"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-18.png",
+      "bytes": 2784712,
+      "sha256": "9fd61889ccbdc5f28ef81101841e9e0cb4188e18a97586f93aec9dd65eb906ab"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-19.png",
+      "bytes": 2743432,
+      "sha256": "1e26b2bef0915fee150a718b9387842f1942a8968b7f9c89876e95a960c25acc"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-20.png",
+      "bytes": 2705835,
+      "sha256": "1d0c454ac10b6cdec6427f597e72799cbf2a071e2d77d5d3e3bacc8e40f4ba54"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-21.png",
+      "bytes": 2384448,
+      "sha256": "5e91a349105b6850cafec41479ffd774c87405529e51f5ee20b87382f95427e3"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-22.png",
+      "bytes": 2873349,
+      "sha256": "02945af6bcd45b975ab96f8bf9521373c531273b601987e92e264c6c95024e54"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-23.png",
+      "bytes": 2715189,
+      "sha256": "de2f7e7e98fc6a6c5329e82e0d58ce76ab5170d8f2be04e2e5b0a83a3ffeddc6"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-24.png",
+      "bytes": 2187224,
+      "sha256": "39688fee3e53de2c32a39458a004cd4069af782aa5e9986947b7e6c0b42ec120"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-25.png",
+      "bytes": 2237554,
+      "sha256": "cdafc38a950d9a3c73d5191b68afa5d66bcc8e410804523f3c62cfc1a6fed721"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/backgrounds/BG-26.png",
+      "bytes": 1816804,
+      "sha256": "b3a58417632640865aec121d00d407365e072fe48312ccda1724eb5682c5285c"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/cg/CG-01.png",
+      "bytes": 2539994,
+      "sha256": "d4052ae5141196af7b7388788278ab86a688731876d995084e1570ba6148a892"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/cg/CG-02.png",
+      "bytes": 2242774,
+      "sha256": "8ece90fba10596658580531c0da379386e39964622baee5821a939c09dea82da"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/cg/CG-03.png",
+      "bytes": 2656372,
+      "sha256": "d8452a586703817f766c9d8ac73c5ea997c1d54c9cb8b663f07a655335ee256f"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/characters/CHAR-01.png",
+      "bytes": 1446218,
+      "sha256": "07f96cc2f22c459a0c22614c69f2365425ffa5272d7b0310ab2516e8a601a0fa"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/characters/CHAR-02.png",
+      "bytes": 1418952,
+      "sha256": "a2e4f9097790521548cfe1a7e6b466944842dbaaf379fcfe2c5ed8337f2051bc"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/characters/CHAR-03.png",
+      "bytes": 1514037,
+      "sha256": "59cfb6ebcce3a4cdfcc69444b0469b947fbd112f37346bcff70ae1ef37010bae"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/characters/CHAR-04.png",
+      "bytes": 1419810,
+      "sha256": "51eeb961d476e38e7cdb40e5266f91fc5474e08a440cb9443b863bd7358ec8f0"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/characters/manifest.json",
+      "bytes": 17339,
+      "sha256": "6e7d7deaf49b1c462e2bd0243b96237dbeb886c3215563f2ee907d5fe0b9d419"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/extras/EX-01-city-home.png",
+      "bytes": 2281455,
+      "sha256": "82b1b994f535f741effd33d0bfac8784a0e7146c480b01a0ecf3d954769db0a4"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/extras/EX-02-family-photo.png",
+      "bytes": 2991783,
+      "sha256": "e56780e078d94563390e4f0b950db4095c97d1f6dbaabf60d26b5ae266c468f8"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/index.html",
+      "bytes": 79743,
+      "sha256": "e3efdcc91a10397b56cb601721d62ddf5aac5ac1eb7b48bd040ddabd9e7ea10e"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/manifest.json",
+      "bytes": 101551,
+      "sha256": "f8ecf88a45f059e65703591b374dbdf7ae0b8d918a539b0a1dc3d1757d2d9a9d"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/prompts.md",
+      "bytes": 65026,
+      "sha256": "fe9a4de066428e63e5425357cd8e49442ff116fa7e2d387b83401603ea121fa0"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/resources.md",
+      "bytes": 4757,
+      "sha256": "42c967a04e3f383c1ea5e191fddebc57c92827bba24005d47e85fdf9414a0496"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/variants/VAR-01-BG-07-clear.png",
+      "bytes": 2273666,
+      "sha256": "4fc12ae90e867787a2bdf8fdff38f1eb48df36f9846f9b20048639483c4ec97c"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/variants/VAR-02-BG-18-night.png",
+      "bytes": 2516113,
+      "sha256": "a9a759081e6a967eeec7d42be212e9a71b4f42b4c4f5f1432c079d30552867a6"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/variants/VAR-03-BG-24-depleted.png",
+      "bytes": 2015582,
+      "sha256": "1dacec6154b3b8e01eb33c72e7bc806865d9d1a01d30145c13d5de9bf4fc1b85"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/variants/VAR-04-BG-26-before-smoke.png",
+      "bytes": 1813576,
+      "sha256": "a76b6ed6bf18fa50d789384bb05925fa789ce558db788311e7616bc453711fca"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/variants/VAR-05-BG-05-prepared.png",
+      "bytes": 2228492,
+      "sha256": "2ccdd0865cc4df9eca6e34203c0b49ae06205dead146e145d59d15e608714a0a"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/variants/VAR-06-BG-15-predawn.png",
+      "bytes": 2231270,
+      "sha256": "49d22bd87f62b29cfc588e7a4552715555d97abea6e48872c1b1f1783291a55c"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/production-v01/variants/VAR-07-BG-25-emergency.png",
+      "bytes": 1842321,
+      "sha256": "e0e3ec2f7a805f7275922b417f38dc7b9cc6fcd9748f9165c7f1f817c760a54d"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/style_samples/BG-01-bedroom-style-v01.png",
+      "bytes": 2069771,
+      "sha256": "4f1fa0e82bb84abfc70ecd8606448587da7198caa0e192d0643d26ec5f349423"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/style_samples/BG-02-kitchen-style-v01.png",
+      "bytes": 2450913,
+      "sha256": "2e21a04de6477100d03c97bdf540f55b8f6f195320c7df44b54668c33f9ccc0c"
+    },
+    {
+      "path": "docs/chapters/ch01/assets/style_samples/background-style-prompts.md",
+      "bytes": 3852,
+      "sha256": "ee8c9a3b527508fb532b5c3a7ffdfa638510703fb27cc8e918425dbc951f1e0b"
+    },
+    {
+      "path": "docs/chapters/ch01/branches/A.md",
+      "bytes": 15234,
+      "sha256": "a6b4034e395440fea54fe910636a180dc4832373e27ec9b3d9e62545460b91eb"
+    },
+    {
+      "path": "docs/chapters/ch01/branches/B.md",
+      "bytes": 14425,
+      "sha256": "4ac9673be108505c042094daf727b08d9271c9d3f9d973ab3afc028a860821d2"
+    },
+    {
+      "path": "docs/chapters/ch01/branches/C.md",
+      "bytes": 12079,
+      "sha256": "41ac982d139e34d3b8eb4167cffd1d46a12f47338c06a812d5cf89171a0779ef"
+    },
+    {
+      "path": "docs/chapters/ch01/branches/COMMON.md",
+      "bytes": 8687,
+      "sha256": "4aee6eb38323b8d3bc4e609507abab569a22bf6431d424943fc711af75b79740"
+    },
+    {
+      "path": "docs/chapters/ch01/branches/D.md",
+      "bytes": 12704,
+      "sha256": "0d074fedb32ffe447bcf6e9334476ace02b992bb680a124dceb00939a1926358"
+    },
+    {
+      "path": "docs/chapters/ch01/references/SOURCE_EXCERPT.md",
+      "bytes": 48770,
+      "sha256": "f2dc6f2b0ef1da1251f9cb964a5c8181e63e5294f88693cbee45673fec73b7c1"
+    },
+    {
+      "path": "docs/chapters/ch01/references/SOURCE_V1.0.md",
+      "bytes": 86312,
+      "sha256": "cbaa6f09c22ff42f24d5899c87a70815a062ce1bbd48fc3ab9c386f8906cbcbc"
+    },
+    {
+      "path": "docs/chapters/ch02/DISTANCE_suv.csv",
+      "bytes": 1308,
+      "sha256": "2aacc4f5f1eeb1aba0b909aacac850e73e00e9944fe02151e8dc27fc53ae881d"
+    },
+    {
+      "path": "docs/chapters/ch02/DISTANCE_walk.csv",
+      "bytes": 1322,
+      "sha256": "8dac4ee7286fd9821e1fca8d43b2f428ad49756e7a8284e6d091c220bd47445c"
+    },
+    {
+      "path": "docs/chapters/ch02/MAP_STYLE_V0.5.md",
+      "bytes": 2090,
+      "sha256": "239c89e48007fce5a5528474b89d30f67542cbb385779967518948f17a8331b0"
+    },
+    {
+      "path": "docs/chapters/ch02/NEEDS_V0.6.md",
+      "bytes": 1787,
+      "sha256": "aa1e8cd5cd8fa77025b805b5549661156343aa97506841a77bbdacc62a6468fd"
+    },
+    {
+      "path": "docs/chapters/ch02/PLANNING.md",
+      "bytes": 892,
+      "sha256": "9cc9e551c4b9c7379fd068c911871e4697eae3b486c104980cbdf8950814ec1c"
+    },
+    {
+      "path": "docs/chapters/ch02/TOWN_ROUTES_V0.4.json",
+      "bytes": 221456,
+      "sha256": "08c98e489dd5643337632ec023a61c5f31647500283c931d49e47747d0aa5ebd"
+    },
+    {
+      "path": "docs/chapters/ch02/TOWN_ROUTES_V0.4.md",
+      "bytes": 4603,
+      "sha256": "de86bd24cb03c89af486cd30e372a92d858b67623851006b78f22fcdd1d17a5c"
+    },
+    {
+      "path": "docs/chapters/ch02/TUTORIAL_B_V0.1.md",
+      "bytes": 6741,
+      "sha256": "a78b2c1980eb33ff79e6d96926fbe633f371456dc157c31984bd50d87ade3cad"
+    },
+    {
+      "path": "docs/chapters/ch02/archive/CH02_DESIGN_V0.1.md",
+      "bytes": 17624,
+      "sha256": "a36a37946efcabe0580d5cd56dd386959db243fa01334522a93164f993e52f4f"
+    },
+    {
+      "path": "docs/chapters/ch02/archive/README.md",
+      "bytes": 226,
+      "sha256": "d171a6a1510ef867ad6696333501d85604fbac84d18d8acc4c091cbf80cb818c"
+    },
+    {
+      "path": "docs/chapters/ch02/assets/01-排班地图.png",
+      "bytes": 182941,
+      "sha256": "e26f6e9c02b75d8467927810faf47e51375ca45419aff8153b45c5aad2fe13c1"
+    },
+    {
+      "path": "docs/chapters/ch02/assets/02-采购界面.png",
+      "bytes": 101683,
+      "sha256": "d84d2a005ff3859d60006377c4628f5acf161daaf8916e2cf3faa2ff4f65cf73"
+    },
+    {
+      "path": "docs/chapters/ch02/assets/03-晚间结算.png",
+      "bytes": 114170,
+      "sha256": "383bb91889bf865ade6947f5d184f11c43246c6238e6d32cffc9639ef707f601"
+    },
+    {
+      "path": "docs/chapters/ch02/assets/04-原地图接入.png",
+      "bytes": 211768,
+      "sha256": "f4f479265a45bd9d9b1f67fb442807b0f5d8fab0d37d94ae61f3557c6ab7e751"
+    },
+    {
+      "path": "docs/chapters/ch02/assets/05-地点距离表.png",
+      "bytes": 126928,
+      "sha256": "5e0b6fe49b017067f46fd8851456cb26ac1992978e3673c4969c25a1e609bea4"
+    },
+    {
+      "path": "docs/chapters/ch02/assets/07-地图风格调整.png",
+      "bytes": 212238,
+      "sha256": "734559b2961ecbb21e96e6a0c23350ba4204ff33a52bb0802ade8c35a73f896f"
+    },
+    {
+      "path": "docs/chapters/ch02/assets/08-人物与物资条.png",
+      "bytes": 233263,
+      "sha256": "b62c634ef481141350a340b6690bfd3d1921fa9fbe8f82c5ccfc32e185876553"
+    },
+    {
+      "path": "docs/chapters/ch02/assets/09-人物与晚间结算.png",
+      "bytes": 128134,
+      "sha256": "30b374f7b9c186077c9cc0b92907112e534b65abb27144ae96e55a443918978f"
+    },
+    {
+      "path": "docs/handoff/10-整合版第一章.png",
+      "bytes": 217432,
+      "sha256": "49d1598324c353bae8416d8f188fba8160e5c858f90072f29aefbd80fd194366"
+    },
+    {
+      "path": "docs/handoff/11-整合版第二章.png",
+      "bytes": 232219,
+      "sha256": "5ebe0ffcb7af3acea8a028302f3302a2f6abff1ebf3e7c866c85033cc59a1798"
+    },
+    {
+      "path": "docs/handoff/RELEASE_CONTENTS.md",
+      "bytes": 831,
+      "sha256": "bb083a7e8c398ffb2064ac1902c00c4c9c9f8003788c730fa3fb34c6bc303c2b"
+    },
+    {
+      "path": "docs/handoff/native/A-walk.json",
+      "bytes": 267,
+      "sha256": "abd5e863361f17d7122d0063bd2d7429f4bde76821d5121d91a86e986ea156d0"
+    },
+    {
+      "path": "docs/handoff/native/B-walk.json",
+      "bytes": 7538,
+      "sha256": "25a6e02fcc6117596631b7c70a231837922e9a8549d13e31a37faca75d54936c"
+    },
+    {
+      "path": "docs/handoff/native/C-walk.json",
+      "bytes": 282,
+      "sha256": "dc226b1678b00554d9fba4bb4e8db79d986c20480df3d6c3c0b903b6dbc4edbc"
+    },
+    {
+      "path": "docs/handoff/native/D-walk.json",
+      "bytes": 313,
+      "sha256": "a6d8a85f3c74a5c5e15fcdb9aa12a9ba51f95174f0cdd0d4f98486ba7823b4d9"
+    },
+    {
+      "path": "docs/handoff/native/T-ev.json",
+      "bytes": 7243,
+      "sha256": "5bad5d978efe2a3702d948d7108f9d0f212bc51666612d4190b1b04e5aacf057"
+    },
+    {
+      "path": "docs/handoff/native/T-suv.json",
+      "bytes": 7247,
+      "sha256": "9e1715507a693dab119ea42783aa4840e32e8580bb5b52daa022138d363c10be"
+    },
+    {
+      "path": "docs/handoff/整合交付校验.json",
+      "bytes": 495,
+      "sha256": "605ae852c536650ff52c62dbd37de3b81f2e081d9e3d81aad2bd453edc2da631"
+    },
+    {
+      "path": "docs/handoff/旧版程序归档位置.json",
+      "bytes": 1695,
+      "sha256": "e00b07a3ab6c7302bcdabcaac1c1198dbb88c4727572f85c0d60ad0a4abdd4ec"
+    },
+    {
+      "path": "game/ch01_visuals.rpy",
+      "bytes": 2220,
+      "sha256": "2dadd84a9e69e25e101c8bf2419fc84b77f96751a7b150a7a25bc6d488972757"
+    },
+    {
+      "path": "game/ch02_demo.json",
+      "bytes": 1387,
+      "sha256": "bcea3c09749e3e5d08d51c99816470d816615e8b07f477950cad670ee6d938eb"
+    },
+    {
+      "path": "game/ch02_model.py",
+      "bytes": 11799,
+      "sha256": "77f7db0a6d1b4fe16f2492b101b01ecd2f0d1b0cc77a53696872fcc5bf5671f4"
+    },
+    {
+      "path": "game/ch02_screens.rpy",
+      "bytes": 27406,
+      "sha256": "d7b58708f13a27f7afcabaad8a4fe745a89da25ca9514d9c0ffe6e39c6bb085f"
+    },
+    {
+      "path": "game/ch02_story.rpy",
+      "bytes": 4645,
+      "sha256": "903a439eb6c0d4c5b740b67d8fdc5305b68b764d3174756a02ed50d7fe6b4f30"
+    },
+    {
+      "path": "game/data/ch01.json",
+      "bytes": 163676,
+      "sha256": "d10b68b5548d1d2dbea89eb5c45bd3c4e5c206b130a3abf0951095f629854d9d"
+    },
+    {
+      "path": "game/data/ch01_asset_names.json",
+      "bytes": 1566,
+      "sha256": "cc91c5baddc5872ab26e6788bc5b41eb176f520b249c2caa493fa1738e1b4e3e"
+    },
+    {
+      "path": "game/data/ch01_assets.json",
+      "bytes": 1902,
+      "sha256": "efdd54a1f07cd9b98ac3e7e12cb03d3420ff676adbce5df0a83ec109406d5390"
+    },
+    {
+      "path": "game/data/ch01_presentation.json",
+      "bytes": 4164,
+      "sha256": "06807e498cfcf9d975d81b063ccd75c63d58b2e3c0d2cefae8fd698a59704675"
+    },
+    {
+      "path": "game/data/ch02_routes.json",
+      "bytes": 221456,
+      "sha256": "08c98e489dd5643337632ec023a61c5f31647500283c931d49e47747d0aa5ebd"
+    },
+    {
+      "path": "game/fonts/NotoSansSC-Regular.otf",
+      "bytes": 8331336,
+      "sha256": "faa6c9df652116dde789d351359f3d7e5d2285a2b2a1f04a2d7244df706d5ea9"
+    },
+    {
+      "path": "game/fonts/OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "game/images/backgrounds/BG-01.png",
+      "bytes": 2069771,
+      "sha256": "4f1fa0e82bb84abfc70ecd8606448587da7198caa0e192d0643d26ec5f349423"
+    },
+    {
+      "path": "game/images/backgrounds/BG-02.png",
+      "bytes": 2285867,
+      "sha256": "20634ba17690810a524b86a36193f93ff68a7acd07fd53264a388cb9b7a0e17b"
+    },
+    {
+      "path": "game/images/backgrounds/BG-03.png",
+      "bytes": 2928542,
+      "sha256": "9d92f7c60d112322a1d04caadc297dd6b2f7f8a166579650b718c8067b5908fc"
+    },
+    {
+      "path": "game/images/backgrounds/BG-04.png",
+      "bytes": 2410527,
+      "sha256": "36538b675acdfdb162854040f01fda6ec313be32d193d27d6dff795c710617cb"
+    },
+    {
+      "path": "game/images/backgrounds/BG-05.png",
+      "bytes": 2304931,
+      "sha256": "1347f22f48ece9ad07ee97ce55dbf6b976949f2b601d7614cf2e036ea343c6e5"
+    },
+    {
+      "path": "game/images/backgrounds/BG-06.png",
+      "bytes": 2487355,
+      "sha256": "ea4886234c66e17158018ce343ea7c15ae4ec8be2b589012146c215a06d51411"
+    },
+    {
+      "path": "game/images/backgrounds/BG-07.png",
+      "bytes": 2343663,
+      "sha256": "7a065d8282e7ccd3eba97f9720dd894651c56247f276753e69ea0ad90523aeb9"
+    },
+    {
+      "path": "game/images/backgrounds/BG-08.png",
+      "bytes": 2638860,
+      "sha256": "d18bff40080799ac80231e3241bc6086e37d38416842ec30563fe255024c70c0"
+    },
+    {
+      "path": "game/images/backgrounds/BG-09.png",
+      "bytes": 2747818,
+      "sha256": "f43d829af5b0a121f93ad70f00657020cd52e23bfe7244d5bdaf2e7a8f8326fe"
+    },
+    {
+      "path": "game/images/backgrounds/BG-10.png",
+      "bytes": 2358084,
+      "sha256": "b05818b3f38686d4f77fc50ddbe50ccac6d45e4a697aad9d6c15509848bed0ed"
+    },
+    {
+      "path": "game/images/backgrounds/BG-11.png",
+      "bytes": 2719658,
+      "sha256": "e906c9d51d952bc22c51134853e3163f0e1ad3811488ec0b5995168c482e755b"
+    },
+    {
+      "path": "game/images/backgrounds/BG-12.png",
+      "bytes": 2654382,
+      "sha256": "36352d227482a4d17ddf12729ca0d679eb8f74692e79a5df4d7a97fbaddf55a9"
+    },
+    {
+      "path": "game/images/backgrounds/BG-13.png",
+      "bytes": 2522290,
+      "sha256": "e427e5c7ad813a8850283b993801c9fc4de73f2bce48c1943910632928b0e9fd"
+    },
+    {
+      "path": "game/images/backgrounds/BG-14.png",
+      "bytes": 2493429,
+      "sha256": "1669fbde28b21b91cccd77cf09e17e7ebeb3e65f7fa860cd03f7f4c72c93c1f0"
+    },
+    {
+      "path": "game/images/backgrounds/BG-15.png",
+      "bytes": 2469285,
+      "sha256": "ea1adb8f63d745297a94f4d4031237092af40bae3c699916eed9f512209b6a0c"
+    },
+    {
+      "path": "game/images/backgrounds/BG-16.png",
+      "bytes": 2171661,
+      "sha256": "3c6c767ce6317e5d6381c5446bdb52925688559cc56dd43bfea18b52f6dfed8a"
+    },
+    {
+      "path": "game/images/backgrounds/BG-17.png",
+      "bytes": 2797180,
+      "sha256": "a99ebe75ded211dd13ab878a4bf4a5811ff62c547697477a47313f04ec13a3b0"
+    },
+    {
+      "path": "game/images/backgrounds/BG-18.png",
+      "bytes": 2784712,
+      "sha256": "9fd61889ccbdc5f28ef81101841e9e0cb4188e18a97586f93aec9dd65eb906ab"
+    },
+    {
+      "path": "game/images/backgrounds/BG-19.png",
+      "bytes": 2743432,
+      "sha256": "1e26b2bef0915fee150a718b9387842f1942a8968b7f9c89876e95a960c25acc"
+    },
+    {
+      "path": "game/images/backgrounds/BG-20.png",
+      "bytes": 2705835,
+      "sha256": "1d0c454ac10b6cdec6427f597e72799cbf2a071e2d77d5d3e3bacc8e40f4ba54"
+    },
+    {
+      "path": "game/images/backgrounds/BG-21.png",
+      "bytes": 2384448,
+      "sha256": "5e91a349105b6850cafec41479ffd774c87405529e51f5ee20b87382f95427e3"
+    },
+    {
+      "path": "game/images/backgrounds/BG-22.png",
+      "bytes": 2873349,
+      "sha256": "02945af6bcd45b975ab96f8bf9521373c531273b601987e92e264c6c95024e54"
+    },
+    {
+      "path": "game/images/backgrounds/BG-23.png",
+      "bytes": 2715189,
+      "sha256": "de2f7e7e98fc6a6c5329e82e0d58ce76ab5170d8f2be04e2e5b0a83a3ffeddc6"
+    },
+    {
+      "path": "game/images/backgrounds/BG-24.png",
+      "bytes": 2187224,
+      "sha256": "39688fee3e53de2c32a39458a004cd4069af782aa5e9986947b7e6c0b42ec120"
+    },
+    {
+      "path": "game/images/backgrounds/BG-25.png",
+      "bytes": 2237554,
+      "sha256": "cdafc38a950d9a3c73d5191b68afa5d66bcc8e410804523f3c62cfc1a6fed721"
+    },
+    {
+      "path": "game/images/backgrounds/BG-26.png",
+      "bytes": 1816804,
+      "sha256": "b3a58417632640865aec121d00d407365e072fe48312ccda1724eb5682c5285c"
+    },
+    {
+      "path": "game/images/cg/CG-01.png",
+      "bytes": 2539994,
+      "sha256": "d4052ae5141196af7b7388788278ab86a688731876d995084e1570ba6148a892"
+    },
+    {
+      "path": "game/images/cg/CG-02.png",
+      "bytes": 2242774,
+      "sha256": "8ece90fba10596658580531c0da379386e39964622baee5821a939c09dea82da"
+    },
+    {
+      "path": "game/images/cg/CG-03.png",
+      "bytes": 2656372,
+      "sha256": "d8452a586703817f766c9d8ac73c5ea997c1d54c9cb8b663f07a655335ee256f"
+    },
+    {
+      "path": "game/images/ch02/map.png",
+      "bytes": 4797,
+      "sha256": "11945e945890d54e51a9e42eccd5b924d9deec758e51b2c538de37ef7d0b0b1a"
+    },
+    {
+      "path": "game/images/ch02/marker_ev.png",
+      "bytes": 1809,
+      "sha256": "e9d29528a8e788027cfcd76dcea36b6454c4a99b2a9c34e665f592f554ec5d99"
+    },
+    {
+      "path": "game/images/ch02/marker_ev.svg",
+      "bytes": 363,
+      "sha256": "3086a61361c31d8e49d3ffe851d5325cd441e4d2563f71639561067ea7daa6f6"
+    },
+    {
+      "path": "game/images/ch02/marker_suv.png",
+      "bytes": 1809,
+      "sha256": "e9d29528a8e788027cfcd76dcea36b6454c4a99b2a9c34e665f592f554ec5d99"
+    },
+    {
+      "path": "game/images/ch02/marker_suv.svg",
+      "bytes": 363,
+      "sha256": "3086a61361c31d8e49d3ffe851d5325cd441e4d2563f71639561067ea7daa6f6"
+    },
+    {
+      "path": "game/images/ch02/marker_walk.png",
+      "bytes": 2177,
+      "sha256": "b74da5c620ef03093bdd1a1cadb3195878973e6b3f64ee6526eef02bb276209b"
+    },
+    {
+      "path": "game/images/ch02/marker_walk.svg",
+      "bytes": 392,
+      "sha256": "d8e8484f9a47d30c2c1cf42af18c799df556730b1ab902cee23a349966baadc0"
+    },
+    {
+      "path": "game/images/ch02/poi/farm_hover.png",
+      "bytes": 2110,
+      "sha256": "b473b15e066a57f472dc5bc5d05e1470291312e702906fe9be5628e3ce7bd3e1"
+    },
+    {
+      "path": "game/images/ch02/poi/farm_hover.svg",
+      "bytes": 404,
+      "sha256": "e967ab38a28f4429dfffe2c45e077be4752c583f375f7d45e593a85984cb6610"
+    },
+    {
+      "path": "game/images/ch02/poi/farm_idle.png",
+      "bytes": 2087,
+      "sha256": "4ed5d9e856dc57478233acea2134ec15b7b5073536c89d56a57e7fa4ffeaab4d"
+    },
+    {
+      "path": "game/images/ch02/poi/farm_idle.svg",
+      "bytes": 404,
+      "sha256": "51ecb882d03a053addf5a52905b0ca0287ff4dffefba16fe1f648973d2a4b2c8"
+    },
+    {
+      "path": "game/images/ch02/poi/farm_selected.png",
+      "bytes": 2110,
+      "sha256": "b473b15e066a57f472dc5bc5d05e1470291312e702906fe9be5628e3ce7bd3e1"
+    },
+    {
+      "path": "game/images/ch02/poi/farm_selected.svg",
+      "bytes": 404,
+      "sha256": "e967ab38a28f4429dfffe2c45e077be4752c583f375f7d45e593a85984cb6610"
+    },
+    {
+      "path": "game/images/ch02/poi/freight_hover.png",
+      "bytes": 1360,
+      "sha256": "8a5248cff24c8f2bdf9fd785fe237036dab245e0d2cc6eb1ec6aa426fcddc111"
+    },
+    {
+      "path": "game/images/ch02/poi/freight_hover.svg",
+      "bytes": 399,
+      "sha256": "5364cf7074b6ce5c45e059c7a699f06a39ac4ea082278dc57ea9c55b0fc8f47f"
+    },
+    {
+      "path": "game/images/ch02/poi/freight_idle.png",
+      "bytes": 1331,
+      "sha256": "a27341471bec6cf77464559a12b5fa88565b205c68be23b3016dcae40788b864"
+    },
+    {
+      "path": "game/images/ch02/poi/freight_idle.svg",
+      "bytes": 399,
+      "sha256": "1094a07e60b3734f90f1291310be2ef51309c3c608167856587756c9856a6169"
+    },
+    {
+      "path": "game/images/ch02/poi/freight_selected.png",
+      "bytes": 1360,
+      "sha256": "8a5248cff24c8f2bdf9fd785fe237036dab245e0d2cc6eb1ec6aa426fcddc111"
+    },
+    {
+      "path": "game/images/ch02/poi/freight_selected.svg",
+      "bytes": 399,
+      "sha256": "5364cf7074b6ce5c45e059c7a699f06a39ac4ea082278dc57ea9c55b0fc8f47f"
+    },
+    {
+      "path": "game/images/ch02/poi/fuel_hover.png",
+      "bytes": 1580,
+      "sha256": "33f7355be147cbc4876ef310852e4cb73b3ca5920035139f5c6084d9fe0d4895"
+    },
+    {
+      "path": "game/images/ch02/poi/fuel_hover.svg",
+      "bytes": 400,
+      "sha256": "63b137f08f72613a015996e0588563ac28780b3b4a03db9aa3ef0d6be915fb36"
+    },
+    {
+      "path": "game/images/ch02/poi/fuel_idle.png",
+      "bytes": 1554,
+      "sha256": "db48de2f6884adf0e9110fdb34139e870f7da1331015375e6bc094035127e7d0"
+    },
+    {
+      "path": "game/images/ch02/poi/fuel_idle.svg",
+      "bytes": 400,
+      "sha256": "c18952c4f74a966dfc6ffa44001b7539c6dea88e931575745e253fc6ebcf9f7b"
+    },
+    {
+      "path": "game/images/ch02/poi/fuel_selected.png",
+      "bytes": 1580,
+      "sha256": "33f7355be147cbc4876ef310852e4cb73b3ca5920035139f5c6084d9fe0d4895"
+    },
+    {
+      "path": "game/images/ch02/poi/fuel_selected.svg",
+      "bytes": 400,
+      "sha256": "63b137f08f72613a015996e0588563ac28780b3b4a03db9aa3ef0d6be915fb36"
+    },
+    {
+      "path": "game/images/ch02/poi/gate_hover.png",
+      "bytes": 1322,
+      "sha256": "64fde5e59f2302a3eeca8a2148149094ba831447616cadf53413d1456e7d2bd6"
+    },
+    {
+      "path": "game/images/ch02/poi/gate_hover.svg",
+      "bytes": 377,
+      "sha256": "b94eaa075ca3d63f86aa5c3b206223957d2345d95bbaacfe8df6e081349a7c7b"
+    },
+    {
+      "path": "game/images/ch02/poi/gate_idle.png",
+      "bytes": 1273,
+      "sha256": "64f05c224687bae27a3f7b44847d243b523b8f8c181b083b68a3efceec41d85a"
+    },
+    {
+      "path": "game/images/ch02/poi/gate_idle.svg",
+      "bytes": 377,
+      "sha256": "0a4f36843497abca1284af4bc9d068cba7c5d58d2c55a566586cea38d4ddcc98"
+    },
+    {
+      "path": "game/images/ch02/poi/gate_selected.png",
+      "bytes": 1322,
+      "sha256": "64fde5e59f2302a3eeca8a2148149094ba831447616cadf53413d1456e7d2bd6"
+    },
+    {
+      "path": "game/images/ch02/poi/gate_selected.svg",
+      "bytes": 377,
+      "sha256": "b94eaa075ca3d63f86aa5c3b206223957d2345d95bbaacfe8df6e081349a7c7b"
+    },
+    {
+      "path": "game/images/ch02/poi/hardware_hover.png",
+      "bytes": 1830,
+      "sha256": "0acd62ef30e898d2d33ccf4d7c8379ac4968fe65b0ded7fa17580a0ad3d5646f"
+    },
+    {
+      "path": "game/images/ch02/poi/hardware_hover.svg",
+      "bytes": 381,
+      "sha256": "492790835a86405f80a045f7855ad331af059101f2ccf318ba3acf81e592f96f"
+    },
+    {
+      "path": "game/images/ch02/poi/hardware_idle.png",
+      "bytes": 1861,
+      "sha256": "1b4451122adaf7a57463aadd2505614ae1eb32161524de719a1b69de5c15d590"
+    },
+    {
+      "path": "game/images/ch02/poi/hardware_idle.svg",
+      "bytes": 381,
+      "sha256": "e7f303ce6da1932e666d55791b91afb9b0b901b5c30ddbd3d125eafe5fc4090b"
+    },
+    {
+      "path": "game/images/ch02/poi/hardware_selected.png",
+      "bytes": 1830,
+      "sha256": "0acd62ef30e898d2d33ccf4d7c8379ac4968fe65b0ded7fa17580a0ad3d5646f"
+    },
+    {
+      "path": "game/images/ch02/poi/hardware_selected.svg",
+      "bytes": 381,
+      "sha256": "492790835a86405f80a045f7855ad331af059101f2ccf318ba3acf81e592f96f"
+    },
+    {
+      "path": "game/images/ch02/poi/home_hover.png",
+      "bytes": 1694,
+      "sha256": "d2b58310ad8e18d5d9adf5d75f28613fe744785cefb30037c5414221f4358836"
+    },
+    {
+      "path": "game/images/ch02/poi/home_hover.svg",
+      "bytes": 376,
+      "sha256": "7158a462e4a261a498804331c6c6b6dca5d9b3d45a9bb4ff2b8366e1cf7fb38f"
+    },
+    {
+      "path": "game/images/ch02/poi/home_idle.png",
+      "bytes": 1732,
+      "sha256": "bfec7d2cec962f10b74f030338b66ab09775b1ac1a81ec09c2cca0aa4a32a732"
+    },
+    {
+      "path": "game/images/ch02/poi/home_idle.svg",
+      "bytes": 376,
+      "sha256": "1723c642bb1a154644dc478acea9c1ac14c76cc7fb3436f97e609e25f0de5cff"
+    },
+    {
+      "path": "game/images/ch02/poi/home_selected.png",
+      "bytes": 1694,
+      "sha256": "d2b58310ad8e18d5d9adf5d75f28613fe744785cefb30037c5414221f4358836"
+    },
+    {
+      "path": "game/images/ch02/poi/home_selected.svg",
+      "bytes": 376,
+      "sha256": "7158a462e4a261a498804331c6c6b6dca5d9b3d45a9bb4ff2b8366e1cf7fb38f"
+    },
+    {
+      "path": "game/images/ch02/poi/market_hover.png",
+      "bytes": 1729,
+      "sha256": "072c1202229a65fc865e345015f9fcf676b83bb0faafe60089ba436ed4ed1f38"
+    },
+    {
+      "path": "game/images/ch02/poi/market_hover.svg",
+      "bytes": 397,
+      "sha256": "76f291a505cd0eb7fca64ff43d27eeda77c774b7e46d348d85338db5c30537a8"
+    },
+    {
+      "path": "game/images/ch02/poi/market_idle.png",
+      "bytes": 1711,
+      "sha256": "2f05b50b5c77d6ad209e9149f5ddc1646f23bc2cf680948af12771e0b92c86db"
+    },
+    {
+      "path": "game/images/ch02/poi/market_idle.svg",
+      "bytes": 397,
+      "sha256": "13f5c6b2d7d06e3c7021de6a70008accf7efcbb14e6695f08e86390c9e7bd71e"
+    },
+    {
+      "path": "game/images/ch02/poi/market_selected.png",
+      "bytes": 1729,
+      "sha256": "072c1202229a65fc865e345015f9fcf676b83bb0faafe60089ba436ed4ed1f38"
+    },
+    {
+      "path": "game/images/ch02/poi/market_selected.svg",
+      "bytes": 397,
+      "sha256": "76f291a505cd0eb7fca64ff43d27eeda77c774b7e46d348d85338db5c30537a8"
+    },
+    {
+      "path": "game/images/ch02/poi/neighbor_hover.png",
+      "bytes": 1732,
+      "sha256": "45843855c79667d01d2d95bb4ac6fd9ab3f016ef9de5c1c640f7c802018696b7"
+    },
+    {
+      "path": "game/images/ch02/poi/neighbor_hover.svg",
+      "bytes": 379,
+      "sha256": "60efe52d760a37f8db3788082455f657bfbb6360b58272816a8a0fea11e48dae"
+    },
+    {
+      "path": "game/images/ch02/poi/neighbor_idle.png",
+      "bytes": 1718,
+      "sha256": "bbedbd9dd9fd1ef72b4aea28628aa2b0c1b7c3f01af05f493e2a53ef2ef965c7"
+    },
+    {
+      "path": "game/images/ch02/poi/neighbor_idle.svg",
+      "bytes": 379,
+      "sha256": "e2c9317d216618d114c45ad077f84a93d5cf0234222008630cb9ac73c631ed7b"
+    },
+    {
+      "path": "game/images/ch02/poi/neighbor_selected.png",
+      "bytes": 1732,
+      "sha256": "45843855c79667d01d2d95bb4ac6fd9ab3f016ef9de5c1c640f7c802018696b7"
+    },
+    {
+      "path": "game/images/ch02/poi/neighbor_selected.svg",
+      "bytes": 379,
+      "sha256": "60efe52d760a37f8db3788082455f657bfbb6360b58272816a8a0fea11e48dae"
+    },
+    {
+      "path": "game/images/ch02/poi/parcel_hover.png",
+      "bytes": 1702,
+      "sha256": "7d9bf49d0ecbb780a2d8a803dc3aca186a373d36ec9dfd9a45401e621703f0a1"
+    },
+    {
+      "path": "game/images/ch02/poi/parcel_hover.svg",
+      "bytes": 399,
+      "sha256": "e0e8620a89ca553228f02a35b942fc2afce7c0ed960d95302c1344c49d486a77"
+    },
+    {
+      "path": "game/images/ch02/poi/parcel_idle.png",
+      "bytes": 1731,
+      "sha256": "a2bde7c83ebd0682045a939e40fa6258f3ab3ee74e377774b4e4b088150799bb"
+    },
+    {
+      "path": "game/images/ch02/poi/parcel_idle.svg",
+      "bytes": 399,
+      "sha256": "d9647c55fd8540f1979403d09e41b146d468cec0c8b6b93e87a9b587fc580a43"
+    },
+    {
+      "path": "game/images/ch02/poi/parcel_selected.png",
+      "bytes": 1702,
+      "sha256": "7d9bf49d0ecbb780a2d8a803dc3aca186a373d36ec9dfd9a45401e621703f0a1"
+    },
+    {
+      "path": "game/images/ch02/poi/parcel_selected.svg",
+      "bytes": 399,
+      "sha256": "e0e8620a89ca553228f02a35b942fc2afce7c0ed960d95302c1344c49d486a77"
+    },
+    {
+      "path": "game/images/ch02/poi/pharmacy_hover.png",
+      "bytes": 1349,
+      "sha256": "b5b604fd9470b6d33916dd0fa0861b6b5575931cdd61ebf3fb3fa9937cd9ae22"
+    },
+    {
+      "path": "game/images/ch02/poi/pharmacy_hover.svg",
+      "bytes": 369,
+      "sha256": "ead8bfe46e4910984c63fc50e191fb0378f0e7e96ca10540ba81ef1e4773f85f"
+    },
+    {
+      "path": "game/images/ch02/poi/pharmacy_idle.png",
+      "bytes": 1337,
+      "sha256": "02a786b36be814fbffaf98af64a6fd1775a81ca6c52f025138d4d29389b02743"
+    },
+    {
+      "path": "game/images/ch02/poi/pharmacy_idle.svg",
+      "bytes": 369,
+      "sha256": "596eee01d0028b7f82cb0ba9e29e1e3ab52c1a22d1e84d62640428976c27ed73"
+    },
+    {
+      "path": "game/images/ch02/poi/pharmacy_selected.png",
+      "bytes": 1349,
+      "sha256": "b5b604fd9470b6d33916dd0fa0861b6b5575931cdd61ebf3fb3fa9937cd9ae22"
+    },
+    {
+      "path": "game/images/ch02/poi/pharmacy_selected.svg",
+      "bytes": 369,
+      "sha256": "ead8bfe46e4910984c63fc50e191fb0378f0e7e96ca10540ba81ef1e4773f85f"
+    },
+    {
+      "path": "game/images/ch02/poi/port_hover.png",
+      "bytes": 1752,
+      "sha256": "d998aecd7d0ba06c5ccaaf4e0b8f9b434643e131be19f9b3dc1c58ce3dbe9287"
+    },
+    {
+      "path": "game/images/ch02/poi/port_hover.svg",
+      "bytes": 429,
+      "sha256": "31e9b664f7366ed7dae5b39f4d12773f05101c6f07374d2c106f9b0ac9f62751"
+    },
+    {
+      "path": "game/images/ch02/poi/port_idle.png",
+      "bytes": 1719,
+      "sha256": "2bcd810810d2d2b4784acb62488f4facb6169545e3baa0d85d5d10eefe06fd78"
+    },
+    {
+      "path": "game/images/ch02/poi/port_idle.svg",
+      "bytes": 429,
+      "sha256": "ffe1ab10f91dbb5ecd38173ee4170de1fb9843b05140b1e39fb6f8ef3b241de9"
+    },
+    {
+      "path": "game/images/ch02/poi/port_selected.png",
+      "bytes": 1752,
+      "sha256": "d998aecd7d0ba06c5ccaaf4e0b8f9b434643e131be19f9b3dc1c58ce3dbe9287"
+    },
+    {
+      "path": "game/images/ch02/poi/port_selected.svg",
+      "bytes": 429,
+      "sha256": "31e9b664f7366ed7dae5b39f4d12773f05101c6f07374d2c106f9b0ac9f62751"
+    },
+    {
+      "path": "game/images/ch02/poi/pv_field_hover.png",
+      "bytes": 1454,
+      "sha256": "2fd9c0fd051ce7f872a0f219d05d0cae51aa7625d8eaa17a75efb2403ee782ca"
+    },
+    {
+      "path": "game/images/ch02/poi/pv_field_hover.svg",
+      "bytes": 395,
+      "sha256": "b41022d825ef9511b81f8bab2eb620ff504df36e950e5e187e9b9fc61e8b24fd"
+    },
+    {
+      "path": "game/images/ch02/poi/pv_field_idle.png",
+      "bytes": 1438,
+      "sha256": "84d1af334af9db187cc819b16472b871abc6764ac60c0c5275b5d2b0ecdfbba7"
+    },
+    {
+      "path": "game/images/ch02/poi/pv_field_idle.svg",
+      "bytes": 395,
+      "sha256": "01e956ce075432adedcbf8b61cb62bdc8e995499461a0b4ed061e5298780e72f"
+    },
+    {
+      "path": "game/images/ch02/poi/pv_field_selected.png",
+      "bytes": 1454,
+      "sha256": "2fd9c0fd051ce7f872a0f219d05d0cae51aa7625d8eaa17a75efb2403ee782ca"
+    },
+    {
+      "path": "game/images/ch02/poi/pv_field_selected.svg",
+      "bytes": 395,
+      "sha256": "b41022d825ef9511b81f8bab2eb620ff504df36e950e5e187e9b9fc61e8b24fd"
+    },
+    {
+      "path": "game/images/ch02/poi/station_hover.png",
+      "bytes": 1762,
+      "sha256": "d180040260028b77803301acf068709cf20f10323393536cf47203c4e265d307"
+    },
+    {
+      "path": "game/images/ch02/poi/station_hover.svg",
+      "bytes": 437,
+      "sha256": "758cb8fa12cdcab345ebb3b89b701f93fb37871fb5a97d7b47ffb26850c1b752"
+    },
+    {
+      "path": "game/images/ch02/poi/station_idle.png",
+      "bytes": 1739,
+      "sha256": "93637fe213571c25d73a35561d41cd8de33c0faf2743408348a6bea53715321e"
+    },
+    {
+      "path": "game/images/ch02/poi/station_idle.svg",
+      "bytes": 437,
+      "sha256": "3f90a85a176ca4f4ad6ef56b882f66bf8d81667567e13595c870d123170cc349"
+    },
+    {
+      "path": "game/images/ch02/poi/station_selected.png",
+      "bytes": 1762,
+      "sha256": "d180040260028b77803301acf068709cf20f10323393536cf47203c4e265d307"
+    },
+    {
+      "path": "game/images/ch02/poi/station_selected.svg",
+      "bytes": 437,
+      "sha256": "758cb8fa12cdcab345ebb3b89b701f93fb37871fb5a97d7b47ffb26850c1b752"
+    },
+    {
+      "path": "game/images/ch02/poi/workshop_hover.png",
+      "bytes": 1901,
+      "sha256": "39ba3bbee6edaed2cce98bb734045ef45460f48abb7563827f26a52fbe92cc70"
+    },
+    {
+      "path": "game/images/ch02/poi/workshop_hover.svg",
+      "bytes": 394,
+      "sha256": "86eaf3f52dfa0eb9a8bcd4f0a091bc8eb24044fa630cefba6d29671ab70c36d4"
+    },
+    {
+      "path": "game/images/ch02/poi/workshop_idle.png",
+      "bytes": 1931,
+      "sha256": "1a3852dd96551bbc91c1a5f3abe984d33c2dcbf51142c2afdf2ae47b6dc0bd05"
+    },
+    {
+      "path": "game/images/ch02/poi/workshop_idle.svg",
+      "bytes": 394,
+      "sha256": "bc282b5acb07ebe32fa7b48c4c4bfa634445ca01c0718adbdbfdea3797248047"
+    },
+    {
+      "path": "game/images/ch02/poi/workshop_selected.png",
+      "bytes": 1901,
+      "sha256": "39ba3bbee6edaed2cce98bb734045ef45460f48abb7563827f26a52fbe92cc70"
+    },
+    {
+      "path": "game/images/ch02/poi/workshop_selected.svg",
+      "bytes": 394,
+      "sha256": "86eaf3f52dfa0eb9a8bcd4f0a091bc8eb24044fa630cefba6d29671ab70c36d4"
+    },
+    {
+      "path": "game/images/ch02/route_market.png",
+      "bytes": 1772,
+      "sha256": "c6a46cb6c68ff97520e63a134b09a31570d106414223be58238519d413bdccd5"
+    },
+    {
+      "path": "game/images/ch02/route_market_pharmacy.png",
+      "bytes": 1780,
+      "sha256": "c9cabe59d22ca62b3d648c7690778cdf3fb1760826c29dc91e47ef6e8952ef8e"
+    },
+    {
+      "path": "game/images/ch02/route_pharmacy.png",
+      "bytes": 1773,
+      "sha256": "c163a60fca911acc6fbf81b33fbbc2d8289fcbf78c447197b1286c5aafacb352"
+    },
+    {
+      "path": "game/images/ch02/route_pharmacy_market.png",
+      "bytes": 1780,
+      "sha256": "c9cabe59d22ca62b3d648c7690778cdf3fb1760826c29dc91e47ef6e8952ef8e"
+    },
+    {
+      "path": "game/images/ch02/town_map.png",
+      "bytes": 133864,
+      "sha256": "de1a6fdc4a388c2604299c3095f4aa9fb65809f1bf3a99365836a58d4592a3e7"
+    },
+    {
+      "path": "game/images/ch02/town_map_game.png",
+      "bytes": 98745,
+      "sha256": "039cca5dcabb136ea21c0c9b53d58a26e8f124631cb13274053a1cadf81e16c4"
+    },
+    {
+      "path": "game/images/ch02/town_map_game.svg",
+      "bytes": 34886,
+      "sha256": "3abd850080adbb2e5ebe4fc98a500c6a7e0939e33a4eeb1c6c27e35bf6571a2c"
+    },
+    {
+      "path": "game/images/ch02/town_route_ev_market.png",
+      "bytes": 12527,
+      "sha256": "08a19037d91e9a51c04f339b3d666523a61dbd5cd199638a4067abe3f269a504"
+    },
+    {
+      "path": "game/images/ch02/town_route_ev_market_pharmacy.png",
+      "bytes": 13837,
+      "sha256": "d924be697708ad206c1203307ea4247bc92fbd769943b75c28eb1a0c1cfc7bb1"
+    },
+    {
+      "path": "game/images/ch02/town_route_ev_pharmacy.png",
+      "bytes": 13779,
+      "sha256": "3b613896a4a19108ed942a000e775033ec85a499ef903d7c364fcd18e32d7cff"
+    },
+    {
+      "path": "game/images/ch02/town_route_ev_pharmacy_market.png",
+      "bytes": 13977,
+      "sha256": "14f65c927cabc48eca7fe19c67cc6c8f6bf0648f02db1f120bb4152ace2513fe"
+    },
+    {
+      "path": "game/images/ch02/town_route_suv_market.png",
+      "bytes": 12527,
+      "sha256": "08a19037d91e9a51c04f339b3d666523a61dbd5cd199638a4067abe3f269a504"
+    },
+    {
+      "path": "game/images/ch02/town_route_suv_market_pharmacy.png",
+      "bytes": 13837,
+      "sha256": "d924be697708ad206c1203307ea4247bc92fbd769943b75c28eb1a0c1cfc7bb1"
+    },
+    {
+      "path": "game/images/ch02/town_route_suv_pharmacy.png",
+      "bytes": 13779,
+      "sha256": "3b613896a4a19108ed942a000e775033ec85a499ef903d7c364fcd18e32d7cff"
+    },
+    {
+      "path": "game/images/ch02/town_route_suv_pharmacy_market.png",
+      "bytes": 13977,
+      "sha256": "14f65c927cabc48eca7fe19c67cc6c8f6bf0648f02db1f120bb4152ace2513fe"
+    },
+    {
+      "path": "game/images/ch02/town_route_walk_market.png",
+      "bytes": 13032,
+      "sha256": "c20332635579f1785df6d2d67b5848b72b5839b7d6791f2ac70174cba0a0bd14"
+    },
+    {
+      "path": "game/images/ch02/town_route_walk_market_pharmacy.png",
+      "bytes": 14667,
+      "sha256": "7ba0efbbb1507470af42a4177582aeca795f9c21b980b4241a7fe6a57ea126df"
+    },
+    {
+      "path": "game/images/ch02/town_route_walk_pharmacy.png",
+      "bytes": 14325,
+      "sha256": "243242cff4dbe4160c3165cf79ad7314251aaa0a8b4fd61a265efbb9e103d7f0"
+    },
+    {
+      "path": "game/images/ch02/town_route_walk_pharmacy_market.png",
+      "bytes": 14714,
+      "sha256": "86d18ed7a8e4b2b59467f05b994493280d67caf34fc288b5ddef74e896a072a8"
+    },
+    {
+      "path": "game/images/characters/CHAR-01.png",
+      "bytes": 1446218,
+      "sha256": "07f96cc2f22c459a0c22614c69f2365425ffa5272d7b0310ab2516e8a601a0fa"
+    },
+    {
+      "path": "game/images/characters/CHAR-02.png",
+      "bytes": 1418952,
+      "sha256": "a2e4f9097790521548cfe1a7e6b466944842dbaaf379fcfe2c5ed8337f2051bc"
+    },
+    {
+      "path": "game/images/characters/CHAR-03.png",
+      "bytes": 1514037,
+      "sha256": "59cfb6ebcce3a4cdfcc69444b0469b947fbd112f37346bcff70ae1ef37010bae"
+    },
+    {
+      "path": "game/images/characters/CHAR-04.png",
+      "bytes": 1419810,
+      "sha256": "51eeb961d476e38e7cdb40e5266f91fc5474e08a440cb9443b863bd7358ec8f0"
+    },
+    {
+      "path": "game/images/characters/manifest.json",
+      "bytes": 17339,
+      "sha256": "6e7d7deaf49b1c462e2bd0243b96237dbeb886c3215563f2ee907d5fe0b9d419"
+    },
+    {
+      "path": "game/images/extras/EX-01-city-home.png",
+      "bytes": 2281455,
+      "sha256": "82b1b994f535f741effd33d0bfac8784a0e7146c480b01a0ecf3d954769db0a4"
+    },
+    {
+      "path": "game/images/extras/EX-02-family-photo.png",
+      "bytes": 2991783,
+      "sha256": "e56780e078d94563390e4f0b950db4095c97d1f6dbaabf60d26b5ae266c468f8"
+    },
+    {
+      "path": "game/images/variants/VAR-01-BG-07-clear.png",
+      "bytes": 2273666,
+      "sha256": "4fc12ae90e867787a2bdf8fdff38f1eb48df36f9846f9b20048639483c4ec97c"
+    },
+    {
+      "path": "game/images/variants/VAR-02-BG-18-night.png",
+      "bytes": 2516113,
+      "sha256": "a9a759081e6a967eeec7d42be212e9a71b4f42b4c4f5f1432c079d30552867a6"
+    },
+    {
+      "path": "game/images/variants/VAR-03-BG-24-depleted.png",
+      "bytes": 2015582,
+      "sha256": "1dacec6154b3b8e01eb33c72e7bc806865d9d1a01d30145c13d5de9bf4fc1b85"
+    },
+    {
+      "path": "game/images/variants/VAR-04-BG-26-before-smoke.png",
+      "bytes": 1813576,
+      "sha256": "a76b6ed6bf18fa50d789384bb05925fa789ce558db788311e7616bc453711fca"
+    },
+    {
+      "path": "game/images/variants/VAR-05-BG-05-prepared.png",
+      "bytes": 2228492,
+      "sha256": "2ccdd0865cc4df9eca6e34203c0b49ae06205dead146e145d59d15e608714a0a"
+    },
+    {
+      "path": "game/images/variants/VAR-06-BG-15-predawn.png",
+      "bytes": 2231270,
+      "sha256": "49d22bd87f62b29cfc588e7a4552715555d97abea6e48872c1b1f1783291a55c"
+    },
+    {
+      "path": "game/images/variants/VAR-07-BG-25-emergency.png",
+      "bytes": 1842321,
+      "sha256": "e0e3ec2f7a805f7275922b417f38dc7b9cc6fcd9748f9165c7f1f817c760a54d"
+    },
+    {
+      "path": "game/options.rpy",
+      "bytes": 1668,
+      "sha256": "2321ff80eef1a1e3200f8b6c0ea50951ff9c79890efaf207dce207add3a29b92"
+    },
+    {
+      "path": "game/screens.rpy",
+      "bytes": 13872,
+      "sha256": "81fa3a49ced56413f66a7d35d889f4c86f5080baf2b9d0fb9895775742a3975f"
+    },
+    {
+      "path": "game/script.rpy",
+      "bytes": 1519,
+      "sha256": "2a7a3649aacea7d0336eb047e3646f1265a9b04f72d630ddadf8eb64d05ffe57"
+    },
+    {
+      "path": "game/story_generated.rpy",
+      "bytes": 124959,
+      "sha256": "5f6a9c937cb389604cffaa258141b33f8c7790bb10e4431342dac52ff2272bd7"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 128,
+      "sha256": "8064f3a603e842627d3f039561a087c8e47e1b8470083e02411a6fc9f5ccfdeb"
+    },
+    {
+      "path": "tools/build_layouts.py",
+      "bytes": 1751,
+      "sha256": "2277cde240ad2b484df08f6b49c7972c5f75a2210ada969415e8cdaba2585532"
+    },
+    {
+      "path": "tools/build_town_routes.py",
+      "bytes": 11305,
+      "sha256": "ce4cac41106bf51df5ce7ba1506bc809139a8a68173233a1033047dbb639371b"
+    },
+    {
+      "path": "tools/capacity_model.py",
+      "bytes": 8274,
+      "sha256": "465ba5667c6635d9a96d20097b48b2abbe9a8cc81d098bf38e814145783b2dc5"
+    },
+    {
+      "path": "tools/export_renpy.py",
+      "bytes": 7215,
+      "sha256": "e5d399534d3b382a0286c3785b9d40b3427b6a6727c4cf2454a780745b91c02f"
+    },
+    {
+      "path": "tools/export_story.py",
+      "bytes": 9940,
+      "sha256": "cfd3f7804461664f623b022a76f9f7b225c3bc7de4c4359da538fbeba76584e7"
+    },
+    {
+      "path": "tools/furnished_house.py",
+      "bytes": 29309,
+      "sha256": "b82ad83e9a813cd66391c87413f854be1f8386f2c4ed78daaa61674d0591a2fc"
+    },
+    {
+      "path": "tools/package_game.py",
+      "bytes": 2429,
+      "sha256": "24afec96c7e0b02d53e5e2129d65aef52cb2ea75f5b214cc3e5c3fdaa61d33ad"
+    },
+    {
+      "path": "tools/pv_layout.py",
+      "bytes": 4055,
+      "sha256": "2a649ef03a9bf36bb6f55a7b83d8504871e2e08523f6a61bf85c7f9eb7e252b1"
+    },
+    {
+      "path": "tools/style_town_map.py",
+      "bytes": 6314,
+      "sha256": "7dc2afe112ec9f21dff4c9729367449243505444c46d3a8728583dde835d9c39"
+    },
+    {
+      "path": "tools/test_ch02_model.py",
+      "bytes": 5523,
+      "sha256": "83e0ba3a954395b877d88a351f3da2b84a99de15b425e9b935402e50f3bc91e9"
+    },
+    {
+      "path": "tools/test_ch02_routes.py",
+      "bytes": 3741,
+      "sha256": "e8202ce561d96ad1ead324694d60867e714625f828cb74d509bc73ae835f755e"
+    },
+    {
+      "path": "tools/test_unified_resources.py",
+      "bytes": 1833,
+      "sha256": "5530e40bbd0abfe84043e0591df767332d7332bbb53c00c8f16d97fc40cabc9c"
+    },
+    {
+      "path": "tools/town_map.py",
+      "bytes": 10666,
+      "sha256": "ab9857cbdd4507498c134452c793a99e5e2789f3c6444acfafc2e07a6355a4f7"
+    },
+    {
+      "path": "tools/verify_handoff.py",
+      "bytes": 1864,
+      "sha256": "062ddfbd784b6e8ed57c0aa5de2c58c8a7ea7f9ab03a2041918505685622179d"
+    }
+  ]
+}

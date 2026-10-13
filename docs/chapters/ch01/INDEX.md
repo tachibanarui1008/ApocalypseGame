@@ -1,5 +1,7 @@
 # 第一章编号索引 V1.0
 
+[第一章资源图库 V0.1](assets/production-v01/index.html) · [资源文件与演出映射](assets/production-v01/resources.md) · [完整生成记录](assets/production-v01/manifest.json)。2026-10-10已完成26BG、3CG、7状态变体、2演出补图与4基础立绘。
+
 [主剧本](SCRIPT.md) · [美术提示词](ART_PROMPTS.md) · [成就](ACHIEVEMENTS.md) · [待定问题](OPEN_QUESTIONS.md)
 
 共通线4节点；A6幕、B7幕、C6幕、D7幕，共30节点。只显示视觉小说叙事UI。
@@ -34,9 +36,9 @@
 | CH01-B02 | [餐厅后厨](SCRIPT.md#ch01-b02餐厅后厨) | Day 1，12:20 | BG-13 | — |
 | CH01-B03 | [决定](SCRIPT.md#ch01-b03决定) | Day 1，20:37 | BG-05 | — |
 | CH01-B04 | [年假](SCRIPT.md#ch01-b04年假) | Day 2，09:14 | BG-14 | — |
-| CH01-B05 | [出发之前](SCRIPT.md#ch01-b05出发之前) | Day 3，07:10 | BG-15 | — |
-| CH01-B06 | [长路](SCRIPT.md#ch01-b06长路) | Day 3，上午至傍晚 | BG-16、BG-17 | — |
-| CH01-B07 | [故乡](SCRIPT.md#ch01-b07故乡) | Day 3，19:06 | BG-18、BG-19 | CG-03（成就插画） / ACH-003 |
+| CH01-B05 | [出发之前](SCRIPT.md#ch01-b05出发之前) | Day 5，07:10 | BG-15 | — |
+| CH01-B06 | [长路](SCRIPT.md#ch01-b06长路) | Day 5，上午至傍晚 | BG-16、BG-17 | — |
+| CH01-B07 | [故乡](SCRIPT.md#ch01-b07故乡) | Day 5，19:06 | BG-18、BG-19 | CG-03（成就插画） / ACH-003 |
 | CH01-C01 | [两个人的决定](SCRIPT.md#ch01-c01两个人的决定) | Day 1，08:30 | BG-03 | — |
 | CH01-C02 | [离开办公室](SCRIPT.md#ch01-c02离开办公室) | Day 1，下午 | BG-14 | — |
 | CH01-C03 | [行李](SCRIPT.md#ch01-c03行李) | Day 1，21:10 | BG-05 | — |

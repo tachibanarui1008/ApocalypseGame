@@ -34,3 +34,14 @@ venv/
 .env
 .env.*
 !.env.example
+
+# Native preview SDK, logs and desktop distributions
+.runtime/
+releases/
+
+# SDK/runtime is preserved in the GitHub Release, not in source history.
+runtime/
+# Local packaging logs
+**/log.txt
+**/errors.txt
+**/traceback.txt

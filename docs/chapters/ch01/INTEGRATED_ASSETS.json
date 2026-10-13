@@ -1,0 +1,254 @@
+[
+  {
+    "id": "BG-01",
+    "path": "images/backgrounds/BG-01.png",
+    "sha256": "4f1fa0e82bb84abfc70ecd8606448587da7198caa0e192d0643d26ec5f349423",
+    "bytes": 2069771
+  },
+  {
+    "id": "BG-02",
+    "path": "images/backgrounds/BG-02.png",
+    "sha256": "20634ba17690810a524b86a36193f93ff68a7acd07fd53264a388cb9b7a0e17b",
+    "bytes": 2285867
+  },
+  {
+    "id": "BG-03",
+    "path": "images/backgrounds/BG-03.png",
+    "sha256": "9d92f7c60d112322a1d04caadc297dd6b2f7f8a166579650b718c8067b5908fc",
+    "bytes": 2928542
+  },
+  {
+    "id": "BG-04",
+    "path": "images/backgrounds/BG-04.png",
+    "sha256": "36538b675acdfdb162854040f01fda6ec313be32d193d27d6dff795c710617cb",
+    "bytes": 2410527
+  },
+  {
+    "id": "BG-05",
+    "path": "images/backgrounds/BG-05.png",
+    "sha256": "1347f22f48ece9ad07ee97ce55dbf6b976949f2b601d7614cf2e036ea343c6e5",
+    "bytes": 2304931
+  },
+  {
+    "id": "BG-06",
+    "path": "images/backgrounds/BG-06.png",
+    "sha256": "ea4886234c66e17158018ce343ea7c15ae4ec8be2b589012146c215a06d51411",
+    "bytes": 2487355
+  },
+  {
+    "id": "BG-07",
+    "path": "images/backgrounds/BG-07.png",
+    "sha256": "7a065d8282e7ccd3eba97f9720dd894651c56247f276753e69ea0ad90523aeb9",
+    "bytes": 2343663
+  },
+  {
+    "id": "BG-08",
+    "path": "images/backgrounds/BG-08.png",
+    "sha256": "d18bff40080799ac80231e3241bc6086e37d38416842ec30563fe255024c70c0",
+    "bytes": 2638860
+  },
+  {
+    "id": "BG-09",
+    "path": "images/backgrounds/BG-09.png",
+    "sha256": "f43d829af5b0a121f93ad70f00657020cd52e23bfe7244d5bdaf2e7a8f8326fe",
+    "bytes": 2747818
+  },
+  {
+    "id": "BG-10",
+    "path": "images/backgrounds/BG-10.png",
+    "sha256": "b05818b3f38686d4f77fc50ddbe50ccac6d45e4a697aad9d6c15509848bed0ed",
+    "bytes": 2358084
+  },
+  {
+    "id": "BG-11",
+    "path": "images/backgrounds/BG-11.png",
+    "sha256": "e906c9d51d952bc22c51134853e3163f0e1ad3811488ec0b5995168c482e755b",
+    "bytes": 2719658
+  },
+  {
+    "id": "BG-12",
+    "path": "images/backgrounds/BG-12.png",
+    "sha256": "36352d227482a4d17ddf12729ca0d679eb8f74692e79a5df4d7a97fbaddf55a9",
+    "bytes": 2654382
+  },
+  {
+    "id": "BG-13",
+    "path": "images/backgrounds/BG-13.png",
+    "sha256": "e427e5c7ad813a8850283b993801c9fc4de73f2bce48c1943910632928b0e9fd",
+    "bytes": 2522290
+  },
+  {
+    "id": "BG-14",
+    "path": "images/backgrounds/BG-14.png",
+    "sha256": "1669fbde28b21b91cccd77cf09e17e7ebeb3e65f7fa860cd03f7f4c72c93c1f0",
+    "bytes": 2493429
+  },
+  {
+    "id": "BG-15",
+    "path": "images/backgrounds/BG-15.png",
+    "sha256": "ea1adb8f63d745297a94f4d4031237092af40bae3c699916eed9f512209b6a0c",
+    "bytes": 2469285
+  },
+  {
+    "id": "BG-16",
+    "path": "images/backgrounds/BG-16.png",
+    "sha256": "3c6c767ce6317e5d6381c5446bdb52925688559cc56dd43bfea18b52f6dfed8a",
+    "bytes": 2171661
+  },
+  {
+    "id": "BG-17",
+    "path": "images/backgrounds/BG-17.png",
+    "sha256": "a99ebe75ded211dd13ab878a4bf4a5811ff62c547697477a47313f04ec13a3b0",
+    "bytes": 2797180
+  },
+  {
+    "id": "BG-18",
+    "path": "images/backgrounds/BG-18.png",
+    "sha256": "9fd61889ccbdc5f28ef81101841e9e0cb4188e18a97586f93aec9dd65eb906ab",
+    "bytes": 2784712
+  },
+  {
+    "id": "BG-19",
+    "path": "images/backgrounds/BG-19.png",
+    "sha256": "1e26b2bef0915fee150a718b9387842f1942a8968b7f9c89876e95a960c25acc",
+    "bytes": 2743432
+  },
+  {
+    "id": "BG-20",
+    "path": "images/backgrounds/BG-20.png",
+    "sha256": "1d0c454ac10b6cdec6427f597e72799cbf2a071e2d77d5d3e3bacc8e40f4ba54",
+    "bytes": 2705835
+  },
+  {
+    "id": "BG-21",
+    "path": "images/backgrounds/BG-21.png",
+    "sha256": "5e91a349105b6850cafec41479ffd774c87405529e51f5ee20b87382f95427e3",
+    "bytes": 2384448
+  },
+  {
+    "id": "BG-22",
+    "path": "images/backgrounds/BG-22.png",
+    "sha256": "02945af6bcd45b975ab96f8bf9521373c531273b601987e92e264c6c95024e54",
+    "bytes": 2873349
+  },
+  {
+    "id": "BG-23",
+    "path": "images/backgrounds/BG-23.png",
+    "sha256": "de2f7e7e98fc6a6c5329e82e0d58ce76ab5170d8f2be04e2e5b0a83a3ffeddc6",
+    "bytes": 2715189
+  },
+  {
+    "id": "BG-24",
+    "path": "images/backgrounds/BG-24.png",
+    "sha256": "39688fee3e53de2c32a39458a004cd4069af782aa5e9986947b7e6c0b42ec120",
+    "bytes": 2187224
+  },
+  {
+    "id": "BG-25",
+    "path": "images/backgrounds/BG-25.png",
+    "sha256": "cdafc38a950d9a3c73d5191b68afa5d66bcc8e410804523f3c62cfc1a6fed721",
+    "bytes": 2237554
+  },
+  {
+    "id": "BG-26",
+    "path": "images/backgrounds/BG-26.png",
+    "sha256": "b3a58417632640865aec121d00d407365e072fe48312ccda1724eb5682c5285c",
+    "bytes": 1816804
+  },
+  {
+    "id": "CG-01",
+    "path": "images/cg/CG-01.png",
+    "sha256": "d4052ae5141196af7b7388788278ab86a688731876d995084e1570ba6148a892",
+    "bytes": 2539994
+  },
+  {
+    "id": "CG-02",
+    "path": "images/cg/CG-02.png",
+    "sha256": "8ece90fba10596658580531c0da379386e39964622baee5821a939c09dea82da",
+    "bytes": 2242774
+  },
+  {
+    "id": "CG-03",
+    "path": "images/cg/CG-03.png",
+    "sha256": "d8452a586703817f766c9d8ac73c5ea997c1d54c9cb8b663f07a655335ee256f",
+    "bytes": 2656372
+  },
+  {
+    "id": "CHAR-01",
+    "path": "images/characters/CHAR-01.png",
+    "sha256": "07f96cc2f22c459a0c22614c69f2365425ffa5272d7b0310ab2516e8a601a0fa",
+    "bytes": 1446218
+  },
+  {
+    "id": "CHAR-02",
+    "path": "images/characters/CHAR-02.png",
+    "sha256": "a2e4f9097790521548cfe1a7e6b466944842dbaaf379fcfe2c5ed8337f2051bc",
+    "bytes": 1418952
+  },
+  {
+    "id": "CHAR-03",
+    "path": "images/characters/CHAR-03.png",
+    "sha256": "59cfb6ebcce3a4cdfcc69444b0469b947fbd112f37346bcff70ae1ef37010bae",
+    "bytes": 1514037
+  },
+  {
+    "id": "CHAR-04",
+    "path": "images/characters/CHAR-04.png",
+    "sha256": "51eeb961d476e38e7cdb40e5266f91fc5474e08a440cb9443b863bd7358ec8f0",
+    "bytes": 1419810
+  },
+  {
+    "id": "VAR-01",
+    "path": "images/variants/VAR-01-BG-07-clear.png",
+    "sha256": "4fc12ae90e867787a2bdf8fdff38f1eb48df36f9846f9b20048639483c4ec97c",
+    "bytes": 2273666
+  },
+  {
+    "id": "VAR-02",
+    "path": "images/variants/VAR-02-BG-18-night.png",
+    "sha256": "a9a759081e6a967eeec7d42be212e9a71b4f42b4c4f5f1432c079d30552867a6",
+    "bytes": 2516113
+  },
+  {
+    "id": "VAR-03",
+    "path": "images/variants/VAR-03-BG-24-depleted.png",
+    "sha256": "1dacec6154b3b8e01eb33c72e7bc806865d9d1a01d30145c13d5de9bf4fc1b85",
+    "bytes": 2015582
+  },
+  {
+    "id": "VAR-04",
+    "path": "images/variants/VAR-04-BG-26-before-smoke.png",
+    "sha256": "a76b6ed6bf18fa50d789384bb05925fa789ce558db788311e7616bc453711fca",
+    "bytes": 1813576
+  },
+  {
+    "id": "VAR-05",
+    "path": "images/variants/VAR-05-BG-05-prepared.png",
+    "sha256": "2ccdd0865cc4df9eca6e34203c0b49ae06205dead146e145d59d15e608714a0a",
+    "bytes": 2228492
+  },
+  {
+    "id": "VAR-06",
+    "path": "images/variants/VAR-06-BG-15-predawn.png",
+    "sha256": "49d22bd87f62b29cfc588e7a4552715555d97abea6e48872c1b1f1783291a55c",
+    "bytes": 2231270
+  },
+  {
+    "id": "VAR-07",
+    "path": "images/variants/VAR-07-BG-25-emergency.png",
+    "sha256": "e0e3ec2f7a805f7275922b417f38dc7b9cc6fcd9748f9165c7f1f817c760a54d",
+    "bytes": 1842321
+  },
+  {
+    "id": "EX-01",
+    "path": "images/extras/EX-01-city-home.png",
+    "sha256": "82b1b994f535f741effd33d0bfac8784a0e7146c480b01a0ecf3d954769db0a4",
+    "bytes": 2281455
+  },
+  {
+    "id": "EX-02",
+    "path": "images/extras/EX-02-family-photo.png",
+    "sha256": "e56780e078d94563390e4f0b950db4095c97d1f6dbaabf60d26b5ae266c468f8",
+    "bytes": 2991783
+  }
+]

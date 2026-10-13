@@ -1,0 +1,27 @@
+{
+  "version": "0.3.0",
+  "first_chapter_images_verified": 42,
+  "historical_file_variants_verified": 172,
+  "model_tests": 9,
+  "route_tests": 7,
+  "resource_tests": 3,
+  "native_routes": [
+    "A",
+    "B → Day7",
+    "C",
+    "D"
+  ],
+  "native_transport": [
+    "walk",
+    "suv",
+    "ev"
+  ],
+  "native_save_load": [
+    "planning",
+    "result",
+    "settlement"
+  ],
+  "save_directory": "Weiyuchoumou-Unified-V03",
+  "permanent_deleted_files": 0,
+  "archive_game_files_verified": 169
+}

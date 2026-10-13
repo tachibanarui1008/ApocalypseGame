@@ -1,44 +1,34 @@
-# ApocalypseGame
+# 未雨绸缪 / ApocalypseGame
 
-一个用于长期开发的跨平台末日生存文字冒险 / Galgame 项目。
+当前交接版本：**0.3.0（第一章完整＋第二章B线Day6可玩教程）**。第一章30场景、1216段正文及42项美术已接入；第二章保留城镇地图、14地点距离矩阵、三种交通、采购、家庭排班、人物需求条、洗漱和晚间结算。
 
-计划使用 **Ren’Py**，以每日行动、地点探索、资源管理与剧情选择为核心，玩家的选择将影响各项状态并导向不同结局。
+**换到Windows后先读 [交接文档](docs/HANDOFF_WINDOWS.md)。**
 
-## 目标平台
-
-- Windows
-- macOS
-- iOS / iPadOS
-- Android
-
-## 当前阶段
-
-已建立项目仓库骨架、世界观设定集 V0.4，以及第一章《晦暗阴云》V1.0 的完整文本归档。第一章保持纯视觉小说；背景图与CG已整理文本提示词，图像、立绘及Ren’Py原型尚待制作，音乐留到最后统一生成。
-
-## 文档索引
-
-- [第一章《晦暗阴云》V1.0](docs/chapters/ch01/README.md)：完整主剧本、共通线与A/B/C/D分册、30个节点索引、26个背景与3个CG提示词、3个成就、修订摘录、变更日志、待定问题及校验记录。A/D为BAD END，B/C共通《长路归乡》；第二章《风暴前夜》未扩写。
-- [《末日游戏》世界观设定集 V0.4](docs/WORLD_BIBLE.md)：整合 V0.3 世界观与 V0.4 家庭防灾历史，包含四口之家、住宅与能源、感染规则、社会失序、社区群像和序章第1—6天。
-
-设定集为开发内部资料，含后期剧情剧透。编写剧情和程序时，请遵守文档中的「已确定 / 暂定 / 待讨论」标记及玩家信息揭示规则；暂定参数不能直接作为定稿。
-
-## 跨设备协作
-
-Mac 和 Windows 共用同一套源代码，通过这个私有 GitHub 仓库同步。
-
-首次在另一台电脑上获取项目：
-
-```sh
+```powershell
 git clone https://github.com/tachibanarui1008/ApocalypseGame.git
 cd ApocalypseGame
 ```
 
-每次开始工作前运行 `git pull --ff-only`。完成修改后提交并推送：
+使用有该私有仓库权限的GitHub账号。仓库已直接包含源码、字体、背景、人物、CG、地图图片/SVG及数据，克隆无需Git LFS。安装官方Ren'Py 8.5.3 SDK，在启动器中把项目目录设为克隆目录的父目录，选择ApocalypseGame并启动。Windows二进制未在本轮制作或实机验收。
 
-```sh
-git add .
-git commit -m "Describe the changes"
-git push
+- [GitHub发布页：试玩、完整工程、历史资源归档](https://github.com/tachibanarui1008/ApocalypseGame/releases/tag/v0.3.0)
+- [确定设定与时间线](docs/CANON.md)
+- [第一章资料](docs/chapters/ch01/README.md) / [主剧本](docs/chapters/ch01/SCRIPT.md)
+- [第一章美术规范](docs/BACKGROUND_STYLE.md)
+- [第二章教程](docs/chapters/ch02/TUTORIAL_B_V0.1.md)
+- [路网与距离](docs/chapters/ch02/TOWN_ROUTES_V0.4.md) / [地图风格](docs/chapters/ch02/MAP_STYLE_V0.5.md)
+- [人物与物资条](docs/chapters/ch02/NEEDS_V0.6.md) / [后续剧情待办](docs/chapters/ch02/PLANNING.md)
+- [资源校验清单](docs/handoff/RESOURCE_MANIFEST.json)
+
+最低检查（Python标准库即可）：
+
+```powershell
+py -3 tools/verify_handoff.py
+py -3 tools/test_unified_resources.py
+py -3 tools/test_ch02_model.py
+py -3 tools/test_ch02_routes.py
 ```
 
-切换电脑前先提交并推送，避免同时在两台电脑上修改同一份文件。克隆私有仓库需要有访问权限的 GitHub 账号。
+第一章正文更新后运行 `py -3 tools/export_story.py` 与 `py -3 tools/export_renpy.py`。地图PNG已随仓库保存，正常运行无需安装CairoSVG；需要重绘时再参考交接文档。当前打包工具 `tools/package_game.py` 是macOS工具，Windows接手者应先使用Ren'Py SDK打开已有工程。
+
+开始工作前 `git pull --ff-only`，切换设备前提交并推送。不要同时在Mac和Windows修改同一份文件。

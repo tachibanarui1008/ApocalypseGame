@@ -1,0 +1,351 @@
+{
+  "route": "B",
+  "mode": "walk",
+  "scenes": [
+    "CH01-001",
+    "CH01-002",
+    "CH01-003",
+    "CH01-004",
+    "CH01-B01",
+    "CH01-B02",
+    "CH01-B03",
+    "CH01-B04",
+    "CH01-B05",
+    "CH01-B06",
+    "CH01-B07"
+  ],
+  "c2": {
+    "day": 7,
+    "period": "上午",
+    "active": true,
+    "resources": {
+      "cash": 5820,
+      "food": 88,
+      "water": 240,
+      "fuel": 40.0,
+      "ev": 100,
+      "battery": 100,
+      "care": 4,
+      "materials": 6
+    },
+    "opening_food": 88,
+    "bought_food": 0,
+    "tutorial": 3,
+    "hints": false,
+    "plan": {
+      "destination": "basement",
+      "transport": "walk",
+      "companion": false,
+      "quantity": 1,
+      "extra": false,
+      "home": {
+        "father": "休息",
+        "mother": "休息",
+        "partner": "休息"
+      }
+    },
+    "pending": null,
+    "reports": [
+      {
+        "id": "6上午",
+        "plan": {
+          "destination": "market",
+          "transport": "walk",
+          "companion": false,
+          "quantity": 1,
+          "extra": false,
+          "home": {
+            "father": "休息",
+            "mother": "清点",
+            "partner": "休息"
+          }
+        },
+        "preview": {
+          "stops": [
+            "market"
+          ],
+          "route": [
+            "road_279_1072",
+            "road_279_1106",
+            "road_370_1120",
+            "road_370_1040",
+            "road_370_930",
+            "road_390_910",
+            "road_590_910",
+            "road_820_910",
+            "road_990_910",
+            "road_990_888",
+            "road_990_910",
+            "road_820_910",
+            "road_590_910",
+            "road_390_910",
+            "road_370_930",
+            "road_370_1040",
+            "road_370_1120",
+            "road_279_1106",
+            "road_279_1072"
+          ],
+          "km": 3.12,
+          "minutes": 76,
+          "cost": 180,
+          "weight": 6,
+          "capacity": 12,
+          "fuel": 0.0,
+          "ev": 0.0,
+          "route_error": null
+        },
+        "purchases": [
+          {
+            "stop": "market",
+            "quantity": 1,
+            "food": 12,
+            "care": 0,
+            "weight": 6
+          }
+        ],
+        "visited": [
+          "market"
+        ],
+        "cash_spent": 180,
+        "food_added": 12,
+        "needs_cost": {
+          "hero": {
+            "satiety": 27,
+            "hydration": 36,
+            "hygiene": 8,
+            "wash": false
+          },
+          "partner": {
+            "satiety": 18,
+            "hydration": 25,
+            "hygiene": 3,
+            "wash": false
+          },
+          "father": {
+            "satiety": 18,
+            "hydration": 25,
+            "hygiene": 3,
+            "wash": false
+          },
+          "mother": {
+            "satiety": 23,
+            "hydration": 32,
+            "hygiene": 7,
+            "wash": false
+          }
+        },
+        "needs_before": {
+          "hero": {
+            "satiety": 90,
+            "hydration": 90,
+            "hygiene": 85
+          },
+          "partner": {
+            "satiety": 90,
+            "hydration": 90,
+            "hygiene": 85
+          },
+          "father": {
+            "satiety": 90,
+            "hydration": 90,
+            "hygiene": 85
+          },
+          "mother": {
+            "satiety": 90,
+            "hydration": 90,
+            "hygiene": 85
+          }
+        },
+        "needs_after": {
+          "hero": {
+            "satiety": 63,
+            "hydration": 54,
+            "hygiene": 77
+          },
+          "partner": {
+            "satiety": 72,
+            "hydration": 65,
+            "hygiene": 82
+          },
+          "father": {
+            "satiety": 72,
+            "hydration": 65,
+            "hygiene": 82
+          },
+          "mother": {
+            "satiety": 67,
+            "hydration": 58,
+            "hygiene": 78
+          }
+        }
+      },
+      {
+        "id": "6下午",
+        "plan": {
+          "destination": "wash",
+          "transport": "walk",
+          "companion": false,
+          "quantity": 1,
+          "extra": false,
+          "home": {
+            "father": "休息",
+            "mother": "洗漱",
+            "partner": "休息"
+          }
+        },
+        "preview": {
+          "stops": [],
+          "route": [
+            "road_279_1072"
+          ],
+          "km": 0.0,
+          "minutes": 90,
+          "cost": 0,
+          "weight": 0,
+          "capacity": 12,
+          "fuel": 0.0,
+          "ev": 0.0,
+          "route_error": null
+        },
+        "purchases": [],
+        "visited": [],
+        "cash_spent": 0,
+        "food_added": 0,
+        "needs_cost": {
+          "hero": {
+            "satiety": 18,
+            "hydration": 25,
+            "hygiene": 3,
+            "wash": true
+          },
+          "partner": {
+            "satiety": 18,
+            "hydration": 25,
+            "hygiene": 3,
+            "wash": false
+          },
+          "father": {
+            "satiety": 18,
+            "hydration": 25,
+            "hygiene": 3,
+            "wash": false
+          },
+          "mother": {
+            "satiety": 18,
+            "hydration": 25,
+            "hygiene": 3,
+            "wash": true
+          }
+        },
+        "needs_before": {
+          "hero": {
+            "satiety": 63,
+            "hydration": 54,
+            "hygiene": 77
+          },
+          "partner": {
+            "satiety": 72,
+            "hydration": 65,
+            "hygiene": 82
+          },
+          "father": {
+            "satiety": 72,
+            "hydration": 65,
+            "hygiene": 82
+          },
+          "mother": {
+            "satiety": 67,
+            "hydration": 58,
+            "hygiene": 78
+          }
+        },
+        "needs_after": {
+          "hero": {
+            "satiety": 45,
+            "hydration": 29,
+            "hygiene": 100
+          },
+          "partner": {
+            "satiety": 54,
+            "hydration": 40,
+            "hygiene": 79
+          },
+          "father": {
+            "satiety": 54,
+            "hydration": 40,
+            "hygiene": 79
+          },
+          "mother": {
+            "satiety": 49,
+            "hydration": 33,
+            "hygiene": 100
+          }
+        }
+      }
+    ],
+    "completed": [
+      "库存清点"
+    ],
+    "settled_day": 6,
+    "shortage": 0,
+    "people": {
+      "hero": {
+        "satiety": 100,
+        "hydration": 100,
+        "hygiene": 100
+      },
+      "partner": {
+        "satiety": 100,
+        "hydration": 100,
+        "hygiene": 79
+      },
+      "father": {
+        "satiety": 100,
+        "hydration": 100,
+        "hygiene": 79
+      },
+      "mother": {
+        "satiety": 100,
+        "hydration": 100,
+        "hygiene": 100
+      }
+    },
+    "supply": {
+      "water": true,
+      "grid": true
+    },
+    "water_used": 0,
+    "mains_water_used": 0,
+    "before_dinner": 92,
+    "food_used": 4,
+    "needs_before_meal": {
+      "hero": {
+        "satiety": 45,
+        "hydration": 29,
+        "hygiene": 100
+      },
+      "partner": {
+        "satiety": 54,
+        "hydration": 40,
+        "hygiene": 79
+      },
+      "father": {
+        "satiety": 54,
+        "hydration": 40,
+        "hygiene": 79
+      },
+      "mother": {
+        "satiety": 49,
+        "hydration": 33,
+        "hygiene": 100
+      }
+    },
+    "water_shortage": 0.0,
+    "ev_before_charge": 100.0
+  },
+  "achievements": [
+    "ACH-001",
+    "ACH-003",
+    "ACH-002"
+  ]
+}

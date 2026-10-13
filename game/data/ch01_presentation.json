@@ -1,0 +1,284 @@
+{
+  "CH01-001": {
+    "initial": "black",
+    "cues": {
+      "0": [
+        "black",
+        "BG-01"
+      ],
+      "42": [
+        "black"
+      ]
+    },
+    "dialogue_count": 42
+  },
+  "CH01-002": {
+    "initial": "BG-02",
+    "cues": {
+      "47": [
+        "black"
+      ]
+    },
+    "dialogue_count": 47
+  },
+  "CH01-003": {
+    "initial": "BG-03",
+    "cues": {},
+    "dialogue_count": 60
+  },
+  "CH01-004": {
+    "initial": "BG-03",
+    "cues": {},
+    "dialogue_count": 0
+  },
+  "CH01-A01": {
+    "initial": "BG-04",
+    "cues": {},
+    "dialogue_count": 35
+  },
+  "CH01-A02": {
+    "initial": "BG-05",
+    "cues": {},
+    "dialogue_count": 32
+  },
+  "CH01-A03": {
+    "initial": "BG-06",
+    "cues": {
+      "0": [
+        "BG-06"
+      ],
+      "11": [
+        "VAR-05"
+      ]
+    },
+    "dialogue_count": 48
+  },
+  "CH01-A04": {
+    "initial": "BG-07",
+    "cues": {},
+    "dialogue_count": 40
+  },
+  "CH01-A05": {
+    "initial": "BG-08",
+    "cues": {
+      "7": [
+        "BG-09"
+      ],
+      "26": [
+        "BG-10"
+      ],
+      "67": [
+        "BG-11"
+      ]
+    },
+    "dialogue_count": 102
+  },
+  "CH01-A06": {
+    "initial": "BG-12",
+    "cues": {
+      "35": [
+        "CG-01"
+      ],
+      "42": [
+        "black"
+      ]
+    },
+    "dialogue_count": 45
+  },
+  "CH01-B01": {
+    "initial": "BG-03",
+    "cues": {},
+    "dialogue_count": 48
+  },
+  "CH01-B02": {
+    "initial": "BG-13",
+    "cues": {
+      "18": [
+        "EX-01"
+      ]
+    },
+    "dialogue_count": 31
+  },
+  "CH01-B03": {
+    "initial": "BG-05",
+    "cues": {},
+    "dialogue_count": 37
+  },
+  "CH01-B04": {
+    "initial": "BG-14",
+    "cues": {
+      "25": [
+        "VAR-05"
+      ]
+    },
+    "dialogue_count": 29
+  },
+  "CH01-B05": {
+    "initial": "BG-15",
+    "cues": {},
+    "dialogue_count": 33
+  },
+  "CH01-B06": {
+    "initial": "BG-16",
+    "cues": {
+      "14": [
+        "BG-17"
+      ],
+      "33": [
+        "BG-16"
+      ]
+    },
+    "dialogue_count": 37
+  },
+  "CH01-B07": {
+    "initial": "VAR-02",
+    "cues": {
+      "20": [
+        "BG-19"
+      ],
+      "46": [
+        "black",
+        "black"
+      ]
+    },
+    "dialogue_count": 48
+  },
+  "CH01-C01": {
+    "initial": "BG-03",
+    "cues": {},
+    "dialogue_count": 36
+  },
+  "CH01-C02": {
+    "initial": "BG-14",
+    "cues": {},
+    "dialogue_count": 25
+  },
+  "CH01-C03": {
+    "initial": "BG-05",
+    "cues": {},
+    "dialogue_count": 44
+  },
+  "CH01-C04": {
+    "initial": "VAR-06",
+    "cues": {
+      "13": [
+        "VAR-01"
+      ]
+    },
+    "dialogue_count": 29
+  },
+  "CH01-C05": {
+    "initial": "BG-16",
+    "cues": {
+      "19": [
+        "BG-17"
+      ],
+      "45": [
+        "black",
+        "BG-16"
+      ]
+    },
+    "dialogue_count": 46
+  },
+  "CH01-C06": {
+    "initial": "BG-18",
+    "cues": {
+      "13": [
+        "BG-20"
+      ],
+      "29": [
+        "BG-21"
+      ],
+      "60": [
+        "black"
+      ]
+    },
+    "dialogue_count": 62
+  },
+  "CH01-D01": {
+    "initial": "BG-04",
+    "cues": {
+      "9": [
+        "BG-14"
+      ],
+      "17": [
+        "BG-05"
+      ]
+    },
+    "dialogue_count": 33
+  },
+  "CH01-D02": {
+    "initial": "BG-22",
+    "cues": {
+      "9": [
+        "BG-14"
+      ],
+      "17": [
+        "BG-05"
+      ]
+    },
+    "dialogue_count": 33
+  },
+  "CH01-D03": {
+    "initial": "BG-23",
+    "cues": {},
+    "dialogue_count": 44
+  },
+  "CH01-D04": {
+    "initial": "BG-24",
+    "cues": {},
+    "dialogue_count": 31
+  },
+  "CH01-D05": {
+    "initial": "VAR-03",
+    "cues": {
+      "5": [
+        "BG-25"
+      ],
+      "14": [
+        "VAR-03"
+      ],
+      "33": [
+        "EX-02"
+      ],
+      "37": [
+        "VAR-03"
+      ]
+    },
+    "dialogue_count": 38
+  },
+  "CH01-D06": {
+    "initial": "black",
+    "cues": {
+      "0": [
+        "black",
+        "VAR-04"
+      ],
+      "10": [
+        "VAR-07"
+      ],
+      "18": [
+        "VAR-04"
+      ],
+      "23": [
+        "BG-26"
+      ],
+      "63": [
+        "black"
+      ],
+      "66": [
+        "black"
+      ]
+    },
+    "dialogue_count": 69
+  },
+  "CH01-D07": {
+    "initial": "CG-02",
+    "cues": {
+      "0": [
+        "CG-02"
+      ]
+    },
+    "dialogue_count": 12
+  }
+}

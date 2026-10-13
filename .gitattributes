@@ -1,0 +1,12 @@
+* text=auto
+*.rpy text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.png -text
+*.jpg -text
+*.otf -text
+*.zip -text

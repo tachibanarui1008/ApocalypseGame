@@ -1,0 +1,75 @@
+{
+  "notice": "仅用于Day 6教程的演示配置，不代表正式库存、房屋容量或车辆性能。",
+  "initial": {
+    "cash": 6000,
+    "food": 80,
+    "water": 240,
+    "fuel": 40,
+    "ev": 100,
+    "battery": 100,
+    "care": 4,
+    "materials": 6
+  },
+  "food_pack": {
+    "price": 180,
+    "food": 12,
+    "weight": 6
+  },
+  "care_pack": {
+    "price": 90,
+    "care": 1,
+    "weight": 2
+  },
+  "slot_minutes": 240,
+  "population": 4,
+  "transport": {
+    "walk": {
+      "name": "步行",
+      "speed": 4.8,
+      "capacity": 12,
+      "fuel_per_km": 0,
+      "ev_per_km": 0,
+      "laden_speed": 3.6
+    },
+    "suv": {
+      "name": "燃油SUV",
+      "speed": 25,
+      "capacity": 150,
+      "fuel_per_km": 0.12,
+      "ev_per_km": 0
+    },
+    "ev": {
+      "name": "小米SU7",
+      "speed": 25,
+      "capacity": 100,
+      "fuel_per_km": 0,
+      "ev_per_km": 0.4
+    }
+  },
+  "routing_file": "data/ch02_routes.json",
+  "needs": {
+    "initial": {
+      "satiety": 90,
+      "hydration": 90,
+      "hygiene": 85
+    },
+    "base_slot": {
+      "satiety": 18,
+      "hydration": 25,
+      "hygiene": 3
+    },
+    "meal_restore": 60,
+    "drink_restore": 80,
+    "daily_water_l": 2,
+    "wash_water_l": 6,
+    "wash_restore": 35
+  },
+  "bar_reference": {
+    "food": 120,
+    "water": 240,
+    "fuel": 60,
+    "care": 10,
+    "battery": 100,
+    "ev": 100
+  }
+}

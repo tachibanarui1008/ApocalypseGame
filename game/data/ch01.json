@@ -1,0 +1,6100 @@
+{
+  "schemaVersion": 1,
+  "chapter": {
+    "id": "ch01",
+    "title": "晦暗阴云"
+  },
+  "start": "CH01-001",
+  "scenes": [
+    {
+      "id": "CH01-001",
+      "title": "清晨",
+      "time": "Day 1，07:15",
+      "location": "沪海市，主角租住的公寓",
+      "bg": [
+        "BG-01"
+      ],
+      "route": "COMMON",
+      "blocks": [
+        {
+          "type": "direction",
+          "text": "黑屏"
+        },
+        {
+          "type": "direction",
+          "text": "音效：空调运行"
+        },
+        {
+          "type": "direction",
+          "text": "音效：手机闹铃"
+        },
+        {
+          "type": "direction",
+          "text": "画面逐渐亮起"
+        },
+        {
+          "type": "narration",
+          "text": "窗帘没有完全拉紧。"
+        },
+        {
+          "type": "narration",
+          "text": "从缝隙透进来的阳光落在地板上，将房间分成明暗两半。"
+        },
+        {
+          "type": "narration",
+          "text": "床头柜上的手机震动了几下。"
+        },
+        {
+          "type": "narration",
+          "text": "你伸出手，在桌面上摸索了一阵，终于按掉闹钟。"
+        },
+        {
+          "type": "narration",
+          "text": "房间恢复了安静。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“……几点了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“七点一刻。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“再睡五分钟。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“昨天也是这么说的。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“昨天不是起来了吗。”"
+        },
+        {
+          "type": "narration",
+          "text": "你看了她一眼。"
+        },
+        {
+          "type": "narration",
+          "text": "她已经重新把脸埋进枕头里。"
+        },
+        {
+          "type": "narration",
+          "text": "你没有继续争辩。"
+        },
+        {
+          "type": "narration",
+          "text": "拿起手机，锁屏上堆着十几条通知。"
+        },
+        {
+          "type": "narration",
+          "text": "工作群。"
+        },
+        {
+          "type": "narration",
+          "text": "购物软件。"
+        },
+        {
+          "type": "narration",
+          "text": "天气预报。"
+        },
+        {
+          "type": "narration",
+          "text": "还有几条凌晨推送的新闻。"
+        },
+        {
+          "type": "narration",
+          "text": "你漫不经心地向上划动。"
+        },
+        {
+          "type": "narration",
+          "text": "其中一条消息引起了你的注意。"
+        },
+        {
+          "type": "direction",
+          "text": "手机新闻"
+        },
+        {
+          "type": "news",
+          "text": "《东部某市一医院发生突发事件，警方已介入调查》"
+        },
+        {
+          "type": "narration",
+          "text": "新闻发布于凌晨03:41。"
+        },
+        {
+          "type": "narration",
+          "text": "正文只有寥寥几行。"
+        },
+        {
+          "type": "news",
+          "text": "昨日晚间，东部某市一医疗机构发生突发事件，造成多人受伤。有关部门已介入调查，具体情况正在核实。"
+        },
+        {
+          "type": "narration",
+          "text": "评论区里有人贴出一张模糊的照片。"
+        },
+        {
+          "type": "narration",
+          "text": "似乎是一家医院的急诊入口。"
+        },
+        {
+          "type": "narration",
+          "text": "警灯将建筑外墙照成红蓝两色。"
+        },
+        {
+          "type": "narration",
+          "text": "但照片中看不到具体发生了什么。"
+        },
+        {
+          "type": "narration",
+          "text": "你又翻了几条评论。"
+        },
+        {
+          "type": "narration",
+          "text": "“听说医院都封了。”"
+        },
+        {
+          "type": "narration",
+          "text": "“别乱传，具体情况还没出来。”"
+        },
+        {
+          "type": "narration",
+          "text": "“有人说是医患冲突。”"
+        },
+        {
+          "type": "narration",
+          "text": "“半夜三点发这种新闻，真够吓人的。”"
+        },
+        {
+          "type": "narration",
+          "text": "你退出新闻页面。"
+        },
+        {
+          "type": "narration",
+          "text": "又有一条工作消息弹了出来。"
+        },
+        {
+          "type": "direction",
+          "text": "工作群"
+        },
+        {
+          "type": "phone",
+          "text": "“今天九点半例会，大家记得提前准备材料。”"
+        },
+        {
+          "type": "narration",
+          "text": "你看了一眼时间。"
+        },
+        {
+          "type": "narration",
+          "text": "07:23。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你还不起床？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“起来了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那帮我把咖啡弄一下。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“好。”"
+        },
+        {
+          "type": "direction",
+          "text": "画面淡出"
+        }
+      ],
+      "next": "CH01-002"
+    },
+    {
+      "id": "CH01-002",
+      "title": "早餐",
+      "time": "07:38",
+      "location": "公寓厨房及餐厅",
+      "bg": [
+        "BG-02"
+      ],
+      "route": "COMMON",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "水壶发出轻微的响声。"
+        },
+        {
+          "type": "narration",
+          "text": "你把两杯咖啡放到桌上。"
+        },
+        {
+          "type": "narration",
+          "text": "早餐是面包、煎蛋和冰箱里剩下的半盒牛奶。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣坐在对面，一边吃东西，一边检查手机上的日程。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“今天晚上要不要在外面吃？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“怎么突然想在外面吃？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“冰箱没什么菜了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“那下班去超市？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“也行。”"
+        },
+        {
+          "type": "narration",
+          "text": "她放下手机。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“对了，叔叔阿姨最近怎么样？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“挺好的。我爸昨天还给我发照片。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“什么照片？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“乡下那套房子。他又去整理地下室了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那地方不是上个月刚整理过？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“他说把储物架重新固定了一遍。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“叔叔还挺有精力。”"
+        },
+        {
+          "type": "narration",
+          "text": "你笑了笑。"
+        },
+        {
+          "type": "narration",
+          "text": "那栋房子购置于几年前。"
+        },
+        {
+          "type": "narration",
+          "text": "当时庐州市周边接连发生小规模地震。"
+        },
+        {
+          "type": "narration",
+          "text": "虽然没有造成严重损失，但父母还是认真考虑起了家庭应急避险的问题。"
+        },
+        {
+          "type": "narration",
+          "text": "后来，他们在城郊置办了一套三层独栋住宅。"
+        },
+        {
+          "type": "narration",
+          "text": "经过修缮，地下室被改成储物空间，屋顶安装了光伏，院子里还配备了备用能源设施。"
+        },
+        {
+          "type": "narration",
+          "text": "父母平时仍住在庐州市区。"
+        },
+        {
+          "type": "narration",
+          "text": "那栋房子更多时候只是一个备用住所。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“其实有备无患也挺好的。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我爸就是这个想法。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“地下室的罐头还没过期吧？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我妈管着呢。她比谁都清楚。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“也是，阿姨做护士，肯定比我们细心。”"
+        },
+        {
+          "type": "narration",
+          "text": "你喝了一口咖啡。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我爸倒是更关心那些米面粮油。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“开餐厅的职业习惯？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“差不多。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你也没好到哪里去。不是还弄了台 Mac mini，当你的‘末日服务器’？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“平时也用得上。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“叔叔肯定也这么说。”"
+        },
+        {
+          "type": "narration",
+          "text": "你笑了笑。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“那会儿你不也弄了一套无线电？说手机没信号的时候，总得留个办法。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“有备无患嘛。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“那就别光笑我爸了。”"
+        },
+        {
+          "type": "narration",
+          "text": "她端起咖啡，嘴角还带着笑。"
+        },
+        {
+          "type": "narration",
+          "text": "两人继续吃早餐。"
+        },
+        {
+          "type": "narration",
+          "text": "窗外的道路已经堵了起来。"
+        },
+        {
+          "type": "narration",
+          "text": "一辆公交车停在路口，后面排着长长的车队。"
+        },
+        {
+          "type": "narration",
+          "text": "远处传来汽车喇叭声。"
+        },
+        {
+          "type": "narration",
+          "text": "又一个再普通不过的工作日。"
+        },
+        {
+          "type": "direction",
+          "text": "场景渐暗"
+        }
+      ],
+      "next": "CH01-003"
+    },
+    {
+      "id": "CH01-003",
+      "title": "风声",
+      "time": "08:12",
+      "location": "沪海市，通勤途中",
+      "bg": [
+        "BG-03"
+      ],
+      "route": "COMMON",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "你和伴侣一起离开公寓。"
+        },
+        {
+          "type": "narration",
+          "text": "街边停着共享单车。"
+        },
+        {
+          "type": "narration",
+          "text": "早餐店门口排着队。"
+        },
+        {
+          "type": "narration",
+          "text": "几个学生一边吃包子，一边匆匆向路口跑去。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我从这边走了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“晚上见。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“别忘了买菜。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“知道了。”"
+        },
+        {
+          "type": "narration",
+          "text": "她挥了挥手，走向另一侧的地铁入口。"
+        },
+        {
+          "type": "narration",
+          "text": "你沿着人行道继续往前走。"
+        },
+        {
+          "type": "narration",
+          "text": "手机震动了一下。"
+        },
+        {
+          "type": "direction",
+          "text": "聊天消息"
+        },
+        {
+          "type": "phone",
+          "speaker": "普通朋友",
+          "text": "“看今天那个医院的视频了吗？”"
+        },
+        {
+          "type": "narration",
+          "text": "对方发来一段十五秒左右的录像。"
+        },
+        {
+          "type": "direction",
+          "text": "手机视频播放"
+        },
+        {
+          "type": "narration",
+          "text": "画面来自一条医院走廊。"
+        },
+        {
+          "type": "narration",
+          "text": "拍摄者站得很远。"
+        },
+        {
+          "type": "narration",
+          "text": "几名工作人员正在试图控制一个不断挣扎的人。"
+        },
+        {
+          "type": "narration",
+          "text": "有人喊着让其他人退后。"
+        },
+        {
+          "type": "narration",
+          "text": "镜头猛烈晃动了一下。"
+        },
+        {
+          "type": "narration",
+          "text": "一阵尖叫声之后，录像突然结束。"
+        },
+        {
+          "type": "direction",
+          "text": "视频结束"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "普通朋友",
+          "text": "“听说有人在医院咬伤了好几个医护。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“真的假的？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "普通朋友",
+          "text": "“不知道。几个群里都在传。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "普通朋友",
+          "text": "“有人说吸毒，有人说精神疾病。”"
+        },
+        {
+          "type": "narration",
+          "text": "你重新看了一遍。"
+        },
+        {
+          "type": "narration",
+          "text": "视频太模糊。"
+        },
+        {
+          "type": "narration",
+          "text": "无法确定拍摄时间，也看不清参与者的面孔。"
+        },
+        {
+          "type": "narration",
+          "text": "你想起早晨看到的那条新闻。"
+        },
+        {
+          "type": "narration",
+          "text": "随后打开另一个聊天窗口。"
+        },
+        {
+          "type": "narration",
+          "text": "联系人是一位在沪海市医院系统工作的老朋友。"
+        },
+        {
+          "type": "direction",
+          "text": "聊天界面"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“在吗？问你个事。”"
+        },
+        {
+          "type": "narration",
+          "text": "过了一会儿。"
+        },
+        {
+          "type": "phone",
+          "speaker": "医院朋友",
+          "text": "“咋了？”"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“今天网上那个医院视频你看过没？”"
+        },
+        {
+          "type": "direction",
+          "text": "发送视频"
+        },
+        {
+          "type": "narration",
+          "text": "几分钟后。"
+        },
+        {
+          "type": "phone",
+          "speaker": "医院朋友",
+          "text": "“看过。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“真的假的？”"
+        },
+        {
+          "type": "phone",
+          "speaker": "医院朋友",
+          "text": "“视频本身我不知道真假，也不是我们医院。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“最近医院有什么不对劲的吗？”"
+        },
+        {
+          "type": "phone",
+          "speaker": "医院朋友",
+          "text": "“最近发热门诊的事比较多。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "医院朋友",
+          "text": "“院里这两天在重新检查防护物资，异常病例的上报也抓得比较紧。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“又是什么传染病？”"
+        },
+        {
+          "type": "phone",
+          "speaker": "医院朋友",
+          "text": "“现在没有明确说法。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "医院朋友",
+          "text": "“有些地方发现了不明原因肺炎病例，调查还在做。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“跟那个咬人的事有关？”"
+        },
+        {
+          "type": "phone",
+          "speaker": "医院朋友",
+          "text": "“不知道。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "医院朋友",
+          "text": "“你别把网上传的东西全串起来。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "医院朋友",
+          "text": "“不过家里常用的药、口罩这些，可以先检查一下。缺的补一点，别等真要用的时候再找。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“行。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "医院朋友",
+          "text": "“不过最近没必要的话，确实少往医院跑。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“你自己也注意点。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "医院朋友",
+          "text": "“放心吧。”"
+        },
+        {
+          "type": "direction",
+          "text": "聊天结束"
+        },
+        {
+          "type": "narration",
+          "text": "你收起手机。"
+        },
+        {
+          "type": "narration",
+          "text": "红灯转绿。"
+        },
+        {
+          "type": "narration",
+          "text": "人群开始穿过路口。"
+        },
+        {
+          "type": "narration",
+          "text": "一个骑电动车的外卖员停在人行横道边，低头看着导航。"
+        },
+        {
+          "type": "narration",
+          "text": "身后的车流没有停过。"
+        },
+        {
+          "type": "narration",
+          "text": "你突然意识到，自己已经站在原地很久了。"
+        },
+        {
+          "type": "direction",
+          "text": "系统提示"
+        },
+        {
+          "type": "narration",
+          "text": "08:28"
+        },
+        {
+          "type": "narration",
+          "text": "距离上班还有一段时间。"
+        },
+        {
+          "type": "narration",
+          "text": "你决定……"
+        }
+      ],
+      "next": "CH01-004"
+    },
+    {
+      "id": "CH01-004",
+      "title": "第一次选择",
+      "time": "",
+      "location": "",
+      "bg": [
+        "BG-03"
+      ],
+      "route": "COMMON",
+      "blocks": [],
+      "next": null
+    },
+    {
+      "id": "CH01-A01",
+      "title": "新型肺炎",
+      "time": "Day 1，08:30",
+      "location": "",
+      "bg": [
+        "BG-04"
+      ],
+      "route": "A",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "你打开新闻软件。"
+        },
+        {
+          "type": "narration",
+          "text": "搜索栏里输入了“不明原因肺炎”。"
+        },
+        {
+          "type": "narration",
+          "text": "搜索结果很快出现。"
+        },
+        {
+          "type": "narration",
+          "text": "最新的一条来自龙国卫生主管部门。"
+        },
+        {
+          "type": "direction",
+          "text": "新闻"
+        },
+        {
+          "type": "news",
+          "text": "《关于近期部分地区不明原因肺炎病例的情况通报》"
+        },
+        {
+          "type": "news",
+          "text": "近期，部分地区报告了由新型病原体引起的肺炎病例。有关部门正组织开展流行病学调查、病例救治及病原学研究。\n\n目前，相关病例的临床表现及传播特征尚在进一步调查中。建议公众保持良好卫生习惯，及时关注官方发布的信息。"
+        },
+        {
+          "type": "narration",
+          "text": "你看完通报，又往下翻了几条新闻。"
+        },
+        {
+          "type": "narration",
+          "text": "大部分媒体都采用了相似的标题。"
+        },
+        {
+          "type": "narration",
+          "text": "“新型肺炎”。"
+        },
+        {
+          "type": "narration",
+          "text": "“加强个人防护”。"
+        },
+        {
+          "type": "narration",
+          "text": "“相关部门正在调查”。"
+        },
+        {
+          "type": "narration",
+          "text": "你对这些词并不陌生。"
+        },
+        {
+          "type": "narration",
+          "text": "几年前，人们曾经反复听到过类似的提醒。"
+        },
+        {
+          "type": "narration",
+          "text": "当时许多人的生活被改变了很长一段时间。"
+        },
+        {
+          "type": "narration",
+          "text": "想到这里，你决定先买些口罩。"
+        },
+        {
+          "type": "direction",
+          "text": "购物软件"
+        },
+        {
+          "type": "phone",
+          "text": "搜索：医用外科口罩。"
+        },
+        {
+          "type": "narration",
+          "text": "商品页面加载出来。"
+        },
+        {
+          "type": "narration",
+          "text": "你愣了一下。"
+        },
+        {
+          "type": "narration",
+          "text": "一盒平时二十多元的口罩，现在标价已经超过一百元。"
+        },
+        {
+          "type": "narration",
+          "text": "有几家店铺甚至显示售罄。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“操，怎么又涨成这样了。”"
+        },
+        {
+          "type": "narration",
+          "text": "你又翻了几家。"
+        },
+        {
+          "type": "narration",
+          "text": "价格都差不多。"
+        },
+        {
+          "type": "narration",
+          "text": "犹豫片刻，你还是买下了几盒口罩，又添了些消毒用品。"
+        },
+        {
+          "type": "direction",
+          "text": "手机提示"
+        },
+        {
+          "type": "phone",
+          "text": "订单已提交。"
+        },
+        {
+          "type": "phone",
+          "text": "预计后日送达。"
+        },
+        {
+          "type": "narration",
+          "text": "地铁进站的提示音响起。"
+        },
+        {
+          "type": "narration",
+          "text": "你跟着人群向前移动。"
+        },
+        {
+          "type": "narration",
+          "text": "车厢里有不少乘客已经戴上口罩。"
+        },
+        {
+          "type": "narration",
+          "text": "一个年轻人正在和朋友聊天。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "乘客甲",
+          "text": "“不会又要开始吧？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "乘客乙",
+          "text": "“谁知道。反正口罩先备着。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "乘客甲",
+          "text": "“我妈刚才还让我少坐地铁。”"
+        },
+        {
+          "type": "narration",
+          "text": "你站在门边，看着窗玻璃上映出的自己。"
+        },
+        {
+          "type": "narration",
+          "text": "手机信号短暂地消失了。"
+        }
+      ],
+      "next": "CH01-A02"
+    },
+    {
+      "id": "CH01-A02",
+      "title": "正常生活的代价",
+      "time": "Day 2，20:16",
+      "location": "沪海市公寓",
+      "bg": [
+        "BG-05"
+      ],
+      "route": "A",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "餐桌上堆着几盒刚刚送来的口罩。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣正在拆开快递。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你怎么一下买了这么多？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“最近情况不太对，先备点。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“还买了酒精？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“嗯。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你觉得这次会像上一次那样吗？”"
+        },
+        {
+          "type": "narration",
+          "text": "你没有马上回答。"
+        },
+        {
+          "type": "narration",
+          "text": "电视里正播放当天的晚间新闻。"
+        },
+        {
+          "type": "narration",
+          "text": "主持人介绍着有关部门开展公共卫生调查的最新进展。"
+        },
+        {
+          "type": "narration",
+          "text": "画面中，一名工作人员站在医院门口接受采访。"
+        },
+        {
+          "type": "narration",
+          "text": "身后是整齐停放的救护车。"
+        },
+        {
+          "type": "narration",
+          "text": "你看了一会儿。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“不知道。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“但感觉不像什么小事。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那我们要不要回庐州？”"
+        },
+        {
+          "type": "narration",
+          "text": "你拿起手机，打开地图。"
+        },
+        {
+          "type": "narration",
+          "text": "沪海市到庐州市。"
+        },
+        {
+          "type": "narration",
+          "text": "导航显示高速路况基本正常。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“可以考虑。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“明天走？”"
+        },
+        {
+          "type": "narration",
+          "text": "你想起公司里还没处理完的工作。"
+        },
+        {
+          "type": "narration",
+          "text": "还有一些东西没有收拾。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“先把东西备齐吧。总不能什么都不带。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“也是。”"
+        },
+        {
+          "type": "narration",
+          "text": "她把口罩放进柜子。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那我们明天下班去趟超市？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“好。”"
+        },
+        {
+          "type": "narration",
+          "text": "电视里的新闻结束了。"
+        },
+        {
+          "type": "narration",
+          "text": "接下来是一档娱乐节目。"
+        },
+        {
+          "type": "narration",
+          "text": "屏幕上响起欢快的掌声。"
+        },
+        {
+          "type": "narration",
+          "text": "你把音量调低了一点。"
+        }
+      ],
+      "next": "CH01-A03"
+    },
+    {
+      "id": "CH01-A03",
+      "title": "准备",
+      "time": "Day 3—Day 4",
+      "location": "",
+      "bg": [
+        "BG-06",
+        "BG-05"
+      ],
+      "route": "A",
+      "blocks": [
+        {
+          "type": "direction",
+          "text": "画面：超市"
+        },
+        {
+          "type": "narration",
+          "text": "你推着购物车，从一排排货架间经过。"
+        },
+        {
+          "type": "narration",
+          "text": "罐头、方便食品、瓶装水、卫生用品。"
+        },
+        {
+          "type": "narration",
+          "text": "购物车很快装满了。"
+        },
+        {
+          "type": "narration",
+          "text": "旁边的货架前站着几名顾客。"
+        },
+        {
+          "type": "narration",
+          "text": "他们低声讨论着最近的新闻。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "顾客甲",
+          "text": "“昨天我们小区有人发烧，居委会都上门了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "顾客乙",
+          "text": "“现在发烧不是挺正常的吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "顾客甲",
+          "text": "“谁知道。”"
+        },
+        {
+          "type": "narration",
+          "text": "结账时，收银员告诉你，一部分商品已经开始限购。"
+        },
+        {
+          "type": "narration",
+          "text": "你没有争论。"
+        },
+        {
+          "type": "narration",
+          "text": "把买到的东西搬上车，随后返回公寓。"
+        },
+        {
+          "type": "direction",
+          "text": "画面：公寓"
+        },
+        {
+          "type": "narration",
+          "text": "地板上摆着几箱饮用水。"
+        },
+        {
+          "type": "narration",
+          "text": "餐桌下面塞满了罐头和饼干。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣正蹲在行李箱旁整理衣物。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你看这些够不够？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“应该差不多。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我们到底什么时候走？”"
+        },
+        {
+          "type": "narration",
+          "text": "你看了一眼手机。"
+        },
+        {
+          "type": "narration",
+          "text": "白天，公司临时通知下周部分岗位可以居家办公。"
+        },
+        {
+          "type": "narration",
+          "text": "新闻里也开始出现更多城市实施交通限制的消息。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“再等一天吧。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“为什么？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“还有两个快递没到。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那些东西也不是必须的。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“主要是我想再看看外面的情况。”"
+        },
+        {
+          "type": "narration",
+          "text": "她没有继续追问。"
+        },
+        {
+          "type": "narration",
+          "text": "只是把行李箱拉链拉好。"
+        },
+        {
+          "type": "narration",
+          "text": "过了一会儿，她忽然说道："
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你要是真想回去，我们可以不要那些快递。”"
+        },
+        {
+          "type": "narration",
+          "text": "你看着地上的物资。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“嗯。明天再决定。”"
+        },
+        {
+          "type": "direction",
+          "text": "转场：第二天傍晚"
+        },
+        {
+          "type": "narration",
+          "text": "手机上的新闻推送越来越频繁。"
+        },
+        {
+          "type": "narration",
+          "text": "有些道路开始设置临时检查点。"
+        },
+        {
+          "type": "narration",
+          "text": "几处大型交通枢纽调整了运营安排。"
+        },
+        {
+          "type": "narration",
+          "text": "你终于给父母打去电话。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“最近你们那边是不是挺乱的？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“有点。我准备回去。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“那就早点走。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“嗯。东西已经收拾得差不多了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“乡下房子前段时间刚检查过。你们回来有地方住。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“知道。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“路上注意安全。”"
+        },
+        {
+          "type": "narration",
+          "text": "你挂断电话。"
+        },
+        {
+          "type": "narration",
+          "text": "又一次打开地图。"
+        },
+        {
+          "type": "narration",
+          "text": "几条原本通畅的道路已经变成了红色。"
+        },
+        {
+          "type": "narration",
+          "text": "你盯着屏幕看了一会儿。"
+        },
+        {
+          "type": "narration",
+          "text": "然后把手机扣在桌上。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“明天一早走。”"
+        }
+      ],
+      "next": "CH01-A04"
+    },
+    {
+      "id": "CH01-A04",
+      "title": "出城",
+      "time": "Day 5，06:40",
+      "location": "沪海市外围道路",
+      "bg": [
+        "BG-07"
+      ],
+      "route": "A",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "天刚亮。"
+        },
+        {
+          "type": "narration",
+          "text": "你们把最后一箱物资放进后备厢。"
+        },
+        {
+          "type": "narration",
+          "text": "新能源轿车的电量显示为97%。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣坐进副驾驶。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“爸妈知道我们今天走吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“说了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那就好。”"
+        },
+        {
+          "type": "narration",
+          "text": "你启动汽车。"
+        },
+        {
+          "type": "narration",
+          "text": "导航开始规划路线。"
+        },
+        {
+          "type": "direction",
+          "text": "车机导航"
+        },
+        {
+          "type": "phone",
+          "text": "目的地：庐州市城郊住宅。"
+        },
+        {
+          "type": "phone",
+          "text": "预计行驶距离：约500公里。"
+        },
+        {
+          "type": "narration",
+          "text": "你驶出小区。"
+        },
+        {
+          "type": "narration",
+          "text": "平时这个时间，路上的汽车并不算多。"
+        },
+        {
+          "type": "narration",
+          "text": "今天却已经排起了长队。"
+        },
+        {
+          "type": "direction",
+          "text": "场景切换：城市外围检查点"
+        },
+        {
+          "type": "narration",
+          "text": "车辆缓缓向前挪动。"
+        },
+        {
+          "type": "narration",
+          "text": "前方有人正在核验通行信息。"
+        },
+        {
+          "type": "narration",
+          "text": "一名交警走到车窗旁。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "交警",
+          "text": "“去哪儿？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“庐州市，回老家。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "交警",
+          "text": "“车上几个人？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“两个。”"
+        },
+        {
+          "type": "narration",
+          "text": "对方检查了你们的证件和通行信息。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "交警",
+          "text": "“最近部分路段临时管制，按导航不一定能走通。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“明白。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "交警",
+          "text": "“路上注意安全，有情况服从现场指挥。”"
+        },
+        {
+          "type": "narration",
+          "text": "车辆终于被放行。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“还好出来了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“嗯。”"
+        },
+        {
+          "type": "narration",
+          "text": "你松了一口气。"
+        },
+        {
+          "type": "narration",
+          "text": "可是离开检查点不久，前方再次出现拥堵。"
+        },
+        {
+          "type": "narration",
+          "text": "车载导航反复重新规划路线。"
+        },
+        {
+          "type": "narration",
+          "text": "预计到达时间从下午三点，变成五点，又变成七点。"
+        },
+        {
+          "type": "narration",
+          "text": "你们在路上耗费了数个小时。"
+        },
+        {
+          "type": "narration",
+          "text": "午后，电量逐渐接近需要补充的范围。"
+        },
+        {
+          "type": "narration",
+          "text": "你不得不将目的地暂时改为前方的一处高速服务区。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“还剩多少电？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“够到服务区。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那先充电吧。”"
+        },
+        {
+          "type": "narration",
+          "text": "你点了点头。"
+        },
+        {
+          "type": "narration",
+          "text": "远处，服务区入口的指示牌渐渐出现在道路尽头。"
+        }
+      ],
+      "next": "CH01-A05"
+    },
+    {
+      "id": "CH01-A05",
+      "title": "最后一站",
+      "time": "Day 5，17:26",
+      "location": "沪庐高速某服务区",
+      "bg": [
+        "BG-08"
+      ],
+      "route": "A",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "服务区里停满了汽车。"
+        },
+        {
+          "type": "narration",
+          "text": "原本宽敞的停车场被临时停放的车辆挤得十分狭窄。"
+        },
+        {
+          "type": "narration",
+          "text": "几辆大货车停在广场另一侧。"
+        },
+        {
+          "type": "narration",
+          "text": "有司机站在车旁抽烟。"
+        },
+        {
+          "type": "narration",
+          "text": "便利店门口排着长队。"
+        },
+        {
+          "type": "narration",
+          "text": "不远处，有工作人员正在反复提醒旅客不要聚集。"
+        },
+        {
+          "type": "narration",
+          "text": "你把车驶向充电区。"
+        },
+        {
+          "type": "direction",
+          "text": "场景：BG-09 服务区充电区"
+        },
+        {
+          "type": "narration",
+          "text": "幸运的是，终于轮到了一个空闲的充电车位。"
+        },
+        {
+          "type": "narration",
+          "text": "你下车接好充电枪。"
+        },
+        {
+          "type": "narration",
+          "text": "看着充电桩屏幕上缓慢增加的数字，长长地舒了一口气。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“还要充多久？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“二十分钟左右，充到够跑下一段就行。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“今天能回去吗？”"
+        },
+        {
+          "type": "narration",
+          "text": "你打开手机导航。"
+        },
+        {
+          "type": "direction",
+          "text": "手机导航"
+        },
+        {
+          "type": "phone",
+          "text": "目的地：庐州市城郊住宅"
+        },
+        {
+          "type": "phone",
+          "text": "剩余距离：217公里"
+        },
+        {
+          "type": "phone",
+          "text": "预计到达时间：因道路管制，暂无法准确估算"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“应该能。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "林晚宁",
+          "text": "“那我给叔叔阿姨发个消息。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“嗯。”"
+        },
+        {
+          "type": "narration",
+          "text": "你看了一眼便利店。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我去买两瓶水。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“车上不是还有吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“顺便看看有没有热的东西吃。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那你快点。”"
+        },
+        {
+          "type": "narration",
+          "text": "你关上车门，朝服务区广场走去。"
+        },
+        {
+          "type": "direction",
+          "text": "背景：BG-10 服务区便利店"
+        },
+        {
+          "type": "narration",
+          "text": "玻璃门上贴着一张手写告示："
+        },
+        {
+          "type": "narration",
+          "text": "“部分商品暂时缺货，敬请谅解。”"
+        },
+        {
+          "type": "narration",
+          "text": "店里有些闷热。"
+        },
+        {
+          "type": "narration",
+          "text": "冰柜仍然发出低沉的运转声。"
+        },
+        {
+          "type": "narration",
+          "text": "你拿了两瓶水，又在货架上找到几袋饼干。"
+        },
+        {
+          "type": "narration",
+          "text": "排队结账时，远处传来一阵争吵。"
+        },
+        {
+          "type": "narration",
+          "text": "最初，你没有在意。"
+        },
+        {
+          "type": "narration",
+          "text": "这样的争执今天已经见过很多次了。"
+        },
+        {
+          "type": "narration",
+          "text": "有人抱怨充电太慢。"
+        },
+        {
+          "type": "narration",
+          "text": "有人抱怨交通检查。"
+        },
+        {
+          "type": "narration",
+          "text": "有人说前面的高速已经封了。"
+        },
+        {
+          "type": "narration",
+          "text": "你低头看了一眼手机。"
+        },
+        {
+          "type": "narration",
+          "text": "17:43。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣发来消息。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“爸说家里已经准备好了，让我们慢慢开。”"
+        },
+        {
+          "type": "narration",
+          "text": "你笑了一下。"
+        },
+        {
+          "type": "narration",
+          "text": "回复："
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“马上回来。”"
+        },
+        {
+          "type": "narration",
+          "text": "就在这时，服务区入口处传来一阵尖叫。"
+        },
+        {
+          "type": "direction",
+          "text": "音效：远处喧哗"
+        },
+        {
+          "type": "narration",
+          "text": "你抬起头。"
+        },
+        {
+          "type": "narration",
+          "text": "几个人正从停车场另一侧跑过来。"
+        },
+        {
+          "type": "narration",
+          "text": "其中一个人不断回头。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "远处旅客",
+          "text": "“别过去！”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "另一个声音",
+          "text": "“车上有人发疯了！”"
+        },
+        {
+          "type": "narration",
+          "text": "你透过便利店的玻璃窗望去。"
+        },
+        {
+          "type": "narration",
+          "text": "一辆大客车停在服务区入口附近。"
+        },
+        {
+          "type": "narration",
+          "text": "车身周围聚集着不少人。"
+        },
+        {
+          "type": "narration",
+          "text": "客车前门敞开着。"
+        },
+        {
+          "type": "narration",
+          "text": "有人正在从车里往外跑。"
+        },
+        {
+          "type": "narration",
+          "text": "一名乘客摔倒在台阶上。"
+        },
+        {
+          "type": "narration",
+          "text": "紧接着，另一个身影从车厢里冲了出来。"
+        },
+        {
+          "type": "narration",
+          "text": "他扑向附近试图搀扶乘客的工作人员。"
+        },
+        {
+          "type": "narration",
+          "text": "两人一起跌倒。"
+        },
+        {
+          "type": "narration",
+          "text": "周围的人群开始后退。"
+        },
+        {
+          "type": "narration",
+          "text": "紧接着，又有几名神情异常的乘客从车内冲出。"
+        },
+        {
+          "type": "narration",
+          "text": "他们的动作迅速而凌乱。"
+        },
+        {
+          "type": "narration",
+          "text": "有人试图阻拦。"
+        },
+        {
+          "type": "narration",
+          "text": "有人惊叫着跑开。"
+        },
+        {
+          "type": "narration",
+          "text": "车厢里仍然传出撞击声。"
+        },
+        {
+          "type": "narration",
+          "text": "你也许再也不会知道：那辆客车上已经有数名旅客在出发前感染。漫长而各不相同的潜伏期，让他们直到这段旅程中才陆续出现严重症状。"
+        },
+        {
+          "type": "narration",
+          "text": "而此刻，你所能看见的，只是人群忽然失去了秩序。"
+        },
+        {
+          "type": "direction",
+          "text": "背景：BG-11 服务区入口与临时警戒线"
+        },
+        {
+          "type": "narration",
+          "text": "几名临时驻守的武警迅速赶向客车。"
+        },
+        {
+          "type": "narration",
+          "text": "有人通过扩音器要求旅客后退。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "现场喊话",
+          "text": "“所有人员不要靠近客车！”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "现场喊话",
+          "text": "“保持距离！向后撤离！”"
+        },
+        {
+          "type": "narration",
+          "text": "但服务区里的人实在太多。"
+        },
+        {
+          "type": "narration",
+          "text": "客车附近的旅客四散奔逃，后方的人却还不知道发生了什么。"
+        },
+        {
+          "type": "narration",
+          "text": "拥挤的人群不断推搡。"
+        },
+        {
+          "type": "narration",
+          "text": "几名武警正在不断射击冲向另一侧的感染者，却被同时涌来的旅客撞得失去平衡。"
+        },
+        {
+          "type": "narration",
+          "text": "警戒线随即被冲破。"
+        },
+        {
+          "type": "narration",
+          "text": "临时防线出现了缺口。"
+        },
+        {
+          "type": "narration",
+          "text": "随后，更多感染者混在人群中冲向停车场。"
+        },
+        {
+          "type": "narration",
+          "text": "执勤人员仍在组织疏散，但已经无法控制整个广场。"
+        },
+        {
+          "type": "narration",
+          "text": "你终于意识到事情远比普通的伤人事件严重。"
+        },
+        {
+          "type": "narration",
+          "text": "手机突然响起。"
+        },
+        {
+          "type": "direction",
+          "text": "来电：林晚宁"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“喂？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“外面怎么回事？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“不知道。好像有人在打架。”"
+        },
+        {
+          "type": "narration",
+          "text": "电话那头沉默了一瞬。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我看见有人在跑。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“你别下车。”"
+        },
+        {
+          "type": "narration",
+          "text": "一声沉闷的撞击突然从不远处传来。"
+        },
+        {
+          "type": "narration",
+          "text": "便利店的玻璃门被逃跑的人群撞开。"
+        },
+        {
+          "type": "narration",
+          "text": "有人跌倒在你身旁。"
+        },
+        {
+          "type": "narration",
+          "text": "你看见他的手臂上有一大片血迹。"
+        },
+        {
+          "type": "narration",
+          "text": "紧接着，一个神情异常的男子从门外扑向了倒地的人。"
+        },
+        {
+          "type": "narration",
+          "text": "你后退一步。"
+        },
+        {
+          "type": "narration",
+          "text": "购物袋掉在地上。"
+        },
+        {
+          "type": "narration",
+          "text": "两瓶水滚向货架下面。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“……操。”"
+        },
+        {
+          "type": "narration",
+          "text": "电话里传来伴侣急促的声音。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你快回来！”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“把车门锁好！”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你在哪儿？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我马上过去！”"
+        },
+        {
+          "type": "narration",
+          "text": "你转身冲出便利店。"
+        }
+      ],
+      "next": "CH01-A06"
+    },
+    {
+      "id": "CH01-A06",
+      "title": "217公里",
+      "time": "17:47",
+      "location": "服务区停车场",
+      "bg": [
+        "BG-12"
+      ],
+      "route": "A",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "停车场里到处是奔跑的人。"
+        },
+        {
+          "type": "narration",
+          "text": "汽车喇叭接连响起。"
+        },
+        {
+          "type": "narration",
+          "text": "有人试图倒车，却被后面的车辆堵住。"
+        },
+        {
+          "type": "narration",
+          "text": "一辆轿车撞上了路边的护栏。"
+        },
+        {
+          "type": "narration",
+          "text": "你远远看见充电区。"
+        },
+        {
+          "type": "narration",
+          "text": "自己的车还停在那里。"
+        },
+        {
+          "type": "narration",
+          "text": "充电枪没有拔下。"
+        },
+        {
+          "type": "narration",
+          "text": "隔着车窗，似乎能够看见伴侣正向这边张望。"
+        },
+        {
+          "type": "narration",
+          "text": "你努力朝那个方向跑去。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁（电话）",
+          "text": "“我看见你了！”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“别出来！”"
+        },
+        {
+          "type": "narration",
+          "text": "一群逃跑的旅客迎面冲过来。"
+        },
+        {
+          "type": "narration",
+          "text": "你被撞得踉跄了一下。"
+        },
+        {
+          "type": "narration",
+          "text": "等重新站稳时，前方的道路已经挤满了人。"
+        },
+        {
+          "type": "narration",
+          "text": "你试图绕过一辆面包车。"
+        },
+        {
+          "type": "narration",
+          "text": "身后传来急促的脚步声。"
+        },
+        {
+          "type": "narration",
+          "text": "有人撞倒了旁边的行李箱。"
+        },
+        {
+          "type": "narration",
+          "text": "你回头。"
+        },
+        {
+          "type": "narration",
+          "text": "一名感染者已经越过混乱的人群，朝你所在的方向奔来。"
+        },
+        {
+          "type": "narration",
+          "text": "你下意识加快脚步。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁（电话）",
+          "text": "“你快点！”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我——”"
+        },
+        {
+          "type": "narration",
+          "text": "话音未落，你的肩膀突然被重重撞了一下。"
+        },
+        {
+          "type": "narration",
+          "text": "身体失去平衡。"
+        },
+        {
+          "type": "narration",
+          "text": "手机从手中滑落。"
+        },
+        {
+          "type": "direction",
+          "text": "音效：手机坠地"
+        },
+        {
+          "type": "narration",
+          "text": "你伸手去抓。"
+        },
+        {
+          "type": "narration",
+          "text": "却什么也没有抓到。"
+        },
+        {
+          "type": "narration",
+          "text": "眼前是混乱的车灯、奔跑的双腿，还有越来越近的脚步声。"
+        },
+        {
+          "type": "direction",
+          "text": "画面骤然切黑"
+        },
+        {
+          "type": "narration",
+          "text": "电话里仍然传来伴侣的声音。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“喂？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你说话啊！”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你在哪儿？！”"
+        },
+        {
+          "type": "direction",
+          "text": "短暂静默"
+        },
+        {
+          "type": "narration",
+          "text": "远处传来一声尖叫。"
+        },
+        {
+          "type": "narration",
+          "text": "随后是金属撞击的声音。"
+        },
+        {
+          "type": "direction",
+          "text": "声音逐渐消失"
+        },
+        {
+          "type": "narration",
+          "text": "……"
+        },
+        {
+          "type": "direction",
+          "text": "CG-01：碎裂的手机"
+        },
+        {
+          "type": "narration",
+          "text": "手机掉在停车场的地面上。"
+        },
+        {
+          "type": "narration",
+          "text": "屏幕出现了一道裂纹。"
+        },
+        {
+          "type": "narration",
+          "text": "通话已经中断。"
+        },
+        {
+          "type": "narration",
+          "text": "导航界面仍然停留在屏幕上。"
+        },
+        {
+          "type": "narration",
+          "text": "目的地：庐州市"
+        },
+        {
+          "type": "narration",
+          "text": "剩余距离：217公里"
+        },
+        {
+          "type": "narration",
+          "text": "镜头停留数秒。"
+        },
+        {
+          "type": "direction",
+          "text": "黑屏"
+        },
+        {
+          "type": "narration",
+          "text": "那一天，你们最终都没能离开那座服务区。"
+        },
+        {
+          "type": "narration",
+          "text": "……"
+        },
+        {
+          "type": "narration",
+          "text": "你曾以为，自己还有足够的时间。"
+        }
+      ],
+      "next": null
+    },
+    {
+      "id": "CH01-B01",
+      "title": "母亲的电话",
+      "time": "Day 1，08:30",
+      "location": "",
+      "bg": [
+        "BG-03"
+      ],
+      "route": "B",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "你没有继续看新闻。"
+        },
+        {
+          "type": "narration",
+          "text": "而是拨通了母亲的电话。"
+        },
+        {
+          "type": "direction",
+          "text": "拨号中"
+        },
+        {
+          "type": "narration",
+          "text": "电话响了几声。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“喂？怎么这么早打电话？”"
+        },
+        {
+          "type": "narration",
+          "text": "你隐约听见电话另一边有人交谈。"
+        },
+        {
+          "type": "narration",
+          "text": "还有推车经过走廊的声音。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“妈，你在医院？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“在呢。刚交完班。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“问你个事，最近是不是又有什么传染病？”"
+        },
+        {
+          "type": "narration",
+          "text": "电话那头安静了片刻。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“你也看新闻了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“嗯。我有个朋友在沪海的医院工作，说最近他们在加强防护。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“我们这边也差不多。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“这两天发热门诊挺忙的，院里反复强调防护和异常情况上报。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“严重吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“现在还不好说。我们也没有那么多确定的消息。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“不是说新型肺炎吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“通报是这么说的。不过具体是什么、怎么传播，还得等调查。”"
+        },
+        {
+          "type": "narration",
+          "text": "她停顿了一下。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“你是不是担心了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“有一点。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“担心也正常。做好防护，别听见什么都往自己身上套。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我知道。”"
+        },
+        {
+          "type": "narration",
+          "text": "你看了一眼路口排起的车流。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“妈，我想让你跟爸商量一下，先往乡下那套房子备点东西。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“我也有这个想法。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“反正那地方本来就是为了应急准备的。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“你们检查一下保质期。水和罐头可以再买点。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“行。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“让我爸问问他那些供货商。别等超市开始抢了再买。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“好，我跟他说。”"
+        },
+        {
+          "type": "narration",
+          "text": "电话另一边有人叫了她一声。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“我这边还有事，先不说了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“你自己也注意安全。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“知道。你们两个也是。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“晚上记得给家里打电话。”"
+        },
+        {
+          "type": "direction",
+          "text": "通话结束"
+        },
+        {
+          "type": "narration",
+          "text": "你站在人行道边，低头看着手机。"
+        },
+        {
+          "type": "narration",
+          "text": "路上仍然是熟悉的车流。"
+        },
+        {
+          "type": "narration",
+          "text": "片刻之后，一条消息弹了出来。"
+        },
+        {
+          "type": "phone",
+          "speaker": "周慧敏",
+          "text": "“已经跟你爸说了。他一会儿去问供应商，尽量按一年的量准备。”"
+        },
+        {
+          "type": "narration",
+          "text": "你回复了一个“好”。"
+        },
+        {
+          "type": "narration",
+          "text": "随后把医院朋友发来的消息转给伴侣。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我刚给妈打电话了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“怎么了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“让他们检查一下乡下的储备。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你觉得真会严重起来？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“说不好。晚上回来再商量吧。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“好。”"
+        }
+      ],
+      "next": "CH01-B02"
+    },
+    {
+      "id": "CH01-B02",
+      "title": "餐厅后厨",
+      "time": "Day 1，12:20",
+      "location": "庐州市区，父亲经营的餐厅",
+      "bg": [
+        "BG-13"
+      ],
+      "route": "B",
+      "blocks": [
+        {
+          "type": "direction",
+          "text": "镜头转场：庐州市"
+        },
+        {
+          "type": "narration",
+          "text": "餐厅刚过了午间最忙的时候。"
+        },
+        {
+          "type": "narration",
+          "text": "后厨还留着炒菜的热气。"
+        },
+        {
+          "type": "narration",
+          "text": "一名员工正在清洗餐具。"
+        },
+        {
+          "type": "narration",
+          "text": "父亲坐在后面的办公室里，翻看手机上的进货记录。"
+        },
+        {
+          "type": "narration",
+          "text": "电话响了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "供货商",
+          "text": "“喂，哥，怎么了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“最近米面和油还有现货吧？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "供货商",
+          "text": "“有啊。你店里不够了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“不是店里。我家里想备一些。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "供货商",
+          "text": "“最近确实有不少人问。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“那我先订一批，按市场价走。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "供货商",
+          "text": "“行。你把数量发我。”"
+        },
+        {
+          "type": "narration",
+          "text": "父亲挂断电话。"
+        },
+        {
+          "type": "narration",
+          "text": "他看着手机上的采购清单，想了一会儿，又拨通另一个号码。"
+        },
+        {
+          "type": "narration",
+          "text": "窗外，一辆送货面包车正在倒车。"
+        },
+        {
+          "type": "narration",
+          "text": "隔着玻璃，能够看见街边小店的招牌。"
+        },
+        {
+          "type": "narration",
+          "text": "一切都和平时没什么两样。"
+        },
+        {
+          "type": "narration",
+          "text": "只有手机上的订单，比往常多了几行。"
+        },
+        {
+          "type": "direction",
+          "text": "画面切换：庐州市区"
+        },
+        {
+          "type": "narration",
+          "text": "傍晚，父母在家中整理采购清单。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“米面油基本能拿到，罐头还得去超市看看。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“水也多买一点。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“我明天去。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“地下室的东西得再检查一遍。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“嗯。”"
+        },
+        {
+          "type": "narration",
+          "text": "母亲看着手机。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“孩子今天还说，可能想提前回来。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“那就回来吧。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“工作怎么办？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“不是还有年假吗？要是像上次那样被封在里面，才真是得不偿失。”"
+        },
+        {
+          "type": "narration",
+          "text": "他说得很随意。"
+        },
+        {
+          "type": "narration",
+          "text": "随后又低下头，继续核对清单。"
+        }
+      ],
+      "next": "CH01-B03"
+    },
+    {
+      "id": "CH01-B03",
+      "title": "决定",
+      "time": "Day 1，20:37",
+      "location": "沪海市公寓",
+      "bg": [
+        "BG-05"
+      ],
+      "route": "B",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "你回到家时，伴侣已经在厨房里忙了一会儿。"
+        },
+        {
+          "type": "narration",
+          "text": "桌上放着两碗刚做好的面。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“今天怎么回来这么晚？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“临时开了个会。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你们公司也开始讨论那个事了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“嗯。有人建议减少线下会议。”"
+        },
+        {
+          "type": "narration",
+          "text": "你洗了洗手，在桌边坐下。"
+        },
+        {
+          "type": "narration",
+          "text": "两人吃了一会儿。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣先开口。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“所以，你现在还是想回庐州？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“想。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那就回去。”"
+        },
+        {
+          "type": "narration",
+          "text": "你抬起头。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“这么干脆？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“不是你早上让我一起商量的吗？”"
+        },
+        {
+          "type": "narration",
+          "text": "她拿起杯子喝了口水。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我下午也想了很久。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“说实话，我不觉得现在就会出什么大事。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“但是我们留在沪海，好像也没什么一定要留下来的理由。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“工作呢？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“请年假啊。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“你年假还有几天？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“够用。”"
+        },
+        {
+          "type": "narration",
+          "text": "你笑了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我也还有几天。”"
+        },
+        {
+          "type": "narration",
+          "text": "她继续说道："
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“其实我更担心家里人。叔叔阿姨在庐州，我爸妈也在那边，万一真有什么事，我们隔这么远也帮不上忙。”"
+        },
+        {
+          "type": "narration",
+          "text": "你想起早晨母亲的电话。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我爸已经开始买东西了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那我们也别拖太久。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“行。明天把工作处理一下，后天走。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“好。”"
+        },
+        {
+          "type": "narration",
+          "text": "她把碗端起来。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“不过今天还是先把面吃完吧，都快凉了。”"
+        },
+        {
+          "type": "narration",
+          "text": "窗外，城市的灯光一盏接着一盏亮起。"
+        },
+        {
+          "type": "narration",
+          "text": "远处高架桥上的车流连成一道缓慢移动的光带。"
+        },
+        {
+          "type": "narration",
+          "text": "你忽然觉得，这个夜晚比平时安静了一些。"
+        }
+      ],
+      "next": "CH01-B04"
+    },
+    {
+      "id": "CH01-B04",
+      "title": "年假",
+      "time": "Day 2，09:14",
+      "location": "公司办公室",
+      "bg": [
+        "BG-14"
+      ],
+      "route": "B",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "你坐在工位前，打开与上级的聊天窗口。"
+        },
+        {
+          "type": "narration",
+          "text": "反复斟酌了一下措辞。"
+        },
+        {
+          "type": "direction",
+          "text": "工作聊天"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“领导，我这两天身体状态不太好，想把剩下的年假休一下，回老家调整几天。”"
+        },
+        {
+          "type": "narration",
+          "text": "对方很快回复。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "上级",
+          "text": "“哪里不舒服？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“最近有些疲惫，想休息一下。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "上级",
+          "text": "“最近这个情况，你要是不舒服就别勉强来公司了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "上级",
+          "text": "“手头的工作交接好就行。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“谢谢领导。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "上级",
+          "text": "“注意身体。有需要线上沟通。”"
+        },
+        {
+          "type": "narration",
+          "text": "你关闭聊天窗口。"
+        },
+        {
+          "type": "narration",
+          "text": "又给伴侣发消息。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我这边批了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我也是。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“那按计划走。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“嗯，晚上收拾东西。”"
+        },
+        {
+          "type": "narration",
+          "text": "你看着办公桌上的文件。"
+        },
+        {
+          "type": "narration",
+          "text": "突然有些恍惚。"
+        },
+        {
+          "type": "narration",
+          "text": "你并没有辞职。"
+        },
+        {
+          "type": "narration",
+          "text": "只是请了几天年假。"
+        },
+        {
+          "type": "narration",
+          "text": "下周也许还会回来。"
+        },
+        {
+          "type": "narration",
+          "text": "桌上的杯子、抽屉里的零食、电脑里没写完的报告，都还在这里。"
+        },
+        {
+          "type": "narration",
+          "text": "你甚至没有认真地向同事告别。"
+        },
+        {
+          "type": "narration",
+          "text": "接下来的两天，你们没有再讨论是否回去。"
+        },
+        {
+          "type": "narration",
+          "text": "工作需要交接，订好的东西也陆续送到。"
+        },
+        {
+          "type": "narration",
+          "text": "你把文件发给同事，伴侣在地板上分开要带走和留在这里的用品。纸箱拆了一只，又多了一只。"
+        },
+        {
+          "type": "narration",
+          "text": "父亲在电话里说，买到的东西已经搬进乡下，家里还热着饭，不用再绕路。"
+        },
+        {
+          "type": "narration",
+          "text": "你们将出发时间定在第五天清晨。"
+        },
+        {
+          "type": "narration",
+          "text": "那时，你仍然觉得，晚两天不过是多收拾几件东西。"
+        }
+      ],
+      "next": "CH01-B05"
+    },
+    {
+      "id": "CH01-B05",
+      "title": "出发之前",
+      "time": "Day 5，07:10",
+      "location": "沪海市公寓地下停车场",
+      "bg": [
+        "BG-15"
+      ],
+      "route": "B",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "你把最后一个行李箱放进后备厢。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣清点了一遍随身物品。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“证件？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“带了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“充电线？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“带了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“钥匙？”"
+        },
+        {
+          "type": "narration",
+          "text": "你从口袋里掏出来晃了晃。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“好。”"
+        },
+        {
+          "type": "narration",
+          "text": "她关上车门。"
+        },
+        {
+          "type": "narration",
+          "text": "你看着车库里整齐排列的汽车。"
+        },
+        {
+          "type": "narration",
+          "text": "平时这个时间，已经有不少人开车出门。"
+        },
+        {
+          "type": "narration",
+          "text": "今天却有些安静。"
+        },
+        {
+          "type": "direction",
+          "text": "手机来电：陈建川"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“出发了没？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“刚准备走。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“昨天买的东西基本都到齐了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“水呢？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“买了。车里的油也加好了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“我还去了一趟老同学承包的加油站，买了好几桶汽油备着。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“餐厅怎么办？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“这两天生意本来就少，先让他们休息几天。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“妈呢？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“昨天上完班，今天轮休。我们准备去乡下整理东西。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“行，那我们晚上见。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“路上别急。”"
+        },
+        {
+          "type": "direction",
+          "text": "通话结束"
+        },
+        {
+          "type": "narration",
+          "text": "你坐进驾驶座。"
+        },
+        {
+          "type": "narration",
+          "text": "检查电量。"
+        },
+        {
+          "type": "narration",
+          "text": "96%。"
+        },
+        {
+          "type": "direction",
+          "text": "车机导航"
+        },
+        {
+          "type": "phone",
+          "text": "目的地：庐州市。"
+        },
+        {
+          "type": "phone",
+          "text": "推荐路线已生成。"
+        },
+        {
+          "type": "narration",
+          "text": "你按下开始导航。"
+        },
+        {
+          "type": "narration",
+          "text": "地下停车场出口的卷帘门缓缓升起。"
+        },
+        {
+          "type": "narration",
+          "text": "清晨的阳光照进车内。"
+        }
+      ],
+      "next": "CH01-B06"
+    },
+    {
+      "id": "CH01-B06",
+      "title": "长路",
+      "time": "Day 5，上午至傍晚",
+      "location": "",
+      "bg": [
+        "BG-16",
+        "BG-17"
+      ],
+      "route": "B",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "汽车驶离沪海市。"
+        },
+        {
+          "type": "narration",
+          "text": "道路两旁的高楼逐渐稀疏。"
+        },
+        {
+          "type": "narration",
+          "text": "再往前，是物流园、厂房和不断延伸的高速公路。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣坐在副驾驶，一边看导航，一边与母亲聊天。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“阿姨说冰箱里还给我们留了吃的。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“什么？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“她说等到了就知道。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“还搞神秘。”"
+        },
+        {
+          "type": "narration",
+          "text": "你笑了笑。"
+        },
+        {
+          "type": "narration",
+          "text": "车里安静了一会儿。"
+        },
+        {
+          "type": "narration",
+          "text": "广播正在播放交通信息。"
+        },
+        {
+          "type": "narration",
+          "text": "部分城市周边新增了临时检查措施。"
+        },
+        {
+          "type": "narration",
+          "text": "有几条路段提示车辆提前规划行程。"
+        },
+        {
+          "type": "narration",
+          "text": "你们经过一处服务区。"
+        },
+        {
+          "type": "narration",
+          "text": "停车休息、补充电量。"
+        },
+        {
+          "type": "narration",
+          "text": "周围人不少，但秩序基本正常。"
+        },
+        {
+          "type": "narration",
+          "text": "便利店里还能买到热食。"
+        },
+        {
+          "type": "narration",
+          "text": "你拿着两杯咖啡走回车旁。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣站在车边，望着远处的道路。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“看什么呢？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“没什么。”"
+        },
+        {
+          "type": "narration",
+          "text": "她接过咖啡。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“就是觉得有点奇怪。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“什么？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“昨天还在上班，今天就已经在回家的路上了。”"
+        },
+        {
+          "type": "narration",
+          "text": "你没有说话。"
+        },
+        {
+          "type": "narration",
+          "text": "远处，一辆货车从高速上驶过。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你觉得我们是不是有点小题大做？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“可能吧。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那你后悔吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“不后悔。”"
+        },
+        {
+          "type": "narration",
+          "text": "她笑了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我也是。”"
+        },
+        {
+          "type": "narration",
+          "text": "你们喝完咖啡，重新上车。"
+        },
+        {
+          "type": "narration",
+          "text": "窗外的城市越来越远。"
+        },
+        {
+          "type": "narration",
+          "text": "前方的道路仍然漫长。"
+        },
+        {
+          "type": "narration",
+          "text": "但至少此刻，你们正在朝家的方向行驶。"
+        }
+      ],
+      "next": "CH01-B07"
+    },
+    {
+      "id": "CH01-B07",
+      "title": "故乡",
+      "time": "Day 5，19:06",
+      "location": "庐州市城郊",
+      "bg": [
+        "BG-18"
+      ],
+      "route": "B",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "天色已经暗了下来。"
+        },
+        {
+          "type": "narration",
+          "text": "导航引导你驶出城市主干道。"
+        },
+        {
+          "type": "narration",
+          "text": "道路逐渐变窄。"
+        },
+        {
+          "type": "narration",
+          "text": "两旁出现成片的农田和零散的住宅。"
+        },
+        {
+          "type": "narration",
+          "text": "远处，一列货车缓慢驶过铁路桥。"
+        },
+        {
+          "type": "narration",
+          "text": "车轮与铁轨的摩擦声顺着晚风传过来。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣望向窗外。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“这边好像比上次来又多了几栋楼。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“附近新修的。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那边是什么？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“物流园。再往前还有货运站。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“以前好像没这么多车。”"
+        },
+        {
+          "type": "narration",
+          "text": "你看了一眼路边。"
+        },
+        {
+          "type": "narration",
+          "text": "几辆货车正停在仓库门口。"
+        },
+        {
+          "type": "narration",
+          "text": "远处高层住宅的窗户里亮着灯。"
+        },
+        {
+          "type": "narration",
+          "text": "有人推着自行车从路口经过。"
+        },
+        {
+          "type": "narration",
+          "text": "一个骑电动车的年轻人停在便利店门前，低头翻看手机。"
+        },
+        {
+          "type": "narration",
+          "text": "除了不断出现的疫情新闻，这里仍然和任何一个普通的城郊社区没有太大区别。"
+        },
+        {
+          "type": "narration",
+          "text": "导航提示你在前方路口右转。"
+        },
+        {
+          "type": "narration",
+          "text": "不久，熟悉的院墙出现在道路一侧。"
+        },
+        {
+          "type": "direction",
+          "text": "背景：BG-19 城郊安全屋夜景"
+        },
+        {
+          "type": "narration",
+          "text": "院门外停着父亲的老款SUV。"
+        },
+        {
+          "type": "narration",
+          "text": "院子里亮着灯。"
+        },
+        {
+          "type": "narration",
+          "text": "父亲听见汽车驶来的声音，从屋里走出来。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“到了？”"
+        },
+        {
+          "type": "narration",
+          "text": "你停好车。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“到了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“路上堵不堵？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“还行，检查耽误了一会儿。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“那就好。”"
+        },
+        {
+          "type": "narration",
+          "text": "他接过一个行李箱。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“先进去吃饭，东西明天再收拾。”"
+        },
+        {
+          "type": "narration",
+          "text": "你走进院子。"
+        },
+        {
+          "type": "narration",
+          "text": "母亲从屋里出来，手里还拿着一条围裙。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“怎么这么晚？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“路上充了次电。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“饭还热着，洗手吃饭。”"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣笑着叫了一声阿姨。"
+        },
+        {
+          "type": "narration",
+          "text": "母亲拉着她往屋里走。"
+        },
+        {
+          "type": "narration",
+          "text": "父亲还在后面慢慢搬行李。"
+        },
+        {
+          "type": "narration",
+          "text": "你站在院门口，回头望了一眼来时的道路。"
+        },
+        {
+          "type": "narration",
+          "text": "远处的天已经完全黑了。"
+        },
+        {
+          "type": "narration",
+          "text": "只有路灯把树影投在地上。"
+        },
+        {
+          "type": "narration",
+          "text": "屋里传来母亲的声音。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“别在外面站着了，快进来。”"
+        },
+        {
+          "type": "narration",
+          "text": "你收回视线。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“来了。”"
+        },
+        {
+          "type": "direction",
+          "text": "画面渐暗"
+        },
+        {
+          "type": "direction",
+          "text": "黑屏"
+        },
+        {
+          "type": "narration",
+          "text": "……"
+        },
+        {
+          "type": "narration",
+          "text": "这一程虽不容易，但幸好，家还在。"
+        }
+      ],
+      "next": null
+    },
+    {
+      "id": "CH01-C01",
+      "title": "两个人的决定",
+      "time": "Day 1，08:30",
+      "location": "",
+      "bg": [
+        "BG-03"
+      ],
+      "route": "C",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "你把手机里的新闻和医院朋友的聊天记录转发给伴侣。"
+        },
+        {
+          "type": "narration",
+          "text": "随后拨通电话。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“怎么了？不是刚分开吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“你看一下我发的消息。”"
+        },
+        {
+          "type": "narration",
+          "text": "电话那头安静了片刻。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“看到了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“你觉得怎么样？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“好像有点不太对。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我也是这么想的。”"
+        },
+        {
+          "type": "narration",
+          "text": "你停在人行道边。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“要不我们提前回庐州？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“现在？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“对。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你认真的？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“嗯。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“工作怎么办？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“请年假。先回去住几天。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那边房子能住吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“能。我爸他们一直在维护。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“也是。”"
+        },
+        {
+          "type": "narration",
+          "text": "她沉默了一会儿。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“其实我也觉得可以回去。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“真的？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“反正最近也挺累的。就算什么事都没有，我们也能休息一下。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“那就这么定？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“等等。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“怎么了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我们是不是应该先查一下路况？”"
+        },
+        {
+          "type": "narration",
+          "text": "你忍不住笑了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“行。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“还有车，昨天充满电了吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“充了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那你先问问能不能休假。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“好。”"
+        },
+        {
+          "type": "narration",
+          "text": "挂断电话后，你忽然感觉轻松了一些。"
+        },
+        {
+          "type": "narration",
+          "text": "虽然还没有确认究竟发生了什么，但至少不用再一个人反复考虑这件事了。"
+        }
+      ],
+      "next": "CH01-C02"
+    },
+    {
+      "id": "CH01-C02",
+      "title": "离开办公室",
+      "time": "Day 1，下午",
+      "location": "沪海市，公司办公室",
+      "bg": [
+        "BG-14"
+      ],
+      "route": "C",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "上午的工作照常进行。"
+        },
+        {
+          "type": "narration",
+          "text": "你参加了一场会议。"
+        },
+        {
+          "type": "narration",
+          "text": "同事讨论着项目进度和下周的安排。"
+        },
+        {
+          "type": "narration",
+          "text": "偶尔有人提到最近的新闻。"
+        },
+        {
+          "type": "narration",
+          "text": "但话题很快又回到工作上。"
+        },
+        {
+          "type": "narration",
+          "text": "午后，你向上级提出休年假的申请。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“领导，最近身体状态有些不太好，想请几天年假回家休息。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "上级",
+          "text": "“哪里不舒服？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“有些疲惫，想调整一下。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "上级",
+          "text": "“最近外面这个情况，你要是不舒服就先休息吧。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "上级",
+          "text": "“工作交接一下，别把身体拖坏了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“好，谢谢。”"
+        },
+        {
+          "type": "narration",
+          "text": "你关闭工作聊天窗口。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣几乎同时发来消息。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我这边也批了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“那明天走？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“可以。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“晚上早点回来收拾东西。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“好。你别忘了买点吃的。”"
+        },
+        {
+          "type": "narration",
+          "text": "你看着电脑屏幕。"
+        },
+        {
+          "type": "narration",
+          "text": "打开文件夹，把需要交接的材料整理好。"
+        },
+        {
+          "type": "narration",
+          "text": "临走时，你顺手把桌上的咖啡杯洗干净。"
+        },
+        {
+          "type": "narration",
+          "text": "又把没吃完的零食放进抽屉。"
+        },
+        {
+          "type": "narration",
+          "text": "这些都是再平常不过的小事。"
+        },
+        {
+          "type": "narration",
+          "text": "你并没有意识到，自己将有很长一段时间不会再回到这里。"
+        }
+      ],
+      "next": "CH01-C03"
+    },
+    {
+      "id": "CH01-C03",
+      "title": "行李",
+      "time": "Day 1，21:10",
+      "location": "沪海市公寓",
+      "bg": [
+        "BG-05"
+      ],
+      "route": "C",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "客厅地上摆着两个行李箱。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣坐在沙发上，认真核对手机上的清单。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“衣服不用带太多吧？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“够换就行。反正那边有洗衣机。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“电脑肯定得带。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“嗯。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“药箱呢？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“装上。”"
+        },
+        {
+          "type": "narration",
+          "text": "她抬头看着你。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“怎么感觉我们像是在搬家。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“哪有搬家只带这点东西的。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“也是。”"
+        },
+        {
+          "type": "narration",
+          "text": "你们把行李放在门口。"
+        },
+        {
+          "type": "narration",
+          "text": "随后给父亲打去电话。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“怎么了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“爸，我和她明天回去。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“这么突然？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“最近想休息一下。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“沪海那边是不是出什么事了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“现在还说不好。就是感觉不太对。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“行。那你们回来。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“乡下那套房子还能住吧？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“当然能。上周还过去了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我们想先住那边。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“可以。钥匙你不是有吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“有。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“我明天跟你妈说一声。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“她还在上班？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“明天白班。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“那你们不用急着过去。我们自己能弄。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“好，路上注意安全。”"
+        },
+        {
+          "type": "narration",
+          "text": "挂断电话。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣已经把客厅收拾得差不多了。"
+        },
+        {
+          "type": "narration",
+          "text": "她站在窗边。"
+        },
+        {
+          "type": "narration",
+          "text": "沪海市的夜景依然明亮。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“有点舍不得。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“怎么？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“也没什么。就是突然要走了。”"
+        },
+        {
+          "type": "narration",
+          "text": "你走到她身边。"
+        },
+        {
+          "type": "narration",
+          "text": "远处高楼的灯光在夜色中闪烁。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“又不是不回来了。”"
+        },
+        {
+          "type": "narration",
+          "text": "她轻轻点了点头。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“嗯。”"
+        },
+        {
+          "type": "narration",
+          "text": "两个人没有再说话。"
+        }
+      ],
+      "next": "CH01-C04"
+    },
+    {
+      "id": "CH01-C04",
+      "title": "清晨出发",
+      "time": "Day 2，06:20",
+      "location": "沪海市",
+      "bg": [
+        "BG-15",
+        "BG-07"
+      ],
+      "route": "C",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "天还没有完全亮。"
+        },
+        {
+          "type": "narration",
+          "text": "你们将行李放进车里。"
+        },
+        {
+          "type": "narration",
+          "text": "车载电量显示98%。"
+        },
+        {
+          "type": "narration",
+          "text": "道路比平日通畅许多。"
+        },
+        {
+          "type": "narration",
+          "text": "导航很快规划出一条返回庐州市的路线。"
+        },
+        {
+          "type": "direction",
+          "text": "车机提示"
+        },
+        {
+          "type": "phone",
+          "text": "预计行驶距离：约500公里。"
+        },
+        {
+          "type": "phone",
+          "text": "预计行驶时间：视补能及道路状况而定。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣把手机固定在支架上。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“早餐怎么办？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“路上买。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我想吃热的。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“那到服务区看看。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“好。”"
+        },
+        {
+          "type": "narration",
+          "text": "汽车驶出停车场。"
+        },
+        {
+          "type": "narration",
+          "text": "你们经过平时上班的路口。"
+        },
+        {
+          "type": "narration",
+          "text": "红灯亮起。"
+        },
+        {
+          "type": "narration",
+          "text": "车停了下来。"
+        },
+        {
+          "type": "narration",
+          "text": "不远处的早餐店刚刚开门。"
+        },
+        {
+          "type": "narration",
+          "text": "一个穿着围裙的男人正在搬桌子。"
+        },
+        {
+          "type": "narration",
+          "text": "有人骑着电动车经过。"
+        },
+        {
+          "type": "narration",
+          "text": "还有几名学生站在公交站台上。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣忽然说道："
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你说，如果最后什么事都没发生，我们是不是挺傻的？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“那不是更好吗？”"
+        },
+        {
+          "type": "narration",
+          "text": "她想了一会儿。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“也是。”"
+        },
+        {
+          "type": "narration",
+          "text": "红灯变绿。"
+        },
+        {
+          "type": "narration",
+          "text": "你踩下加速踏板。"
+        },
+        {
+          "type": "narration",
+          "text": "汽车缓缓驶过路口。"
+        }
+      ],
+      "next": "CH01-C05"
+    },
+    {
+      "id": "CH01-C05",
+      "title": "公路",
+      "time": "Day 2，上午至下午",
+      "location": "",
+      "bg": [
+        "BG-16",
+        "BG-17"
+      ],
+      "route": "C",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "高速公路两侧的景色不断变化。"
+        },
+        {
+          "type": "narration",
+          "text": "城市。"
+        },
+        {
+          "type": "narration",
+          "text": "工厂。"
+        },
+        {
+          "type": "narration",
+          "text": "桥梁。"
+        },
+        {
+          "type": "narration",
+          "text": "田野。"
+        },
+        {
+          "type": "narration",
+          "text": "长长的隔音墙在窗外掠过。"
+        },
+        {
+          "type": "narration",
+          "text": "车载广播里正在播放新闻。"
+        },
+        {
+          "type": "narration",
+          "text": "主持人提到部分地区出现了新的公共卫生事件。"
+        },
+        {
+          "type": "narration",
+          "text": "有关部门正在开展调查。"
+        },
+        {
+          "type": "narration",
+          "text": "广播提醒公众关注正式信息，合理安排出行。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣低头看着手机。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我妈刚给我发消息了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“说什么？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“问我们怎么突然回去。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“你怎么说的？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“说最近想休息。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“她信吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“好像不太信。”"
+        },
+        {
+          "type": "narration",
+          "text": "你笑了笑。"
+        },
+        {
+          "type": "direction",
+          "text": "场景：高速补能站"
+        },
+        {
+          "type": "narration",
+          "text": "午后，你们在一处服务区停车。"
+        },
+        {
+          "type": "narration",
+          "text": "充电桩还有空位。"
+        },
+        {
+          "type": "narration",
+          "text": "旁边的餐厅正在营业。"
+        },
+        {
+          "type": "narration",
+          "text": "有人端着面条从餐厅里走出来。"
+        },
+        {
+          "type": "narration",
+          "text": "远处的休息区坐着几个带孩子的家庭。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣站在自动售货机前。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你喝什么？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“水就行。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“不喝咖啡了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“今天已经喝过了。”"
+        },
+        {
+          "type": "narration",
+          "text": "她给你递来一瓶水。"
+        },
+        {
+          "type": "narration",
+          "text": "两个人坐在长椅上，等车辆补能。"
+        },
+        {
+          "type": "narration",
+          "text": "远处的停车场里，一名工作人员正在提醒旅客佩戴口罩。"
+        },
+        {
+          "type": "narration",
+          "text": "另一个人则在打电话，抱怨前面有些道路开始检查。"
+        },
+        {
+          "type": "narration",
+          "text": "你们听见了，却没有参与讨论。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我忽然有点期待回去了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“期待什么？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“睡觉。”"
+        },
+        {
+          "type": "narration",
+          "text": "你笑出了声。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“真的。什么都不用想，先睡个够。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“那恐怕要让你失望了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“为什么？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我爸知道我们回来，估计明天就要拉着我们整理房子。”"
+        },
+        {
+          "type": "narration",
+          "text": "她无奈地笑了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那我现在反悔还来得及吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“来不及了。”"
+        },
+        {
+          "type": "direction",
+          "text": "画面淡出"
+        },
+        {
+          "type": "narration",
+          "text": "汽车再次驶上高速。"
+        }
+      ],
+      "next": "CH01-C06"
+    },
+    {
+      "id": "CH01-C06",
+      "title": "早归",
+      "time": "Day 2，18:10",
+      "location": "庐州市城郊",
+      "bg": [
+        "BG-18"
+      ],
+      "route": "C",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "夕阳已经落到了远处建筑的后面。"
+        },
+        {
+          "type": "narration",
+          "text": "道路两侧出现低矮的房屋。"
+        },
+        {
+          "type": "narration",
+          "text": "远处高层公寓的轮廓在暮色中显得格外清楚。"
+        },
+        {
+          "type": "narration",
+          "text": "还有几座仓库，静静地坐落在道路另一侧。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣打开车窗。"
+        },
+        {
+          "type": "narration",
+          "text": "一阵微凉的风吹进来。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“快到了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“嗯。前面再转两个路口。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“这地方还挺安静。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“晚上是挺安静的。”"
+        },
+        {
+          "type": "narration",
+          "text": "远处传来火车经过的声音。"
+        },
+        {
+          "type": "narration",
+          "text": "你们沿着乡村道路继续向前。"
+        },
+        {
+          "type": "narration",
+          "text": "不久，一栋三层独栋住宅出现在视线中。"
+        },
+        {
+          "type": "direction",
+          "text": "背景：BG-20 无人居住的安全屋黄昏"
+        },
+        {
+          "type": "narration",
+          "text": "灰白色的外墙。"
+        },
+        {
+          "type": "narration",
+          "text": "普通的砖砌院墙。"
+        },
+        {
+          "type": "narration",
+          "text": "一扇有些旧的金属院门。"
+        },
+        {
+          "type": "narration",
+          "text": "房屋没有什么特别显眼的地方。"
+        },
+        {
+          "type": "narration",
+          "text": "只是屋顶上的光伏组件在暮色中反射着最后一点光。"
+        },
+        {
+          "type": "narration",
+          "text": "你把车停在院门前。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“到了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“到了。”"
+        },
+        {
+          "type": "narration",
+          "text": "你下车打开院门。"
+        },
+        {
+          "type": "narration",
+          "text": "院子里很安静。"
+        },
+        {
+          "type": "narration",
+          "text": "屋子里没有开灯。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣从车上取下一个行李箱。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“钥匙呢？”"
+        },
+        {
+          "type": "narration",
+          "text": "你从背包里翻出钥匙。"
+        },
+        {
+          "type": "narration",
+          "text": "锁芯有些发涩。"
+        },
+        {
+          "type": "narration",
+          "text": "转动两下之后，门终于打开。"
+        },
+        {
+          "type": "direction",
+          "text": "场景：BG-21 安全屋玄关"
+        },
+        {
+          "type": "narration",
+          "text": "屋里带着一点久未居住的气味。"
+        },
+        {
+          "type": "narration",
+          "text": "你伸手按下开关。"
+        },
+        {
+          "type": "narration",
+          "text": "灯亮了。"
+        },
+        {
+          "type": "narration",
+          "text": "客厅里整整齐齐地摆着家具。"
+        },
+        {
+          "type": "narration",
+          "text": "窗边的柜子上放着一个旧相框。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣把行李箱放在门旁。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“还不错嘛。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我爸他们经常过来打扫。”"
+        },
+        {
+          "type": "narration",
+          "text": "她走到窗边，拉开窗帘。"
+        },
+        {
+          "type": "narration",
+          "text": "院子外面是一条安静的乡村道路。"
+        },
+        {
+          "type": "narration",
+          "text": "不远处，几户人家的厨房已经亮起灯。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我们现在做什么？”"
+        },
+        {
+          "type": "narration",
+          "text": "你看着客厅。"
+        },
+        {
+          "type": "narration",
+          "text": "又看了一眼行李箱。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“先收拾一下。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“然后呢？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“然后吃饭。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“好。”"
+        },
+        {
+          "type": "narration",
+          "text": "她笑了。"
+        },
+        {
+          "type": "narration",
+          "text": "你拿起手机，给父母发去消息。"
+        },
+        {
+          "type": "direction",
+          "text": "家庭群"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“我们到了。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈建川",
+          "text": "“这么早？路上还顺利吧？”"
+        },
+        {
+          "type": "phone",
+          "speaker": "陈知远",
+          "text": "“挺顺利的。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "周慧敏",
+          "text": "“饭吃了没有？”"
+        },
+        {
+          "type": "phone",
+          "speaker": "林晚宁",
+          "text": "“还没呢，准备找点吃的。”"
+        },
+        {
+          "type": "phone",
+          "speaker": "周慧敏",
+          "text": "“厨房柜子里有面，冰箱里还有东西。明天我们过去。”"
+        },
+        {
+          "type": "narration",
+          "text": "你看着手机上的消息，忽然有些安心。"
+        },
+        {
+          "type": "narration",
+          "text": "窗外，一辆电动车慢慢驶过。"
+        },
+        {
+          "type": "narration",
+          "text": "远处传来几声犬吠。"
+        },
+        {
+          "type": "narration",
+          "text": "屋里的灯光温暖而明亮。"
+        },
+        {
+          "type": "narration",
+          "text": "这栋曾经因为地震而购置的房子，终于迎来了新的住客。"
+        },
+        {
+          "type": "direction",
+          "text": "画面渐暗"
+        },
+        {
+          "type": "narration",
+          "text": "……"
+        },
+        {
+          "type": "narration",
+          "text": "离开熟悉的城市后，家乡的灯光依然为你亮着。"
+        }
+      ],
+      "next": null
+    },
+    {
+      "id": "CH01-D01",
+      "title": "工作日",
+      "time": "Day 1，08:30—21:00",
+      "location": "沪海市",
+      "bg": [
+        "BG-04",
+        "BG-14",
+        "BG-05"
+      ],
+      "route": "D",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "你收起手机。"
+        },
+        {
+          "type": "narration",
+          "text": "无论发生了什么，眼下都还没有可靠的结论。"
+        },
+        {
+          "type": "narration",
+          "text": "况且，再过不久就要上班了。"
+        },
+        {
+          "type": "narration",
+          "text": "你走进地铁站。"
+        },
+        {
+          "type": "narration",
+          "text": "刷卡。"
+        },
+        {
+          "type": "narration",
+          "text": "安检。"
+        },
+        {
+          "type": "narration",
+          "text": "候车。"
+        },
+        {
+          "type": "narration",
+          "text": "列车进站。"
+        },
+        {
+          "type": "narration",
+          "text": "所有步骤都熟悉得不需要思考。"
+        },
+        {
+          "type": "direction",
+          "text": "画面：办公室"
+        },
+        {
+          "type": "narration",
+          "text": "上午的会议照常进行。"
+        },
+        {
+          "type": "narration",
+          "text": "午间，有同事提起医院的视频。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "同事甲",
+          "text": "“你们看见今天那个新闻了吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "同事乙",
+          "text": "“看了，好像是什么传染病。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "同事甲",
+          "text": "“网上说得可吓人了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "同事乙",
+          "text": "“过两天应该就清楚了吧。”"
+        },
+        {
+          "type": "narration",
+          "text": "有人笑了笑。"
+        },
+        {
+          "type": "narration",
+          "text": "话题很快转向了下午的工作。"
+        },
+        {
+          "type": "direction",
+          "text": "画面：公寓夜晚"
+        },
+        {
+          "type": "narration",
+          "text": "晚上，伴侣买了菜。"
+        },
+        {
+          "type": "narration",
+          "text": "两人在厨房里忙了一会儿。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“今天外面好多人戴口罩。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“嗯，我也看见了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我们要不要买几盒？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“家里不是还有吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“好像剩得不多了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“那周末去超市买点吧。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“行。”"
+        },
+        {
+          "type": "narration",
+          "text": "吃完饭，你们看了一部电影。"
+        },
+        {
+          "type": "narration",
+          "text": "十一点多，伴侣先去睡觉。"
+        },
+        {
+          "type": "narration",
+          "text": "你坐在沙发上，刷了一会儿手机。"
+        },
+        {
+          "type": "narration",
+          "text": "新闻软件推送了一条新的疫情消息。"
+        },
+        {
+          "type": "narration",
+          "text": "你看了一眼标题。"
+        },
+        {
+          "type": "narration",
+          "text": "然后划了过去。"
+        },
+        {
+          "type": "narration",
+          "text": "第二天还要上班。"
+        }
+      ],
+      "next": "CH01-D02"
+    },
+    {
+      "id": "CH01-D02",
+      "title": "下周再说",
+      "time": "Day 2—Day 4",
+      "location": "",
+      "bg": [
+        "BG-14",
+        "BG-22"
+      ],
+      "route": "D",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "几天过去。"
+        },
+        {
+          "type": "narration",
+          "text": "网上关于异常病例的消息越来越多。"
+        },
+        {
+          "type": "narration",
+          "text": "有人发布了医院门口排队的照片。"
+        },
+        {
+          "type": "narration",
+          "text": "有人声称某个居民区已经实施封闭管理。"
+        },
+        {
+          "type": "narration",
+          "text": "还有人不断转发模糊不清的视频。"
+        },
+        {
+          "type": "narration",
+          "text": "但沪海市大部分地区仍然保持着正常生活。"
+        },
+        {
+          "type": "narration",
+          "text": "你依旧能够坐地铁上班。"
+        },
+        {
+          "type": "narration",
+          "text": "楼下的便利店仍然营业。"
+        },
+        {
+          "type": "narration",
+          "text": "快递也没有完全中断。"
+        },
+        {
+          "type": "direction",
+          "text": "场景：办公室"
+        },
+        {
+          "type": "narration",
+          "text": "某天下午，公司召开了一次临时会议。"
+        },
+        {
+          "type": "narration",
+          "text": "负责人宣布，考虑到近期公共卫生风险，部分员工将逐渐转为远程办公。"
+        },
+        {
+          "type": "narration",
+          "text": "办公室里响起一些低声议论。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "同事甲",
+          "text": "“那下周是不是不用来了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "同事乙",
+          "text": "“看安排吧。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "同事甲",
+          "text": "“早该这样了。”"
+        },
+        {
+          "type": "narration",
+          "text": "你也觉得这个安排不错。"
+        },
+        {
+          "type": "narration",
+          "text": "至少可以省下通勤的时间。"
+        },
+        {
+          "type": "direction",
+          "text": "场景：公寓"
+        },
+        {
+          "type": "narration",
+          "text": "晚上，伴侣向你提起返乡的事情。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我们要不要也回庐州？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“现在回去干什么？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“就是觉得最近有点乱。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“再看看吧。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“万一后面交通限制更多呢？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“现在也还没到那个程度。”"
+        },
+        {
+          "type": "narration",
+          "text": "她没有再说话。"
+        },
+        {
+          "type": "narration",
+          "text": "你打开电视。"
+        },
+        {
+          "type": "narration",
+          "text": "新闻里正在播放一场发布会。"
+        },
+        {
+          "type": "narration",
+          "text": "有关部门宣布将根据疫情调查结果，对部分区域采取临时交通及人员管理措施。"
+        },
+        {
+          "type": "narration",
+          "text": "你看了一会儿。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“等周末吧。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“嗯。”"
+        },
+        {
+          "type": "narration",
+          "text": "那天晚上，你们照常睡觉。"
+        },
+        {
+          "type": "narration",
+          "text": "没有任何特别的事情发生。"
+        }
+      ],
+      "next": "CH01-D03"
+    },
+    {
+      "id": "CH01-D03",
+      "title": "关门",
+      "time": "Day 6，16:34",
+      "location": "沪海市，社区附近",
+      "bg": [
+        "BG-23"
+      ],
+      "route": "D",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "你终于决定去超市买点东西。"
+        },
+        {
+          "type": "narration",
+          "text": "但当你走到门口时，才发现货架已经空了一大片。"
+        },
+        {
+          "type": "narration",
+          "text": "方便食品、饮用水和常用药品都比平时难买。"
+        },
+        {
+          "type": "narration",
+          "text": "部分商品贴着限购通知。"
+        },
+        {
+          "type": "narration",
+          "text": "收银台前排着很长的队。"
+        },
+        {
+          "type": "narration",
+          "text": "一个中年男人正在和店员争论。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "顾客",
+          "text": "“我昨天来的时候还有，怎么今天就没有了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "店员",
+          "text": "“今天的货没送到，我们也没办法。”"
+        },
+        {
+          "type": "narration",
+          "text": "你买到了一些饼干、面包和瓶装水。"
+        },
+        {
+          "type": "narration",
+          "text": "结账时，身后的顾客不断看手机。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "后面的顾客",
+          "text": "“听说出城的路都开始查了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "另一人",
+          "text": "“真的假的？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "后面的顾客",
+          "text": "“我亲戚今天开车回老家，走了几个小时还没出去。”"
+        },
+        {
+          "type": "narration",
+          "text": "你听见这句话，心里突然一沉。"
+        },
+        {
+          "type": "narration",
+          "text": "回到公寓后，你打开导航。"
+        },
+        {
+          "type": "narration",
+          "text": "几条主要出城道路显示异常拥堵。"
+        },
+        {
+          "type": "narration",
+          "text": "部分高速入口已经实施临时管制。"
+        },
+        {
+          "type": "narration",
+          "text": "你给父亲打去电话。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“喂？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“爸，我们可能想回去。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“那就早点回来。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我刚看了，外面好像很多路不让走了。”"
+        },
+        {
+          "type": "narration",
+          "text": "电话另一边沉默了几秒。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“你先看看有没有正常的通行办法。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“嗯。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈建川",
+          "text": "“你们别乱跑，安全最重要。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“知道。”"
+        },
+        {
+          "type": "narration",
+          "text": "挂断电话。"
+        },
+        {
+          "type": "narration",
+          "text": "你打开各类出行平台。"
+        },
+        {
+          "type": "narration",
+          "text": "高铁车次大幅减少。"
+        },
+        {
+          "type": "narration",
+          "text": "跨城客运基本停止。"
+        },
+        {
+          "type": "narration",
+          "text": "道路通行信息反复变化。"
+        },
+        {
+          "type": "narration",
+          "text": "部分检查点只允许符合临时通行条件的车辆通过。"
+        },
+        {
+          "type": "narration",
+          "text": "你想了许多办法。"
+        },
+        {
+          "type": "narration",
+          "text": "但没有一个能够让你确定地离开沪海市。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣站在身后。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“怎么样？”"
+        },
+        {
+          "type": "narration",
+          "text": "你沉默了一会儿。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“暂时走不了。”"
+        },
+        {
+          "type": "narration",
+          "text": "她看着手机上的路线图。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“那我们怎么办？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“先在家待几天。”"
+        },
+        {
+          "type": "narration",
+          "text": "窗外，一辆救护车从道路上驶过。"
+        },
+        {
+          "type": "narration",
+          "text": "警笛声渐渐远去。"
+        }
+      ],
+      "next": "CH01-D04"
+    },
+    {
+      "id": "CH01-D04",
+      "title": "公寓",
+      "time": "Day 10",
+      "location": "沪海市公寓",
+      "bg": [
+        "BG-24"
+      ],
+      "route": "D",
+      "blocks": [
+        {
+          "type": "narration",
+          "text": "外面的城市仍然存在。"
+        },
+        {
+          "type": "narration",
+          "text": "只是你能够接触到的部分越来越少。"
+        },
+        {
+          "type": "narration",
+          "text": "楼下的餐厅已经停止营业。"
+        },
+        {
+          "type": "narration",
+          "text": "快递配送变得不稳定。"
+        },
+        {
+          "type": "narration",
+          "text": "小区开始实行更严格的出入管理。"
+        },
+        {
+          "type": "narration",
+          "text": "住宅楼里仍然有人生活。"
+        },
+        {
+          "type": "narration",
+          "text": "楼道里偶尔传来开门声。"
+        },
+        {
+          "type": "narration",
+          "text": "有人在电梯口放下垃圾袋。"
+        },
+        {
+          "type": "narration",
+          "text": "也有人从门缝里探出头，询问社区物资发放的时间。"
+        },
+        {
+          "type": "narration",
+          "text": "你和伴侣开始认真清点家里的食品。"
+        },
+        {
+          "type": "direction",
+          "text": "画面：餐桌"
+        },
+        {
+          "type": "narration",
+          "text": "几袋方便面。"
+        },
+        {
+          "type": "narration",
+          "text": "一些罐头。"
+        },
+        {
+          "type": "narration",
+          "text": "两箱饮用水。"
+        },
+        {
+          "type": "narration",
+          "text": "还有冰箱里剩下的食材。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“这些还能吃多久？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“省着点吃，应该够一阵子。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“社区不是说有物资配送吗？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“说是会安排。”"
+        },
+        {
+          "type": "narration",
+          "text": "她点了点头。"
+        },
+        {
+          "type": "narration",
+          "text": "你打开手机。"
+        },
+        {
+          "type": "narration",
+          "text": "父母发来消息。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“你们那边现在怎么样？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“还行，就是暂时出不去。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "周慧敏",
+          "text": "“吃的够不够？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“够，别担心。”"
+        },
+        {
+          "type": "narration",
+          "text": "你看着自己刚刚发出去的两个字。"
+        },
+        {
+          "type": "narration",
+          "text": "又看了一眼桌上的食物。"
+        },
+        {
+          "type": "narration",
+          "text": "没有再说什么。"
+        },
+        {
+          "type": "direction",
+          "text": "转场：深夜"
+        },
+        {
+          "type": "narration",
+          "text": "窗外偶尔能听见警笛声。"
+        },
+        {
+          "type": "narration",
+          "text": "不知道从什么时候起，你已经习惯了这种声音。"
+        },
+        {
+          "type": "narration",
+          "text": "反而是警笛停止的时候，更容易感到不安。"
+        }
+      ],
+      "next": "CH01-D05"
+    },
+    {
+      "id": "CH01-D05",
+      "title": "日子",
+      "time": "Day 17—Day 24",
+      "location": "",
+      "bg": [
+        "BG-24",
+        "BG-25"
+      ],
+      "route": "D",
+      "blocks": [
+        {
+          "type": "direction",
+          "text": "画面：连续数日的蒙太奇"
+        },
+        {
+          "type": "narration",
+          "text": "手机日历翻过一页。"
+        },
+        {
+          "type": "narration",
+          "text": "接着又翻过一页。"
+        },
+        {
+          "type": "narration",
+          "text": "餐桌上的食品逐渐减少。"
+        },
+        {
+          "type": "narration",
+          "text": "冰箱里的新鲜食材早已吃完。"
+        },
+        {
+          "type": "narration",
+          "text": "墙上的时钟依旧在走。"
+        },
+        {
+          "type": "narration",
+          "text": "某天早晨，楼里突然停了电。"
+        },
+        {
+          "type": "narration",
+          "text": "但几小时后又恢复了。"
+        },
+        {
+          "type": "narration",
+          "text": "另一天，水龙头里的水流变得很小。"
+        },
+        {
+          "type": "narration",
+          "text": "物业群里有人解释，楼宇供水设备出了问题，正在联系维修。"
+        },
+        {
+          "type": "narration",
+          "text": "你在群里看到有人发出求助消息。"
+        },
+        {
+          "type": "narration",
+          "text": "一户居民家中有人发烧，希望能够得到帮助。"
+        },
+        {
+          "type": "narration",
+          "text": "另一个人回复说，社区医疗人员暂时无法及时赶来。"
+        },
+        {
+          "type": "narration",
+          "text": "群里争论了很久。"
+        },
+        {
+          "type": "narration",
+          "text": "最后没有人再说话。"
+        },
+        {
+          "type": "direction",
+          "text": "场景：公寓"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣坐在窗边。"
+        },
+        {
+          "type": "narration",
+          "text": "她已经很久没有出门。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“今天几号了？”"
+        },
+        {
+          "type": "narration",
+          "text": "你看了一眼手机。"
+        },
+        {
+          "type": "narration",
+          "text": "告诉了她。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“已经这么久了。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“嗯。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“你说外面什么时候能恢复？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“不知道。”"
+        },
+        {
+          "type": "narration",
+          "text": "她望着窗外。"
+        },
+        {
+          "type": "narration",
+          "text": "远处仍然有些楼房亮着灯。"
+        },
+        {
+          "type": "narration",
+          "text": "有一条主干道上，偶尔还能看见执行任务的车辆。"
+        },
+        {
+          "type": "narration",
+          "text": "城市并没有完全死去。"
+        },
+        {
+          "type": "narration",
+          "text": "只是你们已经无法像过去那样自由地生活。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我想回家。”"
+        },
+        {
+          "type": "narration",
+          "text": "你转过头。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“我知道。”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我是说，真的很想回去。”"
+        },
+        {
+          "type": "narration",
+          "text": "你没有回答。"
+        },
+        {
+          "type": "narration",
+          "text": "手机里还保存着庐州市那栋房子的照片。"
+        },
+        {
+          "type": "narration",
+          "text": "照片上，院子里阳光明亮。"
+        },
+        {
+          "type": "narration",
+          "text": "父亲站在楼梯旁边。"
+        },
+        {
+          "type": "narration",
+          "text": "母亲正在整理花盆。"
+        },
+        {
+          "type": "narration",
+          "text": "你忽然不敢再看。"
+        }
+      ],
+      "next": "CH01-D06"
+    },
+    {
+      "id": "CH01-D06",
+      "title": "楼道",
+      "time": "Day 25，深夜",
+      "location": "沪海市公寓",
+      "bg": [
+        "BG-26"
+      ],
+      "route": "D",
+      "blocks": [
+        {
+          "type": "direction",
+          "text": "黑屏"
+        },
+        {
+          "type": "direction",
+          "text": "音效：遥远的警报声"
+        },
+        {
+          "type": "narration",
+          "text": "你被一阵刺耳的声音惊醒。"
+        },
+        {
+          "type": "narration",
+          "text": "起初，你以为是手机闹钟。"
+        },
+        {
+          "type": "narration",
+          "text": "随后才意识到，是楼里的火灾报警器。"
+        },
+        {
+          "type": "direction",
+          "text": "音效：持续的火警声"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣也醒了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“怎么了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“不知道，可能是报警器。”"
+        },
+        {
+          "type": "narration",
+          "text": "你下床，走到门边。"
+        },
+        {
+          "type": "narration",
+          "text": "楼道里传来急促的脚步声。"
+        },
+        {
+          "type": "narration",
+          "text": "有人在喊叫。"
+        },
+        {
+          "type": "narration",
+          "text": "还夹杂着门板被用力敲打的声音。"
+        },
+        {
+          "type": "narration",
+          "text": "你透过猫眼望出去。"
+        },
+        {
+          "type": "narration",
+          "text": "走廊上的应急灯正在闪烁。"
+        },
+        {
+          "type": "narration",
+          "text": "几个人从远处跑过。"
+        },
+        {
+          "type": "narration",
+          "text": "其中一人不小心撞到墙上。"
+        },
+        {
+          "type": "narration",
+          "text": "他似乎在躲避什么。"
+        },
+        {
+          "type": "narration",
+          "text": "随后，一个动作异常的人影从拐角处冲了出来。"
+        },
+        {
+          "type": "narration",
+          "text": "那人没有停下。"
+        },
+        {
+          "type": "narration",
+          "text": "径直扑向走廊另一端。"
+        },
+        {
+          "type": "narration",
+          "text": "你猛地离开猫眼。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“外面怎么了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“别出声。”"
+        },
+        {
+          "type": "narration",
+          "text": "你转身检查门锁。"
+        },
+        {
+          "type": "narration",
+          "text": "刚刚走到客厅，一股淡淡的焦糊味飘了进来。"
+        },
+        {
+          "type": "narration",
+          "text": "烟雾开始从门缝和通风口渗入。"
+        },
+        {
+          "type": "narration",
+          "text": "你打开手机，拨打物业电话。"
+        },
+        {
+          "type": "narration",
+          "text": "无人接听。"
+        },
+        {
+          "type": "narration",
+          "text": "你又尝试拨打紧急求助电话。"
+        },
+        {
+          "type": "narration",
+          "text": "线路一直繁忙。"
+        },
+        {
+          "type": "direction",
+          "text": "音效：报警器持续响起"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣拿来湿毛巾。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“是不是着火了？”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "陈知远",
+          "text": "“不知道。但楼道里有人出事了。”"
+        },
+        {
+          "type": "narration",
+          "text": "你走到窗边。"
+        },
+        {
+          "type": "narration",
+          "text": "楼下聚集着一些人。"
+        },
+        {
+          "type": "narration",
+          "text": "有人正仰头望向楼上。"
+        },
+        {
+          "type": "narration",
+          "text": "远处能听见消防车辆的警笛声。"
+        },
+        {
+          "type": "narration",
+          "text": "但住宅楼外的道路已经被临时停放的车辆堵住了一部分。"
+        },
+        {
+          "type": "narration",
+          "text": "楼道里的声音越来越近。"
+        },
+        {
+          "type": "direction",
+          "text": "音效：撞击门板"
+        },
+        {
+          "type": "narration",
+          "text": "你猛地转过身。"
+        },
+        {
+          "type": "narration",
+          "text": "有人正在敲门。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "门外的声音",
+          "text": "“开门！”"
+        },
+        {
+          "type": "narration",
+          "text": "又是一阵撞击。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "门外的声音",
+          "text": "“快！里面有人吗？！”"
+        },
+        {
+          "type": "narration",
+          "text": "你看向伴侣。"
+        },
+        {
+          "type": "narration",
+          "text": "她的脸色很苍白。"
+        },
+        {
+          "type": "narration",
+          "text": "门外突然传来一声尖叫。"
+        },
+        {
+          "type": "narration",
+          "text": "紧接着，是混乱的脚步声。"
+        },
+        {
+          "type": "narration",
+          "text": "又过了一会儿。"
+        },
+        {
+          "type": "narration",
+          "text": "敲门声停止了。"
+        },
+        {
+          "type": "narration",
+          "text": "只剩下持续不断的火灾警报。"
+        },
+        {
+          "type": "narration",
+          "text": "空气中的烟味越来越浓。"
+        },
+        {
+          "type": "narration",
+          "text": "你知道，继续留在房间里也可能会有危险。"
+        },
+        {
+          "type": "narration",
+          "text": "但走廊里究竟发生了什么，你同样不知道。"
+        },
+        {
+          "type": "narration",
+          "text": "你们收拾起仅剩的随身物品，准备寻找能够安全撤离的路线。"
+        },
+        {
+          "type": "narration",
+          "text": "就在你靠近房门、准备再次观察外面的时候，一声沉重的撞击突然响起。"
+        },
+        {
+          "type": "narration",
+          "text": "门锁剧烈晃动。"
+        },
+        {
+          "type": "narration",
+          "text": "第二下。"
+        },
+        {
+          "type": "narration",
+          "text": "第三下。"
+        },
+        {
+          "type": "narration",
+          "text": "伴侣退到了你身后。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“怎么办？”"
+        },
+        {
+          "type": "narration",
+          "text": "你紧紧盯着门。"
+        },
+        {
+          "type": "narration",
+          "text": "没有回答。"
+        },
+        {
+          "type": "narration",
+          "text": "门外的撞击声与火警声混在一起。"
+        },
+        {
+          "type": "narration",
+          "text": "你听见门框发出了不堪重负的声音。"
+        },
+        {
+          "type": "direction",
+          "text": "画面逐渐变暗"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "林晚宁",
+          "text": "“我们是不是……回不去了？”"
+        },
+        {
+          "type": "narration",
+          "text": "你想开口。"
+        },
+        {
+          "type": "narration",
+          "text": "却不知道该说什么。"
+        },
+        {
+          "type": "direction",
+          "text": "音效：门体撞击"
+        },
+        {
+          "type": "direction",
+          "text": "突然静音"
+        },
+        {
+          "type": "direction",
+          "text": "黑屏"
+        },
+        {
+          "type": "narration",
+          "text": "……"
+        },
+        {
+          "type": "narration",
+          "text": "这座公寓没有成为你们最后的避难所。"
+        },
+        {
+          "type": "narration",
+          "text": "它只是你们再也没能离开的地方。"
+        }
+      ],
+      "next": "CH01-D07"
+    },
+    {
+      "id": "CH01-D07",
+      "title": "围城",
+      "time": "",
+      "location": "",
+      "bg": [],
+      "route": "D",
+      "blocks": [
+        {
+          "type": "direction",
+          "text": "CG-02：无人公寓"
+        },
+        {
+          "type": "narration",
+          "text": "早晨的光线从窗帘缝隙照进房间。"
+        },
+        {
+          "type": "narration",
+          "text": "餐桌上放着两只空杯子。"
+        },
+        {
+          "type": "narration",
+          "text": "墙上的时钟仍然在走。"
+        },
+        {
+          "type": "narration",
+          "text": "手机屏幕亮了起来。"
+        },
+        {
+          "type": "direction",
+          "text": "未读消息：母亲"
+        },
+        {
+          "type": "phone",
+          "text": "“今天好点了吗？”",
+          "speaker": "周慧敏（母亲）· 未读消息"
+        },
+        {
+          "type": "phone",
+          "text": "“看到消息回个电话。”",
+          "speaker": "周慧敏（母亲）· 未读消息"
+        },
+        {
+          "type": "phone",
+          "text": "“乡下的房子已经收拾好了。”",
+          "speaker": "周慧敏（母亲）· 未读消息"
+        },
+        {
+          "type": "phone",
+          "text": "“你们什么时候回来？”",
+          "speaker": "周慧敏（母亲）· 未读消息"
+        },
+        {
+          "type": "narration",
+          "text": "屏幕缓缓暗下去。"
+        },
+        {
+          "type": "narration",
+          "text": "没有人回复。"
+        },
+        {
+          "type": "narration",
+          "text": "……"
+        },
+        {
+          "type": "narration",
+          "text": "你以为自己只是暂时没有离开。"
+        }
+      ],
+      "next": null
+    }
+  ],
+  "choiceScene": "CH01-004",
+  "choices": [
+    {
+      "id": "A",
+      "label": "查阅官方消息",
+      "description": "与其相信网络视频，不如看看官方究竟怎么说。",
+      "target": "CH01-A01"
+    },
+    {
+      "id": "B",
+      "label": "联系庐州市的父母",
+      "description": "不管消息是真是假，先让家里检查一下应急物资。",
+      "target": "CH01-B01"
+    },
+    {
+      "id": "C",
+      "label": "先与伴侣商量",
+      "description": "这件事或许值得认真对待。至少应该两个人一起决定。",
+      "target": "CH01-C01"
+    },
+    {
+      "id": "D",
+      "label": "暂时不予理会",
+      "description": "现在还没有任何可靠结论。先把今天的工作做好。",
+      "target": "CH01-D01"
+    }
+  ],
+  "routes": {
+    "A": {
+      "end": "CH01-A06",
+      "title": "昨日重现",
+      "achievement": "ACH-001",
+      "kind": "bad"
+    },
+    "B": {
+      "end": "CH01-B07",
+      "title": "长路归乡",
+      "achievement": "ACH-003",
+      "kind": "home"
+    },
+    "C": {
+      "end": "CH01-C06",
+      "title": "长路归乡",
+      "achievement": "ACH-003",
+      "kind": "home"
+    },
+    "D": {
+      "end": "CH01-D07",
+      "title": "围城",
+      "achievement": "ACH-002",
+      "kind": "bad"
+    }
+  },
+  "achievements": [
+    {
+      "id": "ACH-001",
+      "title": "昨日重现",
+      "description": "在归途中遭遇致命危机"
+    },
+    {
+      "id": "ACH-002",
+      "title": "围城",
+      "description": "困守沪海市公寓，最终遇难"
+    },
+    {
+      "id": "ACH-003",
+      "title": "长路归乡",
+      "description": "成功抵达庐州市城郊安全屋"
+    }
+  ],
+  "sourceHash": "e53219f00f6097e0565de0dc3f9b40b1eae78ef4c674b660b992dde9cfc1df72",
+  "sourcePath": "docs/chapters/ch01/SCRIPT.md",
+  "generatedAt": "2026-10-12T06:52:48+00:00"
+}
