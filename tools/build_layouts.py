@@ -42,8 +42,8 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     floorplan()
     townmap()
-    layout = json.loads((OUT / 'SAFEHOUSE_LAYOUT.json').read_text())
-    town = json.loads((OUT / 'TOWN_LAYOUT.json').read_text())
+    layout = json.loads((OUT / 'SAFEHOUSE_LAYOUT.json').read_text(encoding="utf-8"))
+    town = json.loads((OUT / 'TOWN_LAYOUT.json').read_text(encoding="utf-8"))
     print(f'Rendered safehouse V{layout["version"]} and town V{town["version"]}.')
 
 

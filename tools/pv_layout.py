@@ -44,8 +44,8 @@ def roof_details_body(model,layout):
 
 
 def main():
- model=json.loads((OUT/'SAFEHOUSE_CAPACITY.json').read_text())
- layout=json.loads((OUT/'SAFEHOUSE_LAYOUT.json').read_text())
+ model=json.loads((OUT/'SAFEHOUSE_CAPACITY.json').read_text(encoding="utf-8"))
+ layout=json.loads((OUT/'SAFEHOUSE_LAYOUT.json').read_text(encoding="utf-8"))
  render('SAFEHOUSE_ROOF_DETAIL',roof_details_body(model,layout),1490,1240)
 
 

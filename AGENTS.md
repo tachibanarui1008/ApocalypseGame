@@ -1,6 +1,6 @@
 # 项目交接约定
 
-先读 `docs/HANDOFF_WINDOWS.md`，再读 `docs/CANON.md` 和当前章节文档。当前基线为未雨绸缪0.3.0：第一章完整＋第二章B线Day6教程。用户本轮只要求迁移现有内容，没有要求实现Windows发行版或新增剧情。
+先读 `docs/WINDOWS.md` 和 `docs/HANDOFF_WINDOWS.md`，再读 `docs/CANON.md` 和当前章节文档。当前基线为未雨绸缪0.3.0：第一章完整＋第二章B线Day6教程。Windows发行版与Mac使用同一份game源码；本次只做平台移植，不新增剧情。
 
 - 运行工程入口是根目录的 `game/`；先核对当前分支和未提交修改，保护已有工作。
 - 第一章正文以 `docs/chapters/ch01/SCRIPT.md` 为准；生成的 `game/story_generated.rpy` 通过 `tools/export_renpy.py` 更新。

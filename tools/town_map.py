@@ -21,7 +21,7 @@ def poi(x,y,kind,color=BLUE):
  return a
 
 def render_town(out):
- out=Path(out);previous=json.loads((out/'TOWN_LAYOUT.json').read_text())
+ out=Path(out);previous=json.loads((out/'TOWN_LAYOUT.json').read_text(encoding="utf-8"))
  # 道路中心线：同一网络在交叉口合并绘制，建筑留在道路之间。
  roads=[([(120,610),(1330,610)],24), ([(390,290),(1200,290),(1200,910),(390,910),(390,290)],20), ([(820,160),(820,420)],16), ([(820,665),(820,1100)],16), ([(1200,290),(1330,290),(1330,1130),(1550,1130)],22), ([(1330,790),(1370,790)],18), ([(390,910),(370,930),(370,1160)],12), ([(430,270),(1330,270)],10), ([(470,1040),(1240,1040),(1240,910)],10), ([(590,290),(590,910)],10), ([(1075,290),(1075,910)],10), ([(390,565),(710,565)],10), ([(930,565),(1200,565)],10), ([(390,680),(1200,680)],10), ([(1200,910),(1330,910)],18), ([(110,870),(390,870)],10), ([(110,350),(350,350),(350,610)],10)]
  apartments=[(445,365,42,120),(525,365,42,100),(655,345,125,38),(655,420,112,35),(933,350,45,130),(1010,350,40,125),(1110,350,58,120),(432,525,116,30),(1105,525,72,28),(435,645,110,25),(1110,642,66,27),(447,740,40,112),(530,730,40,105),(650,735,120,35),(650,810,105,30),(939,735,40,110),(1010,735,40,115),(1118,735,46,108)]
@@ -103,8 +103,8 @@ def render_town(out):
  # 清爽的页脚，而不是伪装成真实苹果地图或新增应用界面。
  b+=box(38,1300,1724,53,'#ffffff','none',0,12)+poi(69,1327,'train')+tx(98,1334,'地铁站标记',14)+box(261,1320,19,13,'#e0e4e6')+tx(290,1334,'建筑轮廓',14)+line('M430 1327 H464','#3489db',4)+tx(475,1334,'地铁线路',14)+line('M619 1327 H653','#adb6bb',3)+tx(665,1334,'货运铁路',14)+tx(1734,1334,'虚构布局 · 建筑符号不按比例',14,'end','#7b858d')
  svg=f'<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1380" viewBox="0 0 1800 1380">{b}</svg>'
- (out/'TOWN_MAP.svg').write_text(svg);cairosvg.svg2png(bytestring=svg.encode(),write_to=str(out/'TOWN_MAP.png'))
+ (out/'TOWN_MAP.svg').write_text(svg, encoding="utf-8", newline="\n");cairosvg.svg2png(bytestring=svg.encode(),write_to=str(out/'TOWN_MAP.png'))
  previous.update({'version':'0.3','render_style':'清爽二维地图，浅色地表、白色道路、淡灰建筑、蓝色水面与交通POI，参考苹果地图视觉层次','buildings':buildings,'courtyard_lots':houses,'roads_visual':[{'points':p,'width_px':w}for p,w in roads],'station_representation':'地面站体轮廓、地铁POI、线路终点、A/B出入口、站前广场；公交骑行区另置','plot_status':'方位保持，画面重新排版；先前游戏路线预算不因画面像素变化自动换算'})
  if 'routes_budget'in previous:previous['routes_budget']['status']='上一轮游戏尺度预算继续作为参考；新排版未按像素重新测距，地图几何和数值下一轮统一'
- (out/'TOWN_LAYOUT.json').write_text(json.dumps(previous,ensure_ascii=False,indent=2))
+ (out/'TOWN_LAYOUT.json').write_text(json.dumps(previous,ensure_ascii=False,indent=2), encoding="utf-8", newline="\n")
  print(f'Town map: {len(buildings)} footprints checked, no building-road or building-building overlap.')

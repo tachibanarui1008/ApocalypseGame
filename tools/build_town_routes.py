@@ -7,7 +7,7 @@ import argparse
 parser=argparse.ArgumentParser(description='从原地图道路预算生成模式路网、距离矩阵与透明路线层')
 parser.add_argument('--export-dir',type=Path,default=r/'docs/chapters/ch02/distance_exports')
 out=parser.parse_args().export_dir
-layout=json.loads((r/'docs/chapters/ch01/assets/TOWN_LAYOUT.json').read_text())
+layout=json.loads((r/'docs/chapters/ch01/assets/TOWN_LAYOUT.json').read_text(encoding="utf-8"))
 # Independent game distance budgets for named road corridors, in metres.
 # Coordinates locate their endpoints on the established schematic; no metres/pixel scale.
 budgets=[[2200],[1500,1100,1450,1000],[420],[760],[220,1200,360],[70],[40,330],[1300],[1050,180],[980],[900],[560],[480],[1480],[210],[480],[460,650]]
@@ -118,8 +118,8 @@ routing=dict(schema_version=1,version='0.4',unit='m',distance_basis='虚构游�
  image_size=[1800,1380],matrix_order=keys,nodes=nodes,places=places,edges=edges,distance_matrices=matrices,path_matrices=paths,
  corridor_budgets=[dict(id=s['id'],a=list(s['a']),b=list(s['b']),length_m=s['length_m'],modes=s['modes'],kind=s['kind'],source=s['source'])for s in segments],
  notes=['矩阵为入口间最短可通行路径；不是直线距离。','步行可使用图中住宅接入和站前步行路径；车辆停在道路或停车入口。','同址车辆入口（安全屋与院门）允许非对角线0米。','车辆的停车至柜台步行包含在地点办理时间中，不计入车辆油电里程。','关闭下穿或道路后应重新求路；缓存矩阵只对应正常开放路网。','图中未明确绘出的功能点标为拟设，不因此认定已存在建筑、库存或土地使用权。'])
-(r/'game/data/ch02_routes.json').write_text(json.dumps(routing,ensure_ascii=False,indent=2)+'\n')
-(r/'docs/chapters/ch02/TOWN_ROUTES_V0.4.json').write_text(json.dumps(routing,ensure_ascii=False,indent=2)+'\n')
+(r/'game/data/ch02_routes.json').write_text(json.dumps(routing,ensure_ascii=False,indent=2)+'\n', encoding="utf-8", newline="\n")
+(r/'docs/chapters/ch02/TOWN_ROUTES_V0.4.json').write_text(json.dumps(routing,ensure_ascii=False,indent=2)+'\n', encoding="utf-8", newline="\n")
 out.mkdir(parents=True,exist_ok=True)
 for mode,title in [('walk','步行'),('suv','驾车')]:
  for target in [out/f'地点距离矩阵_{title}.csv',r/f'docs/chapters/ch02/DISTANCE_{mode}.csv']:

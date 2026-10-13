@@ -1,5 +1,7 @@
 # Windows开发交接 · 未雨绸缪0.3.0
 
+> 后续更新：Windows发行版现已制作，运行、打包和验收入口见[WINDOWS.md](WINDOWS.md)与[Windows验收记录](handoff/WINDOWS_VALIDATION.md)。下文保留最初Mac交接时的状态与证据；其中“本轮未制作Windows”描述的是原始交接阶段。
+
 交接日期：2026-10-13。仓库：https://github.com/tachibanarui1008/ApocalypseGame 。基线发布标签：v0.3.0。本轮上传当前内容与交接资料，未开发Windows或iPad发行包。
 
 ## 1. 在Windows接手

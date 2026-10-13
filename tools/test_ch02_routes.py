@@ -3,8 +3,8 @@ import unittest, json, runpy, copy, hashlib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 M=runpy.run_path(str(ROOT/"game/ch02_model.py"))
-DATA=json.loads((ROOT/"game/data/ch02_routes.json").read_text())
-CFG=M["c2_attach_routes"](json.loads((ROOT/"game/ch02_demo.json").read_text()),DATA)
+DATA=json.loads((ROOT/"game/data/ch02_routes.json").read_text(encoding="utf-8"))
+CFG=M["c2_attach_routes"](json.loads((ROOT/"game/ch02_demo.json").read_text(encoding="utf-8")),DATA)
 class TownRoutes(unittest.TestCase):
     def test_original_image_is_byte_identical(self):
         original=(ROOT/DATA["source_image"]).read_bytes()

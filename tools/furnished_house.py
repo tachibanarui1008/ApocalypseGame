@@ -195,7 +195,7 @@ CAPTIONS['F3']=[(1.5,3.8,'楼梯'),(8.1,1.95,'客房 · 日床'),(1.5,5.8,'卫�
 def render(name,body,w=1530,h=1260):
  import cairosvg
  svg=f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}"><rect width="100%" height="100%" fill="{C["paper"]}"/>{body}</svg>'
- (OUT/f'{name}.svg').write_text(svg);cairosvg.svg2png(bytestring=svg.encode(),write_to=str(OUT/f'{name}.png'))
+ (OUT/f'{name}.svg').write_text(svg, encoding="utf-8", newline="\n");cairosvg.svg2png(bytestring=svg.encode(),write_to=str(OUT/f'{name}.png'))
 def merge_walls(rooms):
  horizontal={};vertical={}
  for x,y,w,h,_ in rooms:
@@ -361,12 +361,12 @@ def capacity_inventory_check(capacity):
 
 def check_current_assets():
  """Read-only preflight: a newer saved scenario must not be silently reset."""
- data=json.loads((OUT/'SAFEHOUSE_LAYOUT.json').read_text())
- capacity=json.loads((OUT/'SAFEHOUSE_CAPACITY.json').read_text())
+ data=json.loads((OUT/'SAFEHOUSE_LAYOUT.json').read_text(encoding="utf-8"))
+ capacity=json.loads((OUT/'SAFEHOUSE_CAPACITY.json').read_text(encoding="utf-8"))
  expected=calculate_capacity()
  for key,value in expected.items():
   assert capacity.get(key)==value,('容量脚本与保存数据不一致；先同步配置再生成',key)
- previous=json.loads((OUT/'SAFEHOUSE_FURNITURE.json').read_text())
+ previous=json.loads((OUT/'SAFEHOUSE_FURNITURE.json').read_text(encoding="utf-8"))
  assert previous['furniture']==OBJECTS,'当前家具数据与生成脚本不一致；先同步配置再生成'
  assert previous['doors']==json.loads(json.dumps(DOORS)),'当前门位与生成脚本不一致'
  assert previous['windows']==json.loads(json.dumps(WINDOWS)),'当前窗位与生成脚本不一致'
@@ -380,21 +380,21 @@ def build_inventory(data,capacity,previous=None):
 
 def main():
  check_current_assets()
- data=json.loads((OUT/'SAFEHOUSE_LAYOUT.json').read_text())
- capacity=json.loads((OUT/'SAFEHOUSE_CAPACITY.json').read_text())
- previous=json.loads((OUT/'SAFEHOUSE_FURNITURE.json').read_text())
+ data=json.loads((OUT/'SAFEHOUSE_LAYOUT.json').read_text(encoding="utf-8"))
+ capacity=json.loads((OUT/'SAFEHOUSE_CAPACITY.json').read_text(encoding="utf-8"))
+ previous=json.loads((OUT/'SAFEHOUSE_FURNITURE.json').read_text(encoding="utf-8"))
  sync_layout_notes(data,capacity)
  checks=audit_objects(data)
- (OUT/'SAFEHOUSE_LAYOUT.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
+ (OUT/'SAFEHOUSE_LAYOUT.json').write_text(json.dumps(data,ensure_ascii=False,indent=2), encoding="utf-8", newline="\n")
  inventory=build_inventory(data,capacity,previous)
- (OUT/'SAFEHOUSE_FURNITURE.json').write_text(json.dumps(inventory,ensure_ascii=False,indent=2))
+ (OUT/'SAFEHOUSE_FURNITURE.json').write_text(json.dumps(inventory,ensure_ascii=False,indent=2), encoding="utf-8", newline="\n")
  for f in data['floors']:
   if f['id']in OBJECTS:floor_sheet(f)
  elevation_sheet()
  # 精细四层总览，保留单层大图，兼容已有主图链接。
  overview=text(45,45,'安全屋 · 精细陈列总览 V0.6',30)
  for i,fid in enumerate(['B1','F1','F2','F3']):
-  source=(OUT/f'SAFEHOUSE_{fid}_DETAIL.svg').read_text()
+  source=(OUT/f'SAFEHOUSE_{fid}_DETAIL.svg').read_text(encoding="utf-8")
   inner=source[source.index('>')+1:source.rindex('</svg>')]
   overview+=f'<svg x="{40+i%2*1080}" y="{85+i//2*1080}" width="1060" height="1060" viewBox="0 0 1100 1100">{inner}</svg>'
  render('SAFEHOUSE_PLAN',overview,2200,2260)

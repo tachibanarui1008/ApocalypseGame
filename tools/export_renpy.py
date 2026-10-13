@@ -150,7 +150,7 @@ def main() -> None:
     data = load_story(args.source.resolve())
     output = render(data)
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(output, encoding="utf-8")
+    args.output.write_text(output, encoding="utf-8", newline="\n")
     says = sum(block["type"] != "direction" for scene in data["scenes"] for block in scene["blocks"])
     print(f"Exported 30 native Ren'Py scene labels and {says} text blocks to {args.output}")
 

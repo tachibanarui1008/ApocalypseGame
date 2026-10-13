@@ -1,7 +1,7 @@
 import unittest, runpy, json, copy
 from pathlib import Path
 r=Path(__file__).resolve().parents[1]
-m=runpy.run_path(str(r/'game/ch02_model.py'));cfg=m['c2_attach_routes'](json.loads((r/'game/ch02_demo.json').read_text()),json.loads((r/'game/data/ch02_routes.json').read_text()))
+m=runpy.run_path(str(r/'game/ch02_model.py'));cfg=m['c2_attach_routes'](json.loads((r/'game/ch02_demo.json').read_text(encoding="utf-8")),json.loads((r/'game/data/ch02_routes.json').read_text(encoding="utf-8")))
 class TutorialState(unittest.TestCase):
  def new(self,transport='walk'):
   s=m['c2_new_state'](cfg);s['tutorial']=2;s['plan']['home']['mother']='清点';s['plan']['transport']=transport;return s

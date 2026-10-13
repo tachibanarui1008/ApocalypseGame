@@ -189,7 +189,7 @@ def main() -> None:
     args = parser.parse_args()
     data = export(args.source.resolve())
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(f"Exported {len(data['scenes'])} scenes, 4 choices and 3 achievements to {args.output}")
 
 

@@ -3,8 +3,8 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 185,
-      "sha256": "3ca4fe08ff8c0474cc6cfe7ddf1abe8a1bd18370aef70206534b425ea0ffbd2a"
+      "bytes": 192,
+      "sha256": "8642fc75ff5d0db806059bd32eda13f758fc5bcd8f4fd329b45b45465e4062e8"
     },
     {
       "path": ".gitignore",
@@ -13,13 +13,13 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 1426,
-      "sha256": "b28bf1967b35a5276a760f2f23d6e701b3693668671eb0e98e81199efd17fee3"
+      "bytes": 1449,
+      "sha256": "423457016e8257447446fbb6ed49bf4a5c6ae3d977a89a35d359787fee4c426f"
     },
     {
       "path": "README.md",
-      "bytes": 2142,
-      "sha256": "062673ca3e6b392295085d12c0ebb69403e565d7edfb2f555be5d1ec5ba6e0c5"
+      "bytes": 2306,
+      "sha256": "1c90d2608efb0c9bab272200d05418def330a86fe08926bccd47abfacc558439"
     },
     {
       "path": "docs/BACKGROUND_STYLE.md",
@@ -33,13 +33,18 @@
     },
     {
       "path": "docs/HANDOFF_WINDOWS.md",
-      "bytes": 8796,
-      "sha256": "a5d8ee4f985a4078a3ca164b11648903cb1e0072036bd1e775fa3f5597f51920"
+      "bytes": 9079,
+      "sha256": "a44af63afbd4857d182cca1c5c0a36ba37417bfb935e97b2ebb1f47d15dcdff7"
     },
     {
       "path": "docs/UNIFIED_RELEASE_V0.3.md",
       "bytes": 1754,
       "sha256": "62ff450b096cae363c7982a7fe0624222f9b3c31b890ba937f9983324e11ad1a"
+    },
+    {
+      "path": "docs/WINDOWS.md",
+      "bytes": 2654,
+      "sha256": "f943af8d2de8853d4a4e7abe4e2427891990872bd797e24340d034099cabe452"
     },
     {
       "path": "docs/WORLD_BIBLE.md",
@@ -642,6 +647,11 @@
       "sha256": "bb083a7e8c398ffb2064ac1902c00c4c9c9f8003788c730fa3fb34c6bc303c2b"
     },
     {
+      "path": "docs/handoff/WINDOWS_VALIDATION.md",
+      "bytes": 2923,
+      "sha256": "43cdef2a9bc8469c6f7c8b3fffcf186a205ab1e8af3230085b7b6b6ee934fe07"
+    },
+    {
       "path": "docs/handoff/native/A-walk.json",
       "bytes": 267,
       "sha256": "abd5e863361f17d7122d0063bd2d7429f4bde76821d5121d91a86e986ea156d0"
@@ -670,6 +680,61 @@
       "path": "docs/handoff/native/T-suv.json",
       "bytes": 7247,
       "sha256": "9e1715507a693dab119ea42783aa4840e32e8580bb5b52daa022138d363c10be"
+    },
+    {
+      "path": "docs/handoff/windows/A-walk.json",
+      "bytes": 267,
+      "sha256": "abd5e863361f17d7122d0063bd2d7429f4bde76821d5121d91a86e986ea156d0"
+    },
+    {
+      "path": "docs/handoff/windows/B-walk.json",
+      "bytes": 7505,
+      "sha256": "2fe33c3568ba0700075807bc11a5c914e90ec11f757d1c9cc8fd2d7835f1331f"
+    },
+    {
+      "path": "docs/handoff/windows/C-walk.json",
+      "bytes": 267,
+      "sha256": "007b0ca98c7d66818d4fa115a4e8649c55ecbba4995b84beee701899eb503bbb"
+    },
+    {
+      "path": "docs/handoff/windows/D-walk.json",
+      "bytes": 283,
+      "sha256": "c508228c4aebcf4590bd6381598dbb035e2fe7c5e439d632c422d8de551d8e4a"
+    },
+    {
+      "path": "docs/handoff/windows/T-ev.json",
+      "bytes": 7194,
+      "sha256": "1774f220942095bfd4e04133788e6e2139182b026c851de9fb9095150705ee36"
+    },
+    {
+      "path": "docs/handoff/windows/T-suv.json",
+      "bytes": 7197,
+      "sha256": "85dd8e7494010aa62924868a93dbc932ec8523fa4027e2b5efde82db6356e0d8"
+    },
+    {
+      "path": "docs/handoff/windows/T-walk.json",
+      "bytes": 7310,
+      "sha256": "f0e2c1fb5c40843652ea4b3e7d4f19adf606d9881819c2452ba722290f8e5da8"
+    },
+    {
+      "path": "docs/handoff/windows/screenshots/B-walk-map.png",
+      "bytes": 422069,
+      "sha256": "ba920018687d260563c45e8137fd7a70b80e0f4d79d5551b31da08866a89c89c"
+    },
+    {
+      "path": "docs/handoff/windows/screenshots/T-ev-settlement.png",
+      "bytes": 203095,
+      "sha256": "d474843cfc17797e50d19a3bc122dd24b07ea202321b6e07aec03d160b5d7771"
+    },
+    {
+      "path": "docs/handoff/windows/screenshots/main-menu.png",
+      "bytes": 165662,
+      "sha256": "a8445d5955f8102cc1649f023fb77d94d512eb072488a7ae91a22a7e70a30d76"
+    },
+    {
+      "path": "docs/handoff/windows/test-output.txt",
+      "bytes": 3128,
+      "sha256": "df71b3df08de2dcd7bce73e0f85bfc5457add4a5805f8b900832bd4c919bb104"
     },
     {
       "path": "docs/handoff/整合交付校验.json",
@@ -1508,8 +1573,8 @@
     },
     {
       "path": "game/options.rpy",
-      "bytes": 1668,
-      "sha256": "2321ff80eef1a1e3200f8b6c0ea50951ff9c79890efaf207dce207add3a29b92"
+      "bytes": 1796,
+      "sha256": "6efb05bf36fdf011baf0a0745ebb8d9da876626437a35259d1af54324f309e12"
     },
     {
       "path": "game/screens.rpy",
@@ -1533,33 +1598,33 @@
     },
     {
       "path": "tools/build_layouts.py",
-      "bytes": 1751,
-      "sha256": "2277cde240ad2b484df08f6b49c7972c5f75a2210ada969415e8cdaba2585532"
+      "bytes": 1783,
+      "sha256": "49398750fe68e8c8f829fc35c3e319f87e6276dba4c82cb9157176d880c64320"
     },
     {
       "path": "tools/build_town_routes.py",
-      "bytes": 11305,
-      "sha256": "ce4cac41106bf51df5ce7ba1506bc809139a8a68173233a1033047dbb639371b"
+      "bytes": 11385,
+      "sha256": "ce2c93724041ff095bf02566c98807c0e978aef9021d4a9c3db7a47a283688b0"
     },
     {
       "path": "tools/capacity_model.py",
-      "bytes": 8274,
-      "sha256": "465ba5667c6635d9a96d20097b48b2abbe9a8cc81d098bf38e814145783b2dc5"
+      "bytes": 8306,
+      "sha256": "09d4faa18a03a99e40b1469562abe0b56e4e28af7e4e9c69a2e90c29ceac2b22"
     },
     {
       "path": "tools/export_renpy.py",
-      "bytes": 7215,
-      "sha256": "e5d399534d3b382a0286c3785b9d40b3427b6a6727c4cf2454a780745b91c02f"
+      "bytes": 7229,
+      "sha256": "df48f883591d65bc032f3d2f697116b42f84bcef71f0d92681e7711bc13d402c"
     },
     {
       "path": "tools/export_story.py",
-      "bytes": 9940,
-      "sha256": "cfd3f7804461664f623b022a76f9f7b225c3bc7de4c4359da538fbeba76584e7"
+      "bytes": 9954,
+      "sha256": "80cb0ab0c1423afd3aa0ad26b5cf7c38af8e15535fd3f2ca976c7beadf4dec3b"
     },
     {
       "path": "tools/furnished_house.py",
-      "bytes": 29309,
-      "sha256": "b82ad83e9a813cd66391c87413f854be1f8386f2c4ed78daaa61674d0591a2fc"
+      "bytes": 29517,
+      "sha256": "e8923b498563d909ff3102633a2c9b8ef70e571c9213e9c35883251918d8b5a9"
     },
     {
       "path": "tools/package_game.py",
@@ -1567,39 +1632,54 @@
       "sha256": "24afec96c7e0b02d53e5e2129d65aef52cb2ea75f5b214cc3e5c3fdaa61d33ad"
     },
     {
+      "path": "tools/package_windows.py",
+      "bytes": 3100,
+      "sha256": "bc23b0eaebe0f851dba49540a46846853f973aa5d20e20239221c51b97740f03"
+    },
+    {
       "path": "tools/pv_layout.py",
-      "bytes": 4055,
-      "sha256": "2a649ef03a9bf36bb6f55a7b83d8504871e2e08523f6a61bf85c7f9eb7e252b1"
+      "bytes": 4087,
+      "sha256": "725ccea125b405c41b11dba9629cdb639c77bd258fa64631ed570a475445c531"
     },
     {
       "path": "tools/style_town_map.py",
-      "bytes": 6314,
-      "sha256": "7dc2afe112ec9f21dff4c9729367449243505444c46d3a8728583dde835d9c39"
+      "bytes": 6442,
+      "sha256": "6746587df1b504d3e9bf277ff9a9e2d66896cd705bb75eb9eb8309c67ecc8ee5"
     },
     {
       "path": "tools/test_ch02_model.py",
-      "bytes": 5523,
-      "sha256": "83e0ba3a954395b877d88a351f3da2b84a99de15b425e9b935402e50f3bc91e9"
+      "bytes": 5555,
+      "sha256": "1ffbddf44bb319e35116e2c450d3a0effc7afa70f672c0c061d3c2852ab0ab98"
     },
     {
       "path": "tools/test_ch02_routes.py",
-      "bytes": 3741,
-      "sha256": "e8202ce561d96ad1ead324694d60867e714625f828cb74d509bc73ae835f755e"
+      "bytes": 3773,
+      "sha256": "56079050f1b8731b347dd211865cfeb8b83c9f4199ad5c9917b3ee13278c292c"
     },
     {
       "path": "tools/test_unified_resources.py",
-      "bytes": 1833,
-      "sha256": "5530e40bbd0abfe84043e0591df767332d7332bbb53c00c8f16d97fc40cabc9c"
+      "bytes": 1913,
+      "sha256": "81f3bc5a6f971c1311abea055e2da69fc763fa698741c926b988f4c9af227137"
+    },
+    {
+      "path": "tools/test_windows.py",
+      "bytes": 2032,
+      "sha256": "1e5129f235c5e5802ce4e449d929cd236ed6acc3ecdabae8c499a130a82a9cdc"
     },
     {
       "path": "tools/town_map.py",
-      "bytes": 10666,
-      "sha256": "ab9857cbdd4507498c134452c793a99e5e2789f3c6444acfafc2e07a6355a4f7"
+      "bytes": 10746,
+      "sha256": "183cb58b7eb2745d24330ebbf756227aeb69dd4326bb9990d703d198b7e2b76e"
     },
     {
       "path": "tools/verify_handoff.py",
-      "bytes": 1864,
-      "sha256": "062ddfbd784b6e8ed57c0aa5de2c58c8a7ea7f9ab03a2041918505685622179d"
+      "bytes": 1878,
+      "sha256": "944684f8bedccbecf1d65c7a3733fa2212995a544e978d70c080f54b18280d22"
+    },
+    {
+      "path": "tools/windows_acceptance.rpy",
+      "bytes": 5445,
+      "sha256": "647b971f2fceae8d66ca1b6408557ffa76386ed03e550b17fd327158cfd9556a"
     }
   ]
 }

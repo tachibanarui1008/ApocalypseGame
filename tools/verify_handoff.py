@@ -19,7 +19,7 @@ def record(path):
 p=argparse.ArgumentParser();p.add_argument('--write',action='store_true');a=p.parse_args()
 if a.write:
  MANIFEST.parent.mkdir(parents=True,exist_ok=True)
- MANIFEST.write_text(json.dumps({'version':'0.3.0','files':[record(f) for f in files()]},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+ MANIFEST.write_text(json.dumps({'version':'0.3.0','files':[record(f) for f in files()]},ensure_ascii=False,indent=2)+'\n',encoding='utf-8', newline="\n")
  print('Wrote',len(files()),'file checksums');sys.exit(0)
 data=json.loads(MANIFEST.read_text(encoding='utf-8'));errors=[]
 for item in data['files']:

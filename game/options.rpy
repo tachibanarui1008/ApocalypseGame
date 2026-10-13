@@ -38,6 +38,8 @@ default phone_text = ""
 default quick_menu = True
 
 init python:
+    # Loaded as UTF-8 source by ch02_screens, so retain this runtime data file.
+    build.classify("game/ch02_model.py", "all")
     build.classify("docs/**", None)
     build.classify("tools/**", None)
     build.classify("prototype/**", None)

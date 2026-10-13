@@ -37,7 +37,7 @@ ICONS={
 def build_style(root=None):
     root=Path(root) if root else Path(__file__).resolve().parents[1]
     source=root/'docs/chapters/ch01/assets/TOWN_MAP.svg'
-    tree=ET.fromstring(source.read_text())
+    tree=ET.fromstring(source.read_text(encoding="utf-8"))
     # Original drawing remains the reference; this is a separate game skin.
     remove_icon=False
     for node in list(tree):
@@ -56,7 +56,7 @@ def build_style(root=None):
             elif value=='white':node.set(attr,'#a8b8aa')
     dest=root/'game/images/ch02';(dest/'poi').mkdir(parents=True,exist_ok=True)
     svg=ET.tostring(tree,encoding='unicode')
-    (dest/'town_map_game.svg').write_text(svg)
+    (dest/'town_map_game.svg').write_text(svg, encoding="utf-8", newline="\n")
     cairosvg.svg2png(bytestring=svg.encode(),write_to=str(dest/'town_map_game.png'))
     for key,icon in ICONS.items():
         for state in ('idle','hover','selected'):
@@ -64,9 +64,9 @@ def build_style(root=None):
             border='#566e5e' if state=='idle' else '#a5bb88'
             fill='#26322d' if state=='idle' else '#354737'
             icon_svg=f'<svg xmlns="{NS}" width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="15" fill="{fill}" fill-opacity="0.88" stroke="{border}" stroke-width="1"/><g transform="translate(2 2)" fill="none" stroke="{ink}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{icon}</g></svg>'
-            (dest/'poi'/f'{key}_{state}.svg').write_text(icon_svg)
+            (dest/'poi'/f'{key}_{state}.svg').write_text(icon_svg, encoding="utf-8", newline="\n")
             cairosvg.svg2png(bytestring=icon_svg.encode(),write_to=str(dest/'poi'/f'{key}_{state}.png'))
-    route=json.loads((root/'game/data/ch02_routes.json').read_text())
+    route=json.loads((root/'game/data/ch02_routes.json').read_text(encoding="utf-8"))
     for mode in ('walk','suv','ev'):
         for stops in (['market'],['pharmacy'],['market','pharmacy'],['pharmacy','market']):
             parts=[];last='home'
@@ -83,7 +83,7 @@ def build_style(root=None):
     for mode in ('walk','suv','ev'):
         shape=walk if mode=='walk' else car
         marker=f'<svg xmlns="{NS}" width="40" height="40" viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="#1b2923" fill-opacity="0.92" stroke="#c9d98a" stroke-width="1"/><g fill="none" stroke="#d9e5b3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">{shape}</g></svg>'
-        (dest/f'marker_{mode}.svg').write_text(marker)
+        (dest/f'marker_{mode}.svg').write_text(marker, encoding="utf-8", newline="\n")
         cairosvg.svg2png(bytestring=marker.encode(),write_to=str(dest/f'marker_{mode}.png'))
     print('Game map skin: original geometry, subdued terrain, 14 line icons × 3 states.')
 if __name__=='__main__':build_style()

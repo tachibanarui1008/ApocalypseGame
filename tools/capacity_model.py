@@ -60,5 +60,5 @@ def audit_capacity(data):
 
 def main():
  data=calculate_capacity();battery,pv,food,water,example=(data[k]for k in ['battery','pv','food','water','food_example'])
- (OUT/'SAFEHOUSE_CAPACITY.json').write_text(json.dumps(data,ensure_ascii=False,indent=2));print(json.dumps({'capacity_kwh':battery['nominal_kwh'],'output_kw':battery['rated_inverter_output_kw'],'roof_kwp':pv['roof_kwp'],'pv_projected_array_m':pv['roof_projected_array_m'],'food_cap_kg':food['whole_house_mass_cap_draft_kg'],'water_container_l':water['all_container_cap_l'],'food_example_days':round(example['caloric_equivalent_days'],1)},ensure_ascii=False))
+ (OUT/'SAFEHOUSE_CAPACITY.json').write_text(json.dumps(data,ensure_ascii=False,indent=2), encoding="utf-8", newline="\n");print(json.dumps({'capacity_kwh':battery['nominal_kwh'],'output_kw':battery['rated_inverter_output_kw'],'roof_kwp':pv['roof_kwp'],'pv_projected_array_m':pv['roof_projected_array_m'],'food_cap_kg':food['whole_house_mass_cap_draft_kg'],'water_container_l':water['all_container_cap_l'],'food_example_days':round(example['caloric_equivalent_days'],1)},ensure_ascii=False))
 if __name__=='__main__':main()
