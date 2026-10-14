@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2306,
-      "sha256": "1c90d2608efb0c9bab272200d05418def330a86fe08926bccd47abfacc558439"
+      "bytes": 2973,
+      "sha256": "30cacf6d1992a7648f3a2a0fc4e937ae020fd3856a3bb99faad0ff21063e62f7"
     },
     {
       "path": "docs/BACKGROUND_STYLE.md",
@@ -28,8 +28,8 @@
     },
     {
       "path": "docs/CANON.md",
-      "bytes": 11477,
-      "sha256": "872ef939012e331306af10f163440b5fdad6abeadabe054b0954b77a169cf69d"
+      "bytes": 12763,
+      "sha256": "0bddd9a1cac69c127730b8e9b1e830188d7ca02c5bbe1c3487876cc999dc992f"
     },
     {
       "path": "docs/HANDOFF_WINDOWS.md",
@@ -48,8 +48,8 @@
     },
     {
       "path": "docs/WORLD_BIBLE.md",
-      "bytes": 40770,
-      "sha256": "c49780dfd182d667e8145566b344f3d2b9875e63da3e74c673d291bccae8ee99"
+      "bytes": 43675,
+      "sha256": "8245e8ab58c39e4dd2d1c07b49fa5a77171fa5aa9654c1fba7772b94864b52c9"
     },
     {
       "path": "docs/chapters/ch01/ACHIEVEMENTS.md",
@@ -128,8 +128,8 @@
     },
     {
       "path": "docs/chapters/ch01/VISUAL_BIBLE.md",
-      "bytes": 12643,
-      "sha256": "557dc423b3fcabd57071220f8f73be889c950760130013c305b0257164aa4f21"
+      "bytes": 12989,
+      "sha256": "fb1e477857919b1caad366432a8b1ddecbc2b4c1a7955b2af5b459b25c0600fb"
     },
     {
       "path": "docs/chapters/ch01/assets/SAFEHOUSE_B1_DETAIL.png",
@@ -542,6 +542,11 @@
       "sha256": "cbaa6f09c22ff42f24d5899c87a70815a062ce1bbd48fc3ab9c386f8906cbcbc"
     },
     {
+      "path": "docs/chapters/ch02/CHARACTERS.md",
+      "bytes": 1039,
+      "sha256": "5e1cb6bcd800bf2502b075d947505fc9e29710e7f997a62383ff169065cff5fd"
+    },
+    {
       "path": "docs/chapters/ch02/DISTANCE_suv.csv",
       "bytes": 1308,
       "sha256": "2aacc4f5f1eeb1aba0b909aacac850e73e00e9944fe02151e8dc27fc53ae881d"
@@ -558,13 +563,33 @@
     },
     {
       "path": "docs/chapters/ch02/NEEDS_V0.6.md",
-      "bytes": 1787,
-      "sha256": "aa1e8cd5cd8fa77025b805b5549661156343aa97506841a77bbdacc62a6468fd"
+      "bytes": 2116,
+      "sha256": "8a6f3c477941f79570acb4ea0b97958c0c569138ad6b555ea5c4449ffdbbae61"
     },
     {
       "path": "docs/chapters/ch02/PLANNING.md",
-      "bytes": 892,
-      "sha256": "9cc9e551c4b9c7379fd068c911871e4697eae3b486c104980cbdf8950814ec1c"
+      "bytes": 4586,
+      "sha256": "3d122b70f07ed634bde30ba67953f3d2114d10dfec702f74a407231c212ad53c"
+    },
+    {
+      "path": "docs/chapters/ch02/PRESSURE.md",
+      "bytes": 3278,
+      "sha256": "4910c23a55dcf39140a70621286050f4c86e3a5948bcd228bcfd1791127f0091"
+    },
+    {
+      "path": "docs/chapters/ch02/PRESSURE_VALIDATION.md",
+      "bytes": 2336,
+      "sha256": "96952403ad3ebbd8d57b40e265e5909f83fd3027b78a2dbed164aaa5fda63b17"
+    },
+    {
+      "path": "docs/chapters/ch02/SCRIPT.md",
+      "bytes": 50461,
+      "sha256": "172c717373b99df24a9368c6083d003961d886e52b2e3be0c11a7abc288d0c1e"
+    },
+    {
+      "path": "docs/chapters/ch02/TASKS.md",
+      "bytes": 6642,
+      "sha256": "36e1294517343ade20fcdac9c79c4e56b8d61178de0e054c7a92070290cff0a4"
     },
     {
       "path": "docs/chapters/ch02/TOWN_ROUTES_V0.4.json",
@@ -578,8 +603,18 @@
     },
     {
       "path": "docs/chapters/ch02/TUTORIAL_B_V0.1.md",
-      "bytes": 6741,
-      "sha256": "a78b2c1980eb33ff79e6d96926fbe633f371456dc157c31984bd50d87ade3cad"
+      "bytes": 7473,
+      "sha256": "195f14ecb3a052665b351b8a3230226d3cb7cc0e5060ebcb1d033cf11b13bbc2"
+    },
+    {
+      "path": "docs/chapters/ch02/VALIDATION.md",
+      "bytes": 4799,
+      "sha256": "bcbf0e240a7fc9ca6e4c312946e8ada01414b6fa3c73a6c8792c1a09e6671fda"
+    },
+    {
+      "path": "docs/chapters/ch02/VALIDATION_V0.2.md",
+      "bytes": 5344,
+      "sha256": "378dbefc9102bc773253065dd71f2945f97b2c994ae7bfb562e8677269d90df8"
     },
     {
       "path": "docs/chapters/ch02/archive/CH02_DESIGN_V0.1.md",
@@ -630,6 +665,61 @@
       "path": "docs/chapters/ch02/assets/09-人物与晚间结算.png",
       "bytes": 128134,
       "sha256": "30b374f7b9c186077c9cc0b92907112e534b65abb27144ae96e55a443918978f"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/events-native.txt",
+      "bytes": 7825,
+      "sha256": "690ed3c081b0728767706b8b54bb150df6b8c1347b5356eb48e11d0e7093337f"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/lint.txt",
+      "bytes": 429,
+      "sha256": "afb95a69aac974848407b1b3c23e00aeebac17c4314b150869a2866f12082a70"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/pressure/board.png",
+      "bytes": 388482,
+      "sha256": "d47896d513de49a3e1f442bddbb590dd2ab002ddfded290da8b569462d6384c3"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/pressure/events-native.txt",
+      "bytes": 7152,
+      "sha256": "e8f0637ae603904dfa9044006a6ccc5632ae53a89a9fa207d72445e7f6bb0951"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/pressure/lint.txt",
+      "bytes": 429,
+      "sha256": "de3acdfbdede92001b142aa6d4c56d4344b97aedda39b602286ed5aab0d37aae"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/pressure/native.txt",
+      "bytes": 3255,
+      "sha256": "86659f30134d4aae47091638fcf941ace6c32a22e1f8371f587319c661b7420d"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/pressure/settlement.png",
+      "bytes": 229129,
+      "sha256": "1797af2cf9e75483a92cfc8c478103855e0bab1ba12e386498daf5feb5c87b78"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/tutorial-native.txt",
+      "bytes": 3130,
+      "sha256": "c3cddf9768084f16113ce386c9ce984e3e314ba6bb3e6e3968684d36c7a05c76"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/v02/events-native.txt",
+      "bytes": 7152,
+      "sha256": "7dd84525b95a282b52b50de35004da46da61ddf9bd3b52ca02489fbb51ec0832"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/v02/lint.txt",
+      "bytes": 429,
+      "sha256": "0903d97c59da23228c94a483e768cffa21ec1310cf077283c43b41ada2dedcc4"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/v02/tutorial-native.txt",
+      "bytes": 3130,
+      "sha256": "39cbe3023f0065a0691a8b3d72e4da857f6ed4a9eeae428563c4423aefca1697"
     },
     {
       "path": "docs/handoff/10-整合版第一章.png",
@@ -753,23 +843,33 @@
     },
     {
       "path": "game/ch02_demo.json",
-      "bytes": 1387,
-      "sha256": "bcea3c09749e3e5d08d51c99816470d816615e8b07f477950cad670ee6d938eb"
+      "bytes": 1605,
+      "sha256": "b9a35bcf7fabefad723ef80325be6de96474d09bb14a18c335438eab1fed999d"
+    },
+    {
+      "path": "game/ch02_events.py",
+      "bytes": 5957,
+      "sha256": "ebaab368a4d23ef697053b246b074de8555637e1a9d92d8a98abe496d40f4ae4"
+    },
+    {
+      "path": "game/ch02_events.rpy",
+      "bytes": 7584,
+      "sha256": "d0fa1c3ad6b933a66da16d6541b2df0fcb05ead35e7d4476be1898d46a16594f"
     },
     {
       "path": "game/ch02_model.py",
-      "bytes": 11799,
-      "sha256": "77f7db0a6d1b4fe16f2492b101b01ecd2f0d1b0cc77a53696872fcc5bf5671f4"
+      "bytes": 14225,
+      "sha256": "23f49e35c8e317abcdb3b14b3fbe7035e83b4c2bec1f9d95746d9ece50d2fd3b"
     },
     {
       "path": "game/ch02_screens.rpy",
-      "bytes": 27406,
-      "sha256": "d7b58708f13a27f7afcabaad8a4fe745a89da25ca9514d9c0ffe6e39c6bb085f"
+      "bytes": 28553,
+      "sha256": "d7fa5bfe12f98edfdffd04178693563e8c207e71a240879ebbb41ca1ebd2aa84"
     },
     {
       "path": "game/ch02_story.rpy",
-      "bytes": 4645,
-      "sha256": "903a439eb6c0d4c5b740b67d8fdc5305b68b764d3174756a02ed50d7fe6b4f30"
+      "bytes": 4845,
+      "sha256": "e272a3dc4feaf784b127a0141e4314b3895bb92084af8f2f106b8446ecf47e7d"
     },
     {
       "path": "game/data/ch01.json",
@@ -1612,6 +1712,11 @@
       "sha256": "09d4faa18a03a99e40b1469562abe0b56e4e28af7e4e9c69a2e90c29ceac2b22"
     },
     {
+      "path": "tools/ch02_events_acceptance.rpy",
+      "bytes": 4470,
+      "sha256": "57f26682ebebedfa31e42969a660e1b663406df56f3dd8634e077a1d33a08bf2"
+    },
+    {
       "path": "tools/export_renpy.py",
       "bytes": 7229,
       "sha256": "df48f883591d65bc032f3d2f697116b42f84bcef71f0d92681e7711bc13d402c"
@@ -1647,6 +1752,16 @@
       "sha256": "6746587df1b504d3e9bf277ff9a9e2d66896cd705bb75eb9eb8309c67ecc8ee5"
     },
     {
+      "path": "tools/test_ch02_events.py",
+      "bytes": 6495,
+      "sha256": "262a3fb06381d3bd4c5b20e62fda530539fd972d4019f70bb77fb17b6704bf8e"
+    },
+    {
+      "path": "tools/test_ch02_events_native.py",
+      "bytes": 2245,
+      "sha256": "33c0dadf52317089b85edb1fb5cd322b79530304f3ce7593e5345e288865b8bf"
+    },
+    {
       "path": "tools/test_ch02_model.py",
       "bytes": 5555,
       "sha256": "1ffbddf44bb319e35116e2c450d3a0effc7afa70f672c0c061d3c2852ab0ab98"
@@ -1655,6 +1770,11 @@
       "path": "tools/test_ch02_routes.py",
       "bytes": 3773,
       "sha256": "56079050f1b8731b347dd211865cfeb8b83c9f4199ad5c9917b3ee13278c292c"
+    },
+    {
+      "path": "tools/test_ch02_stress.py",
+      "bytes": 3211,
+      "sha256": "0d26e7af318c723fa823dbc32e81fe4b2f9a67f770fc2e71ea0dccdbcfa9484e"
     },
     {
       "path": "tools/test_unified_resources.py",
@@ -1678,8 +1798,8 @@
     },
     {
       "path": "tools/windows_acceptance.rpy",
-      "bytes": 5445,
-      "sha256": "647b971f2fceae8d66ca1b6408557ffa76386ed03e550b17fd327158cfd9556a"
+      "bytes": 6925,
+      "sha256": "7681c312f5012dff0484df0fa2bf57b32943586dd7c33adbf06394fd24f24b80"
     }
   ]
 }

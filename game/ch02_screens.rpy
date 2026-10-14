@@ -35,6 +35,15 @@ init python:
         renpy.retain_after_load()
         renpy.restart_interaction()
 
+    def c2_bedtime(person):
+        global c2
+        c2 = c2_upgrade(c2,C2_CFG)
+        if c2["slept_day"] == c2["day"]:
+            return
+        c2["sleep_on_time"][person] = not c2["sleep_on_time"][person]
+        renpy.retain_after_load()
+        renpy.restart_interaction()
+
     def c2_select(destination):
         global c2
         if c2["hints"] and c2["period"] == "上午":
@@ -128,6 +137,7 @@ screen c2_board():
             textbutton "地下室检查" action Function(c2_select,"basement") style "c2_action" selected (p["destination"]=="basement")
             textbutton "院门检查" action Function(c2_select,"gate") style "c2_action" selected (p["destination"]=="gate")
             textbutton "主角休息" action Function(c2_select,"rest") style "c2_action" selected (p["destination"]=="rest")
+            textbutton "阅读放松" action Function(c2_select,"relax") style "c2_action" selected (p["destination"]=="relax")
             textbutton "主角洗漱" action Function(c2_select,"wash") style "c2_action" selected (p["destination"]=="wash")
     elif c2["hints"]:
         frame:
@@ -145,7 +155,7 @@ screen c2_board():
         vbox:
             spacing 10
             text "行动计划" size 23
-            text ("目的地："+{"market":"便民商店","pharmacy":"卫生服务点","basement":"地下室","gate":"院门","rest":"留家休息","wash":"留家洗漱"}[p["destination"]]) size 20
+            text ("目的地："+{"market":"便民商店","pharmacy":"卫生服务点","basement":"地下室","gate":"院门","rest":"留家休息","wash":"留家洗漱","relax":"阅读放松"}[p["destination"]]) size 20
             text "主角负责本次行动" size 16 color ui_muted
             textbutton ("%s 晚宁%s" % ("✓" if p["companion"] else "○", "同行" if preview["stops"] else "协作")) action Function(c2_edit,"companion",not p["companion"]) style "c2_action"
             if preview["stops"]:
@@ -175,9 +185,9 @@ screen c2_board():
         xpos 40 ypos 709 spacing 12
         for key,name in (("hero","陈知远"),("partner","林晚宁"),("father","陈建川"),("mother","周慧敏")):
             frame:
-                xsize 282 ysize 167 background Solid(ui_panel) padding (12,12)
+                xsize 282 ysize 167 background Solid(ui_panel) padding (12,10)
                 vbox:
-                    spacing 4
+                    spacing 2
                     textbutton name action Show("c2_person",person=key) style "c2_action" text_size 18 padding (0,0) background None
                     use c2_person_bars(key)
                     if key=="hero" or (key=="partner" and p["companion"]):
@@ -192,6 +202,7 @@ screen c2_board():
                             textbutton "清点" action Function(c2_home,key,"清点") style "c2_action" text_size 13 padding (5,4) selected (p["home"][key]=="清点")
                             if c2["period"] == "下午":
                                 textbutton "检查" action Function(c2_home,key,"地下室检查" if key!="father" else "院门检查") style "c2_action" text_size 13 padding (5,4)
+                                textbutton "读书" action Function(c2_home,key,"阅读放松") style "c2_action" text_size 13 padding (5,4) selected (p["home"][key]=="阅读放松")
                                 textbutton "洗漱" action Function(c2_home,key,"洗漱") style "c2_action" text_size 13 padding (5,4) selected (p["home"][key]=="洗漱")
     textbutton "确认执行  →" action Return("execute") sensitive (not errors) xpos 1220 ypos 736 xsize 340 ysize 65 style "c2_primary"
     hbox:
@@ -295,8 +306,10 @@ screen c2_settlement():
                         xsize 215 spacing 6
                         text name size 18
                         use c2_person_bars(key, width=205)
+                        textbutton ("按时睡觉 ✓" if c2.get("sleep_on_time",{}).get(key,True) else "今晚晚睡") action Function(c2_bedtime,key) style "c2_action" text_size 15
             if c2.get("water_shortage",0):
                 text ("饮水不足：缺少%g L，人物饮水未充分恢复。" % c2["water_shortage"]) size 18 color "#e2b091"
+            text "压力越低越轻松；按时睡觉可适当减压，离开本页后记一次。" size 17 color ui_muted
             text "今日消耗已记账。" size 17 color ui_muted
             textbutton "休息 / 进入Day 7" action Return() style "c2_primary"
 
@@ -437,16 +450,16 @@ screen c2_distance_table():
 
 screen c2_person_bars(person, width=252):
     vbox:
-        spacing 3
-        for key,label in (("satiety","饱腹"),("hydration","饮水"),("hygiene","卫生")):
-            $ amount = c2["people"][person][key]
+        spacing 1
+        for key,label in (("satiety","饱腹"),("hydration","饮水"),("hygiene","卫生"),("stress","压力")):
+            $ amount = c2["people"][person].get(key,C2_CFG["needs"]["initial"][key])
             hbox:
                 spacing 7
                 text label size 13 xsize 30
                 bar:
                     value StaticValue(amount,100)
                     xsize (width-76) ysize 8 yalign 0.5
-                    left_bar Solid("#d69a76" if amount<30 else "#aabd88")
+                    left_bar Solid("#d69a76" if (amount>=C2_CFG["stress"]["warning"] if key=="stress" else amount<30) else "#aabd88")
                     right_bar Solid("#394440")
                     thumb None left_gutter 0 right_gutter 0
                 text str(amount) size 12 xsize 32 text_align 1.0
@@ -477,7 +490,7 @@ screen c2_person(person):
             text (C2_PEOPLE[person]+" / 生活状态") size 30
             use c2_person_bars(person, width=700)
             text ("本时段预计：饱腹 −%d / 饮水 −%d / 卫生 −%d" % (cost["satiety"],cost["hydration"],cost["hygiene"])) size 21
-            text "饱腹与饮水：每个时段自然下降，工作有额外消耗。\n晚间按现有口粮与饮水恢复；不足时不能充分恢复。\n卫生：生活和工作逐渐降低，可安排洗漱（用水6L）。\n低于30时条形变为警示色；这版暂不加入疾病惩罚。" size 20 line_spacing 10
+            text "饱腹与饮水：每个时段自然下降，工作有额外消耗。\n晚间按现有口粮与饮水恢复；不足时不能充分恢复。\n卫生：生活和工作逐渐降低，可安排洗漱（用水6L）。\n低于30时需求条变为警示色。\n压力越高越紧张；休息、阅读及按时睡觉可减压。\n压力达到70提醒；不自动禁用行动或改变剧情结局。" size 20 line_spacing 10
             text "数值与消耗均为演示配置。点人物名字可重新查看。" size 16 color ui_muted
             textbutton "返回安排" action Hide("c2_person") style "c2_primary"
 

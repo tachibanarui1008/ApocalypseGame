@@ -109,3 +109,7 @@ Mac mini沿用2024 M4、16GB/256GB，配外接2TB存储方案；无人机沿用D
 - [Apple：Mac mini（2024）](https://support.apple.com/zh-cn/121555)
 - [DJI：Mavic 4 Pro](https://www.dji.com/cn/mavic-4-pro/specs)
 - 固定台、天线、馈线与管理依据详见RADIO_PLAN.md。
+
+## 第二章亲属命名补充（2026-10-14）
+
+林晚宁父亲为林建平（CHAR-05），母亲为许静宜（CHAR-06），普通工薪阶层；年龄、具体职业与造型未定。本补充不修改第一章对白/画面映射，不认定已经生成两人的立绘。第二章人物与压力设定见[CHARACTERS](../ch02/CHARACTERS.md)。

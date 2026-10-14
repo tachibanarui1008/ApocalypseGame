@@ -50,6 +50,8 @@ label ch02_plan:
             char_father "先记下来。得备好材料，再找个时间一起修。"
         elif c2["pending"]["plan"]["destination"] == "wash":
             n "水龙头仍能放出清水。你洗掉身上的灰尘，换好干净衣服。"
+        elif c2["pending"]["plan"]["destination"] == "relax":
+            n "你把手机扣在桌上，翻了几页书。暂时不用追着一条条消息往下看。"
         else:
             n "你留在家里休息了一会儿。窗外的道路仍然有人经过。"
     if "地下室检查" in c2["pending"]["plan"]["home"].values() and "地下室检查" not in c2["completed"] and c2["pending"]["plan"]["destination"] != "basement":
@@ -72,6 +74,7 @@ label ch02_evening:
     char_father "有油的那辆不会自己补回来。出门之前看一眼。"
     n "父亲把清单折好，放在桌角。外面的街灯亮起来了。"
     call screen c2_settlement
+    $ c2 = c2_sleep(c2,C2_CFG)
     $ c2 = c2_next_day(c2)
     call screen c2_day7
     $ c2 = None
