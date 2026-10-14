@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2306,
-      "sha256": "1c90d2608efb0c9bab272200d05418def330a86fe08926bccd47abfacc558439"
+      "bytes": 2621,
+      "sha256": "21782cf3a0e19c5aa5b59093d95fd2e8eb0840b5a116c167b96617ec0b733ca8"
     },
     {
       "path": "docs/BACKGROUND_STYLE.md",
@@ -28,8 +28,8 @@
     },
     {
       "path": "docs/CANON.md",
-      "bytes": 11477,
-      "sha256": "872ef939012e331306af10f163440b5fdad6abeadabe054b0954b77a169cf69d"
+      "bytes": 11697,
+      "sha256": "193aa3c7e591c28f4c550ec3499bdd19060f8da3ee842d412722a7d225787a83"
     },
     {
       "path": "docs/HANDOFF_WINDOWS.md",
@@ -48,8 +48,8 @@
     },
     {
       "path": "docs/WORLD_BIBLE.md",
-      "bytes": 40770,
-      "sha256": "c49780dfd182d667e8145566b344f3d2b9875e63da3e74c673d291bccae8ee99"
+      "bytes": 42185,
+      "sha256": "5034153348a954832689007e701a89c1611bd149d90dfbb83a03c6b6ce7f5a0d"
     },
     {
       "path": "docs/chapters/ch01/ACHIEVEMENTS.md",
@@ -563,8 +563,13 @@
     },
     {
       "path": "docs/chapters/ch02/PLANNING.md",
-      "bytes": 892,
-      "sha256": "9cc9e551c4b9c7379fd068c911871e4697eae3b486c104980cbdf8950814ec1c"
+      "bytes": 3624,
+      "sha256": "e125d361b41c65fa14ffdaaef948ca17824ef29719474dfb02c5438da87ffdd3"
+    },
+    {
+      "path": "docs/chapters/ch02/SCRIPT.md",
+      "bytes": 41093,
+      "sha256": "478d526a24fb79581a8385458fccca35103caa0e1629528d13ca0b89ccc232c7"
     },
     {
       "path": "docs/chapters/ch02/TOWN_ROUTES_V0.4.json",
@@ -578,8 +583,13 @@
     },
     {
       "path": "docs/chapters/ch02/TUTORIAL_B_V0.1.md",
-      "bytes": 6741,
-      "sha256": "a78b2c1980eb33ff79e6d96926fbe633f371456dc157c31984bd50d87ade3cad"
+      "bytes": 7091,
+      "sha256": "232d17c73d35cf8692dbc0f702e57ffcf269f94d8b695edcc88c3a69b9b2aad0"
+    },
+    {
+      "path": "docs/chapters/ch02/VALIDATION.md",
+      "bytes": 4599,
+      "sha256": "7494dba49230c25ae63f70158de7adfc0cb233a182e3bd26180d14a4d8bea918"
     },
     {
       "path": "docs/chapters/ch02/archive/CH02_DESIGN_V0.1.md",
@@ -630,6 +640,21 @@
       "path": "docs/chapters/ch02/assets/09-人物与晚间结算.png",
       "bytes": 128134,
       "sha256": "30b374f7b9c186077c9cc0b92907112e534b65abb27144ae96e55a443918978f"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/events-native.txt",
+      "bytes": 7915,
+      "sha256": "0c6bfad0988b0f1874e7e81172eb400c60bbe2f2a1546b749cd0fcca316bf6aa"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/lint.txt",
+      "bytes": 445,
+      "sha256": "a51dac21514b0727f0779e3763fd999ff69bb0f521efdcdb53a93d4f96b48c46"
+    },
+    {
+      "path": "docs/chapters/ch02/validation/tutorial-native.txt",
+      "bytes": 3184,
+      "sha256": "c0934563342fd338d59706515f207204edf8537fa2be9016d1cb8aa950211bc5"
     },
     {
       "path": "docs/handoff/10-整合版第一章.png",
@@ -755,6 +780,16 @@
       "path": "game/ch02_demo.json",
       "bytes": 1387,
       "sha256": "bcea3c09749e3e5d08d51c99816470d816615e8b07f477950cad670ee6d938eb"
+    },
+    {
+      "path": "game/ch02_events.py",
+      "bytes": 4061,
+      "sha256": "5b31a264d1b505071f4b01bd229f10fcb99120ad919c55614e1a30c7b91aa7b8"
+    },
+    {
+      "path": "game/ch02_events.rpy",
+      "bytes": 4302,
+      "sha256": "196e8d37fa9062329b32702bf6b94ab53c62a2c857077c01c547891f93944a9f"
     },
     {
       "path": "game/ch02_model.py",
@@ -1612,6 +1647,11 @@
       "sha256": "09d4faa18a03a99e40b1469562abe0b56e4e28af7e4e9c69a2e90c29ceac2b22"
     },
     {
+      "path": "tools/ch02_events_acceptance.rpy",
+      "bytes": 3201,
+      "sha256": "f44ac027631bb9f39d22dd2407584b920514eae7710881fc35e00ec8561e2325"
+    },
+    {
       "path": "tools/export_renpy.py",
       "bytes": 7229,
       "sha256": "df48f883591d65bc032f3d2f697116b42f84bcef71f0d92681e7711bc13d402c"
@@ -1645,6 +1685,16 @@
       "path": "tools/style_town_map.py",
       "bytes": 6442,
       "sha256": "6746587df1b504d3e9bf277ff9a9e2d66896cd705bb75eb9eb8309c67ecc8ee5"
+    },
+    {
+      "path": "tools/test_ch02_events.py",
+      "bytes": 4586,
+      "sha256": "0032a9e8b59ca3c2cfba47ae2a39b43a74f10a43cef3ad343c77ebaa88918562"
+    },
+    {
+      "path": "tools/test_ch02_events_native.py",
+      "bytes": 2245,
+      "sha256": "33c0dadf52317089b85edb1fb5cd322b79530304f3ce7593e5345e288865b8bf"
     },
     {
       "path": "tools/test_ch02_model.py",
