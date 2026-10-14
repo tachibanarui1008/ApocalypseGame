@@ -1,0 +1,80 @@
+[rpytest] [log] Running 1 test(s) marked with 'only' flag.
+[rpytest] [log] - global.ch02_events_acceptance
+
+[rpytest] Starting test run
+[rpytest] Platform:      Windows-11-10.0.26200-SP0
+[rpytest] Python:        3.12.7
+[rpytest] Ren'Py:        Ren'Py 8.5.3.26051504
+[rpytest] Game Version:  0.3.0
+
+[rpytest] [exc] + global
+[rpytest] [exc]   + ch02_events_acceptance
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='stay', repaired=False, watch=False)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='stay', repaired=False, watch=False) (1.640 s)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='stay', repaired=False, watch=True)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='stay', repaired=False, watch=True) (1.278 s)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='stay', repaired=True, watch=False)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='stay', repaired=True, watch=False) (1.337 s)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='stay', repaired=True, watch=True)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='stay', repaired=True, watch=True) (1.315 s)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='close', repaired=False, watch=False)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='close', repaired=False, watch=False) (1.283 s)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='close', repaired=False, watch=True)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='close', repaired=False, watch=True) (1.342 s)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='close', repaired=True, watch=False)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='close', repaired=True, watch=False) (1.307 s)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='close', repaired=True, watch=True)
+[rpytest] [exc]     - branches(route='B', outcome='deceased', choice='close', repaired=True, watch=True) (1.306 s)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='stay', repaired=False, watch=False)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='stay', repaired=False, watch=False) (1.368 s)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='stay', repaired=False, watch=True)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='stay', repaired=False, watch=True) (1.325 s)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='stay', repaired=True, watch=False)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='stay', repaired=True, watch=False) (1.325 s)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='stay', repaired=True, watch=True)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='stay', repaired=True, watch=True) (1.324 s)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='close', repaired=False, watch=False)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='close', repaired=False, watch=False) (1.358 s)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='close', repaired=False, watch=True)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='close', repaired=False, watch=True) (1.293 s)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='close', repaired=True, watch=False)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='close', repaired=True, watch=False) (1.319 s)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='close', repaired=True, watch=True)
+[rpytest] [exc]     - branches(route='C', outcome='deceased', choice='close', repaired=True, watch=True) (1.394 s)
+[rpytest] [exc]     - branches(route='B', outcome='safe', choice='stay', repaired=False, watch=False)
+[rpytest] [exc]     - branches(route='B', outcome='safe', choice='stay', repaired=False, watch=False) (0.918 s)
+[rpytest] [exc]     - branches(route='C', outcome='safe', choice='stay', repaired=False, watch=False)
+[rpytest] [exc]     - branches(route='C', outcome='safe', choice='stay', repaired=False, watch=False) (0.955 s)
+
+[rpytest] Test outcomes (Detailed)
+[rpytest] PASSED  global               - (24.561 s)
+[rpytest]   PASSED  ch02_events_acceptance - (23.392 s)
+[rpytest]     PASSED  branches(route='B', outcome='deceased', choice='stay', repaired=False, watch=False) - (1.640 s)
+[rpytest]     PASSED  branches(route='B', outcome='deceased', choice='stay', repaired=False, watch=True) - (1.278 s)
+[rpytest]     PASSED  branches(route='B', outcome='deceased', choice='stay', repaired=True, watch=False) - (1.337 s)
+[rpytest]     PASSED  branches(route='B', outcome='deceased', choice='stay', repaired=True, watch=True) - (1.315 s)
+[rpytest]     PASSED  branches(route='B', outcome='deceased', choice='close', repaired=False, watch=False) - (1.283 s)
+[rpytest]     PASSED  branches(route='B', outcome='deceased', choice='close', repaired=False, watch=True) - (1.342 s)
+[rpytest]     PASSED  branches(route='B', outcome='deceased', choice='close', repaired=True, watch=False) - (1.307 s)
+[rpytest]     PASSED  branches(route='B', outcome='deceased', choice='close', repaired=True, watch=True) - (1.306 s)
+[rpytest]     PASSED  branches(route='C', outcome='deceased', choice='stay', repaired=False, watch=False) - (1.368 s)
+[rpytest]     PASSED  branches(route='C', outcome='deceased', choice='stay', repaired=False, watch=True) - (1.325 s)
+[rpytest]     PASSED  branches(route='C', outcome='deceased', choice='stay', repaired=True, watch=False) - (1.325 s)
+[rpytest]     PASSED  branches(route='C', outcome='deceased', choice='stay', repaired=True, watch=True) - (1.324 s)
+[rpytest]     PASSED  branches(route='C', outcome='deceased', choice='close', repaired=False, watch=False) - (1.358 s)
+[rpytest]     PASSED  branches(route='C', outcome='deceased', choice='close', repaired=False, watch=True) - (1.293 s)
+[rpytest]     PASSED  branches(route='C', outcome='deceased', choice='close', repaired=True, watch=False) - (1.319 s)
+[rpytest]     PASSED  branches(route='C', outcome='deceased', choice='close', repaired=True, watch=True) - (1.394 s)
+[rpytest]     PASSED  branches(route='B', outcome='safe', choice='stay', repaired=False, watch=False) - (0.918 s)
+[rpytest]     PASSED  branches(route='C', outcome='safe', choice='stay', repaired=False, watch=False) - (0.955 s)
+
+====================
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     2 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test cases :    18 |    18 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test hooks :     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :   210 |   210 passed |     0 xfailed |     0 failed |     0 xpassed |
+
+[rpytest] Time: 24.561 s
+[rpytest] Status: PASSED
