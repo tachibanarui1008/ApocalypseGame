@@ -1,5 +1,8 @@
 # Staged H03/S05/S06 calls. The v0.3.0 tutorial and its Day7 endpoint stay intact.
 # Caller supplies narrative snapshot and actual preparation flags, never demo stocks.
+define char_partner_father = Character("林建平")
+define char_partner_mother = Character("许静宜")
+
 default c2_story = None
 
 init python:
@@ -14,25 +17,25 @@ label ch02_rescue_decision:
     $ quick_menu = True
     $ phone_mode = False
     n "林晚宁靠在餐厅门边打电话。母亲在厨房洗碗，水声盖住了电话里一小段话。"
-    n "晚宁母亲说：我们这边还正常，楼下买菜也买得到。"
+    char_partner_mother "我们这边还正常，楼下买菜也买得到。"
     char_partner "我知道。你们先来住几天，又不是让你们搬个家。"
-    n "晚宁父亲说：那也得收拾。你妈这会儿还往包里塞东西呢。"
+    char_partner_father "那也得收拾。你妈这会儿还往包里塞东西呢。"
     char_partner "带点药、证件和换洗的就好。其他的以后再说。"
-    n "晚宁母亲说：你们这两天刚到，先歇歇。我们又不是不认识路，晚几天自己过去就行。"
+    char_partner_mother "你们这两天刚到，先歇歇。我们又不是不认识路，晚几天自己过去就行。"
     char_partner "你说呢？我们去接，还是等他们过来？"
     menu:
         "我们去接，别让他们自己折腾了。":
             $ c2_story = c2e_choose_rescue(c2_story, "pickup")
             char_protagonist "东西后面再拿。咱们开车过去，人接来就踏实了。"
             char_partner "妈，我们来接。你别再往包里加东西了，拉链都快合不上了吧？"
-            n "晚宁母亲问：你还没看见就知道了？"
+            char_partner_mother "你还没看见就知道了？"
             char_partner "我还能不知道你。"
             n "她笑了一下，把约好的时间记在手机上。"
         "这两天先收拾家里，等他们晚点过来。":
             $ c2_story = c2e_choose_rescue(c2_story, "self_arrival")
             char_protagonist "他们说得也有道理。客房还乱着，让他们晚几天来吧。"
             char_partner "那出门前给我打电话，车找好了吗？"
-            n "晚宁父亲说：找车不难。你把位置再发一遍，我们收拾完就过去。"
+            char_partner_father "找车不难。你把位置再发一遍，我们收拾完就过去。"
             char_partner "好，我发。别光看地址，到了最后那两个路口问我。"
             n "她把安全屋的位置发过去，随后把手机放到餐桌边。"
     return
@@ -95,12 +98,12 @@ label ch02_storm_epilogue:
     $ phone_mode = False
     $ quick_menu = True
     if c2_story_next["chapter_outcome"] == "good":
-        n "晚宁母亲把小台灯挪到桌中间。父亲从玄关回来，关上屋里的门。"
+        n "许静宜把小台灯挪到桌中间。父亲从玄关回来，关上屋里的门。"
         char_father "外面的灯没了，别再出去。"
-        n "晚宁父亲说：我刚从窗边看了一眼，路上还有车。"
+        char_partner_father "我刚从窗边看了一眼，路上还有车。"
         char_mother "先坐。水在这儿，杯子自己拿。"
         n "晚宁伸手替母亲拉了把椅子。六个人围着那一点光坐下来，桌面比吃晚饭时挤。"
-        n "晚宁母亲说：早知道这样，你们叫的时候我就该走了。还想着带那点菜。"
+        char_partner_mother "早知道这样，你们叫的时候我就该走了。还想着带那点菜。"
         char_partner "都到了，就别说了。"
         n "她把父母的手机也接上充电线。你听见楼外的广播断断续续地响，没有去调大自己的手机。"
     elif not c2_story["intrusion"]:

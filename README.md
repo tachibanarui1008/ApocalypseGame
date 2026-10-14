@@ -33,3 +33,5 @@ py -3 tools/test_ch02_routes.py
 第一章正文更新后运行 `py -3 tools/export_story.py` 与 `py -3 tools/export_renpy.py`。地图PNG已随仓库保存，正常运行无需安装CairoSVG；需要重绘时再参考交接文档。Mac打包工具为 `tools/package_game.py`；Windows打包使用 `tools/package_windows.py --sdk <SDK目录>`，原生验收使用 `tools/test_windows.py`。
 
 开始工作前 `git pull --ff-only`，切换设备前提交并推送。不要同时在Mac和Windows修改同一份文件。
+
+第二章补充：[林建平与许静宜](docs/chapters/ch02/CHARACTERS.md)、[个人压力与睡眠恢复](docs/chapters/ch02/PRESSURE.md)。当前四人教程可查看压力、安排阅读放松，并分别选择按时睡觉；正式六人日程仍待接入。

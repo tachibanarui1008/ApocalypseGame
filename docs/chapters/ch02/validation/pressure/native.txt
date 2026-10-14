@@ -1,0 +1,53 @@
+[rpytest] [log] Running 1 test(s) marked with 'only' flag.
+[rpytest] [log] - global.windows_acceptance
+
+[rpytest] Starting test run
+[rpytest] Platform:      Windows-11-10.0.26200-SP0
+[rpytest] Python:        3.12.7
+[rpytest] Ren'Py:        Ren'Py 8.5.3.26051504
+[rpytest] Game Version:  0.3.0
+
+[rpytest] [exc] + global
+[rpytest] [exc]   + windows_acceptance
+[rpytest] [exc]     - playthrough(route='A', choice_text='查阅官方消息', mode='walk')
+[rpytest] [exc]     - playthrough(route='A', choice_text='查阅官方消息', mode='walk') (5.921 s)
+[rpytest] [exc]     - playthrough(route='B', choice_text='联系庐州市的父母', mode='walk')
+[rpytest] [exc]     - playthrough(route='B', choice_text='联系庐州市的父母', mode='walk') (9.964 s)
+[rpytest] [exc]     - playthrough(route='C', choice_text='先与伴侣商量', mode='walk')
+[rpytest] [exc]     - playthrough(route='C', choice_text='先与伴侣商量', mode='walk') (5.161 s)
+[rpytest] [exc]     - playthrough(route='D', choice_text='暂时不予理会', mode='walk')
+[rpytest] [exc]     - playthrough(route='D', choice_text='暂时不予理会', mode='walk') (5.138 s)
+[rpytest] [exc]     - playthrough(route='T', choice_text='', mode='walk')
+[rpytest] [exc]     - playthrough(route='T', choice_text='', mode='walk') (4.391 s)
+[rpytest] [exc]     - playthrough(route='T', choice_text='', mode='suv')
+[rpytest] [exc]     - playthrough(route='T', choice_text='', mode='suv') (4.464 s)
+[rpytest] [exc]     - playthrough(route='T', choice_text='', mode='ev')
+[rpytest] [exc]     - playthrough(route='T', choice_text='', mode='ev') (4.453 s)
+[rpytest] [exc]     - pressure
+[rpytest] [exc]     - pressure (1.114 s)
+[rpytest] [exc]     - gallery
+[rpytest] [exc]     - gallery (1.106 s)
+
+[rpytest] Test outcomes (Detailed)
+[rpytest] PASSED  global               - (42.549 s)
+[rpytest]   PASSED  windows_acceptance   - (41.711 s)
+[rpytest]     PASSED  playthrough(route='A', choice_text='查阅官方消息', mode='walk') - (5.921 s)
+[rpytest]     PASSED  playthrough(route='B', choice_text='联系庐州市的父母', mode='walk') - (9.964 s)
+[rpytest]     PASSED  playthrough(route='C', choice_text='先与伴侣商量', mode='walk') - (5.161 s)
+[rpytest]     PASSED  playthrough(route='D', choice_text='暂时不予理会', mode='walk') - (5.138 s)
+[rpytest]     PASSED  playthrough(route='T', choice_text='', mode='walk') - (4.391 s)
+[rpytest]     PASSED  playthrough(route='T', choice_text='', mode='suv') - (4.464 s)
+[rpytest]     PASSED  playthrough(route='T', choice_text='', mode='ev') - (4.453 s)
+[rpytest]     PASSED  pressure             - (1.114 s)
+[rpytest]     PASSED  gallery              - (1.106 s)
+
+====================
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     2 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test cases :     9 |     9 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test hooks :     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :    53 |    53 passed |     0 xfailed |     0 failed |     0 xpassed |
+
+[rpytest] Time: 42.549 s
+[rpytest] Status: PASSED

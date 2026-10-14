@@ -121,6 +121,40 @@ testsuite windows_acceptance:
             $ wtest_report(route, mode)
             click "返回主菜单" until screen "main_menu"
 
+    testcase pressure:
+        pause until screen "main_menu"
+        run Start('ch02_b_start')
+        advance until screen "c2_board"
+        run Function(c2_skip)
+        run Function(c2_select, 'rest')
+        run Function(c2_home, 'partner', '阅读放松')
+        click "确认执行" until not screen "c2_board"
+        advance until screen "c2_result"
+        assert eval c2['people']['hero']['stress'] == 15
+        assert eval c2['people']['partner']['stress'] == 11
+        click "进入下午" until screen "c2_board"
+        run Function(c2_select, 'relax')
+        $ wtest_picture('pressure-board')
+        click "确认执行" until not screen "c2_board"
+        advance until screen "c2_result"
+        assert eval c2['people']['hero']['stress'] == 6
+        click "进入晚间盘点" until not screen "c2_result"
+        advance until screen "c2_settlement"
+        run Function(c2_bedtime, 'mother')
+        $ wtest_checkpoint()
+        run FileSave(4, confirm=False)
+        pause 0.5
+        run Function(c2_bedtime, 'mother')
+        run FileLoad(4, confirm=False)
+        pause until screen "c2_settlement"
+        assert eval wtest_restored()
+        $ wtest_picture('pressure-settlement')
+        click "进入Day 7" until screen "c2_day7"
+        assert eval c2['people']['hero']['stress'] == 0
+        assert eval c2['people']['mother']['stress'] == 10
+        assert eval c2['slept_day'] == 6
+        click "返回主菜单" until screen "main_menu"
+
     testcase gallery:
         pause until screen "main_menu"
         $ wtest_picture('main-menu')

@@ -51,7 +51,8 @@
     "initial": {
       "satiety": 90,
       "hydration": 90,
-      "hygiene": 85
+      "hygiene": 85,
+      "stress": 20
     },
     "base_slot": {
       "satiety": 18,
@@ -71,5 +72,15 @@
     "care": 10,
     "battery": 100,
     "ev": 100
+  },
+  "stress": {
+    "base_slot": 3,
+    "work_extra": 3,
+    "outside_extra": 5,
+    "rest_relief": 8,
+    "leisure_relief": 12,
+    "sleep_relief": 6,
+    "shortage_extra": 8,
+    "warning": 70
   }
 }

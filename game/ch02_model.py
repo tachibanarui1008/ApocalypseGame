@@ -13,6 +13,11 @@ def c2_upgrade(s,cfg):
     """Add needs to older demo saves without replaying purchases or daily charges."""
     n=copy.deepcopy(s)
     n.setdefault("people", {k:copy.deepcopy(cfg["needs"]["initial"]) for k in C2_PEOPLE})
+    for person in n["people"].values():
+        person.setdefault("stress", cfg["needs"]["initial"]["stress"])
+    n.setdefault("sleep_on_time", {k:True for k in n["people"]})
+    n.setdefault("slept_day", None)
+    n.setdefault("stress_events", [])
     n.setdefault("supply", {"water":True,"grid":True})
     n.setdefault("water_used",0); n.setdefault("mains_water_used",0)
     return n
@@ -32,6 +37,13 @@ def c2_needs_cost(s,cfg,plan=None):
         base=cfg["needs"]["base_slot"]
         result[key]={name:base[name]+extra[i] for i,name in enumerate(("satiety","hydration","hygiene"))}
         result[key]["wash"] = job in ("洗漱","wash")
+        stress = cfg["stress"]["base_slot"]
+        if main and v["stops"]: stress += cfg["stress"]["outside_extra"]
+        elif job in ("basement","gate","地下室检查","院门检查","清点"):
+            stress += cfg["stress"]["work_extra"]
+        if job in ("rest", "休息"): stress -= cfg["stress"]["rest_relief"]
+        elif job in ("relax", "阅读放松"): stress -= cfg["stress"]["leisure_relief"]
+        result[key]["stress_delta"] = stress
     return result
 
 def c2_water(n,litres):
@@ -48,7 +60,8 @@ def c2_new_state(cfg):
                 hints=True, plan=dict(destination="market", transport="walk", companion=False,
                                      quantity=1, extra=False, home={"father":"休息","mother":"休息","partner":"休息"}),
                 pending=None, reports=[], completed=[], settled_day=None, shortage=0, people={k:copy.deepcopy(cfg["needs"]["initial"]) for k in C2_PEOPLE},
-                supply={"water":True,"grid":True}, water_used=0, mains_water_used=0)
+                supply={"water":True,"grid":True}, water_used=0, mains_water_used=0,
+                sleep_on_time={k:True for k in C2_PEOPLE}, slept_day=None, stress_events=[])
 
 def c2_attach_routes(cfg,routing):
     n=copy.deepcopy(cfg)
@@ -117,7 +130,7 @@ def c2_errors(s,cfg):
     if s["period"] not in ("上午","下午"): errors.append("今日行动已经结束。")
     if p["quantity"]<1 or not isinstance(p["quantity"],int): errors.append("请选择有效购买数量。")
     if p["companion"] and p["home"]["partner"]!="休息": errors.append("晚宁已随行，不能同时安排留家任务。")
-    if p["destination"] not in ("market","pharmacy","basement","gate","rest","wash"): errors.append("请选择可用任务。")
+    if p["destination"] not in ("market","pharmacy","basement","gate","rest","wash","relax"): errors.append("请选择可用任务。")
     if v["cost"]>res["cash"]: errors.append("资金不足：减少购买数量。")
     if v["weight"]>v["capacity"]: errors.append("载货超限：减少数量或换车。")
     if v["minutes"]>cfg["slot_minutes"]: errors.append("超过本时段时间：缩短路线。")
@@ -182,6 +195,7 @@ def c2_finish(s,cfg):
     for key,cost in p["needs_cost"].items():
         for name in ("satiety","hydration","hygiene"):
             n["people"][key][name]=max(0,n["people"][key][name]-cost[name])
+        n["people"][key]["stress"] = min(100,max(0,n["people"][key]["stress"]+cost["stress_delta"]))
         if cost["wash"]:
             ratio=c2_water(n,cfg["needs"]["wash_water_l"])
             n["people"][key]["hygiene"]=min(100,n["people"][key]["hygiene"]+round(cfg["needs"]["wash_restore"]*ratio))
@@ -205,6 +219,9 @@ def c2_settle(s,cfg):
     for person in n["people"].values():
         person["satiety"]=min(100,person["satiety"]+round(cfg["needs"]["meal_restore"]*used/cfg["population"]))
         person["hydration"]=min(100,person["hydration"]+round(cfg["needs"]["drink_restore"]*water_ratio))
+    if n["shortage"] or n["water_shortage"]:
+        for person in n["people"].values():
+            person["stress"] = min(100,person["stress"]+cfg["stress"]["shortage_extra"])
     n["ev_before_charge"]=n["resources"]["ev"]
     if n["supply"]["grid"]: n["resources"]["ev"]=100
     n["settled_day"]=n["day"]
@@ -212,4 +229,31 @@ def c2_settle(s,cfg):
 
 def c2_next_day(s):
     if s["settled_day"]!=s["day"]: raise ValueError("本日未结算")
-    n=copy.deepcopy(s); n["day"]+=1; n["period"]="上午"; n["opening_food"]=n["resources"]["food"]; n["bought_food"]=0; n["water_used"]=0; n["mains_water_used"]=0; return n
+    n=copy.deepcopy(s); n["sleep_on_time"]={k:True for k in n["people"]}; n["day"]+=1; n["period"]="上午"; n["opening_food"]=n["resources"]["food"]; n["bought_food"]=0; n["water_used"]=0; n["mains_water_used"]=0; return n
+
+
+def c2_sleep(s,cfg):
+    """Sleep follows dinner once; opening the summary is not itself sleep."""
+    n=c2_upgrade(s,cfg)
+    if n["slept_day"] == n["day"]: return n
+    if n["settled_day"] != n["day"] or n["period"] != "晚间" or n["pending"]:
+        raise ValueError("先完成当日行动和晚间结算")
+    n["stress_before_sleep"]={key:person["stress"] for key,person in n["people"].items()}
+    for key,person in n["people"].items():
+        if n["sleep_on_time"].get(key,True):
+            person["stress"]=max(0,person["stress"]-cfg["stress"]["sleep_relief"])
+    n["slept_day"]=n["day"]
+    return n
+
+
+def c2_stress_event(s,cfg,event_id,changes):
+    """Explicit story effects, once per world event; never infers a diagnosis."""
+    if not isinstance(event_id,str) or not event_id: raise ValueError("压力事件需唯一标记")
+    n=c2_upgrade(s,cfg)
+    if event_id in n["stress_events"]: return n
+    for key,delta in changes.items():
+        if key not in n["people"] or isinstance(delta,bool) or not isinstance(delta,(int,float)) or not math.isfinite(delta):
+            raise ValueError("压力事件人物或变化无效")
+        n["people"][key]["stress"]=min(100,max(0,n["people"][key]["stress"]+delta))
+    n["stress_events"].append(event_id)
+    return n
