@@ -643,18 +643,18 @@
     },
     {
       "path": "docs/chapters/ch02/validation/events-native.txt",
-      "bytes": 7915,
-      "sha256": "0c6bfad0988b0f1874e7e81172eb400c60bbe2f2a1546b749cd0fcca316bf6aa"
+      "bytes": 7825,
+      "sha256": "690ed3c081b0728767706b8b54bb150df6b8c1347b5356eb48e11d0e7093337f"
     },
     {
       "path": "docs/chapters/ch02/validation/lint.txt",
-      "bytes": 445,
-      "sha256": "a51dac21514b0727f0779e3763fd999ff69bb0f521efdcdb53a93d4f96b48c46"
+      "bytes": 429,
+      "sha256": "afb95a69aac974848407b1b3c23e00aeebac17c4314b150869a2866f12082a70"
     },
     {
       "path": "docs/chapters/ch02/validation/tutorial-native.txt",
-      "bytes": 3184,
-      "sha256": "c0934563342fd338d59706515f207204edf8537fa2be9016d1cb8aa950211bc5"
+      "bytes": 3130,
+      "sha256": "c3cddf9768084f16113ce386c9ce984e3e314ba6bb3e6e3968684d36c7a05c76"
     },
     {
       "path": "docs/handoff/10-整合版第一章.png",
